@@ -1,6 +1,6 @@
-# Programming Advanced for QA – Programming for QA 🧑💻
+# Text Processing – Programming Advanced for QA 🧑💻
 
-This folder contains tasks from the **Programming Advanced for QA** section of the _Programming for QA_ course at SoftUni. Each task is described briefly below.
+This folder contains tasks from the **Text Processing** section of the _Programming Advanced for QA_ course at SoftUni. Each task is described briefly below.
 
 ---
 
