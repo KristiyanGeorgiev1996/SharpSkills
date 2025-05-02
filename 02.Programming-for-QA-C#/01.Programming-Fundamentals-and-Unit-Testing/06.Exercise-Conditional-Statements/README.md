@@ -122,6 +122,7 @@ Write a program that:
 - Determines proper clothing and shoes based on a predefined table  
 - Prints:
   - `"It's {temperature} degrees, get your {clothing} and {shoes}."`
+ 
 | **Temperature**        | **Morning**                  | **Afternoon**                 | **Evening**                   |
 |------------------------|------------------------------|-------------------------------|-------------------------------|
 | **10 ≤ t ≤ 18**        | Sweatshirt & Sneakers        | Shirt & Moccasins             | Shirt & Moccasins             |
