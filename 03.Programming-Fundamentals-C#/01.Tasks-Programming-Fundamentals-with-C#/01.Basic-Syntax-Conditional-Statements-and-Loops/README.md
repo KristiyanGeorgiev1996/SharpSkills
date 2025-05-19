@@ -6,7 +6,7 @@ This folder contains tasks from the **Basic Syntax, Conditional Statements and L
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: [Student Information]  
+### 📝 Task 1: Student Information  
 **Problem Statement:**  
 Create a program that receives 3 lines of input:
 - student name  
@@ -18,7 +18,7 @@ Your task is to print all of the info about the student in the following format:
 
 ---
 
-### 📝 Task 2: [Passed]  
+### 📝 Task 2: Passed  
 **Problem Statement:**  
 Create a program that receives a single number as input representing a grade.
 
@@ -33,7 +33,7 @@ The output is either `"Passed!"` or nothing (if the grade is lower than 3.00).
 
 ---
 
-### 📝 Task 3: [Passed or Failed]  
+### 📝 Task 3: Passed or Failed  
 **Problem Statement:**  
 Modify the program from the previous problem, so it will print `"Failed!"` if the grade is lower than 3.00.
 
@@ -46,7 +46,7 @@ A single double number.
 
 ---
 
-### 📝 Task 4: [Back in 30 Minutes]  
+### 📝 Task 4: Back in 30 Minutes  
 **Problem Statement:**  
 Create a program that prints the time after 30 minutes.
 
@@ -61,7 +61,7 @@ Hours may have 1 or 2 digits, minutes always have 2 digits (with leading zero).
 
 ---
 
-### 📝 Task 5: [Month Printer]  
+### 📝 Task 5: Month Printer  
 **Problem Statement:**  
 Create a program that receives an integer and prints the matching month.  
 If the number is more than 12 or less than 1, print `"Error!"`.
@@ -74,7 +74,7 @@ If the number is valid, print the corresponding month; otherwise print `"Error!"
 
 ---
 
-### 📝 Task 6: [Foreign Languages]  
+### 📝 Task 6: Foreign Languages  
 **Problem Statement:**  
 Create a program that prints the spoken language in a country.
 
@@ -91,7 +91,7 @@ Print the spoken language or `"unknown"`.
 
 ---
 
-### 📝 Task 7: [Theatre Promotions]  
+### 📝 Task 7: Theatre Promotions  
 **Problem Statement:**  
 A theatre sells tickets at discount. Create a program that calculates the ticket price.
 
@@ -114,7 +114,7 @@ Print the ticket price according to the table, or `"Error!"` if the age is inval
 
 ---
 
-### 📝 Task 8: [Divisible by 3]  
+### 📝 Task 8: Divisible by 3  
 **Problem Statement:**  
 Create a program that prints all numbers from 1 to 100 divisible by 3.  
 Use a single `for` loop.  
@@ -122,7 +122,7 @@ The program should **not** receive any input.
 
 ---
 
-### 📝 Task 9: [Sum of Odd Numbers]  
+### 📝 Task 9: Sum of Odd Numbers  
 **Problem Statement:**  
 Create a program that prints the next _n_ odd numbers (starting from 1).  
 On the last row, print the sum of all _n_ odd numbers.
@@ -138,7 +138,7 @@ Each odd number on a new line, then the total sum on the last line.
 
 ---
 
-### 📝 Task 10: [Multiplication Table]  
+### 📝 Task 10: Multiplication Table  
 **Problem Statement:**  
 Create a program that receives an integer as input.  
 Print its multiplication table (1 to 10).
@@ -151,7 +151,7 @@ Print its multiplication table (1 to 10).
 
 ---
 
-### 📝 Task 11: [Multiplication Table 2.0]  
+### 📝 Task 11: Multiplication Table 2.0  
 **Problem Statement:**  
 Extend the previous task.  
 Now also receive the multiplier as input.
@@ -167,7 +167,7 @@ Now also receive the multiplier as input.
 
 ---
 
-### 📝 Task 12: [Even Number]  
+### 📝 Task 12: Even Number  
 **Problem Statement:**  
 Create a program that reads a sequence of numbers.
 
@@ -176,7 +176,7 @@ Create a program that reads a sequence of numbers.
 
 ---
 
-### 📝 Task 13: [Debug the Code: Holidays Between Two Dates]  
+### 📝 Task 13: Debug the Code: Holidays Between Two Dates  
 **Problem Statement:**  
 You are given a buggy program.  
 Use the Visual Studio debugger to identify and fix incorrect logic.
