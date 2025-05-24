@@ -8,7 +8,7 @@ This folder contains tasks from the **Data Types and Variables - Exercise** sect
 
 ---
 
-### 📝 Task 1: [Integer Operations]
+### 📝 Task 1: Integer Operations
 
 **Problem Statement:**  
 Create a program that receives four integer numbers.
@@ -30,7 +30,7 @@ Print the result after the last operation.
 
 ---
 
-### 📝 Task 2: [Sum Digits]
+### 📝 Task 2: Sum Digits
 
 **Problem Statement:**  
 Create a program that receives a single integer. Your task is to find the sum of its digits.
@@ -40,7 +40,7 @@ For example:
 
 ---
 
-### 📝 Task 3: [Elevator]
+### 📝 Task 3: Elevator
 
 **Problem Statement:**  
 Calculate how many courses will be needed to elevate n persons by using an elevator of the capacity of p persons. The input holds two lines: the number of people n and the capacity p of the elevator.
@@ -54,7 +54,7 @@ Calculate how many courses will be needed to elevate n persons by using an eleva
 
 ---
 
-### 📝 Task 4: [Sum of Chars]
+### 📝 Task 4: Sum of Chars
 
 **Problem Statement:**  
 Create a program, which sums the ASCII codes of n characters and prints the sum on the console.
@@ -77,14 +77,14 @@ Print the total sum in the following format:
 
 ---
 
-### 📝 Task 5: [Print Part of the ASCII Table]
+### 📝 Task 5: Print Part of the ASCII Table
 
 **Problem Statement:**  
 Find online more information about ASCII (American Standard Code for Information Interchange) and write a program that prints part of the ASCII table of characters at the console. On the first line of input, you will receive the char index you should start with, and on the second line - the index of the last character you should print.
 
 ---
 
-### 📝 Task 6: [Triples of Latin Letters]
+### 📝 Task 6: Triples of Latin Letters
 
 **Problem Statement:**  
 Create a program that receives an integer n and print all triples of the first n small Latin letters, ordered alphabetically:
@@ -95,7 +95,7 @@ Perform 3 nested loops from 0 to n-1.
 
 ---
 
-### 📝 Task 7: [Water Overflow]
+### 📝 Task 7: Water Overflow
 
 **Problem Statement:**  
 You have a water tank with a capacity of 255 liters. On the next n lines, you will receive liters of water, which you have to pour into your tank. If the capacity is not enough, print `"Insufficient capacity!"` and continue reading the next line. On the last line, print the liters in the tank.
@@ -120,7 +120,7 @@ On the last line, print only the liters in the tank.
 
 ---
 
-### 📝 Task 8: [Beer Kegs]
+### 📝 Task 8: Beer Kegs
 
 **Problem Statement:**  
 Create a program, which calculates the volume of n beer kegs. You will receive in total 3 * n lines. Every three lines will hold information for a single keg. First up is the model of the keg, after that is the radius of the keg, and lastly is the height of the keg.
@@ -150,7 +150,7 @@ Print the model of the biggest keg.
 
 ---
 
-### 📝 Task 9: [Spice Must Flow]
+### 📝 Task 9: Spice Must Flow
 
 **Problem Statement:**  
 Spice is Love, Spice is Life. And most importantly, Spice must flow. It must be extracted from the scorching sands of Arrakis, under the constant threat of giant sandworms. To make the work as efficient as possible, the Duke has tasked you with the creation of management software.
@@ -175,7 +175,7 @@ Print on the console, on two separate lines, how many days the mine has operated
 
 ---
 
-### 📝 Task 10: [Pokemon]
+### 📝 Task 10: Pokemon
 
 **Problem Statement:**  
 A Pokemon is a special type of pokemon which likes to Poke others. But at the end of the day, the Pokemon wants to keep statistics, about how many pokes it has managed to make.
@@ -222,7 +222,7 @@ Example: 505 is NOT EXACTLY 50 % from 1000, its 50.5 %.
 
 ---
 
-### 📝 Task 11: [Snowballs]
+### 📝 Task 11: Snowballs
 
 **Problem Statement:**  
 Tony and Andi love playing in the snow and having snowball fights, but they always argue about which makes the best snowballs. They have decided to involve you in their fray by making you write a program, which calculates snowball data and outputs the best snowball value.
@@ -260,7 +260,7 @@ The output format is:
 
 ---
 
-### 📝 Task 12: [Data Type Finder]
+### 📝 Task 12: Data Type Finder
 
 **Problem Statement:**  
 You will receive input until you receive `"END"`. Find what data type is the input. Possible data types are:
@@ -276,14 +276,14 @@ Print the result in the following format:
 
 ---
 
-### 📝 Task 13: [From Left to the Right]
+### 📝 Task 13: From Left to the Right
 
 **Problem Statement:**  
 You will receive a number that represents how many lines we will get as input. On the next N lines, you will receive a string with 2 numbers, separated by a single space. You need to compare them. If the left number is greater than the right number, you need to print the sum of all digits in the left number, otherwise, print the sum of all digits in the right number.
 
 ---
 
-### 📝 Task 14: [Floating Equality]
+### 📝 Task 14: Floating Equality
 
 **Problem Statement:**  
 Write a program that safely compares floating-point numbers (double) with precision `eps = 0.000001`. Note that we cannot directly compare two floating-point numbers a and b by `a == b`, because of the nature of the floating-point arithmetic. Therefore, we assume two numbers are equal if they are more close to each other than some fixed constant eps.
@@ -292,14 +292,14 @@ You will receive two lines, each containing a floating-point number. Your task i
 
 ---
 
-### 📝 Task 15: [Refactoring: Prime Checker]
+### 📝 Task 15: Refactoring: Prime Checker
 
 **Problem Statement:**  
 You are given a program that checks if numbers in a given range [2...N] are prime. For each number is printed `"{number} -> {true or false}"`. The code, however, is not very well written. Your job is to modify it in a way that is easy to read and understand.
 
 ---
 
-### 📝 Task 16: [Decrypting Messages]
+### 📝 Task 16: Decrypting Messages
 
 **Problem Statement:**  
 You will receive a key (integer) and n characters afterward. Add the key to each of the characters and append them to a message. At the end print the message, which you decrypted.
@@ -323,7 +323,7 @@ Print the decrypted message.
 
 ---
 
-### 📝 Task 17: [Balanced Brackets]
+### 📝 Task 17: Balanced Brackets
 
 **Problem Statement:**  
 You will receive n lines. On those lines, you will receive one of the following:
