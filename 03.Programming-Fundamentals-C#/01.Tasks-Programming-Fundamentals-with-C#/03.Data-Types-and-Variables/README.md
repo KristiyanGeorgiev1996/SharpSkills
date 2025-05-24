@@ -98,8 +98,7 @@ Declare variables at the point of initialization
 Avoid multipurpose variables
 
 ---
-
-### 📝 Task 12: Refactor Special Numbers
+📝 Task 12: Refactor Special Numbers
 Description:
 Refactor the code solving Task 5 to improve readability, naming, and logic structure.
 
