@@ -96,6 +96,7 @@ Use meaningful variable names (e.g., length, width, height)
 Declare variables at the point of initialization
 
 Avoid multipurpose variables
+
 📝 Task 12: Refactor Special Numbers
 Description:
 Refactor the code solving Task 5 to improve readability, naming, and logic structure.
@@ -125,5 +126,4 @@ Rename variables (toe → isSpecialNum, etc.)
 
 Eliminate reuse of variables for different purposes
 
-Improve clarity and maintainability
-
+Improve clarity and maintainability 
