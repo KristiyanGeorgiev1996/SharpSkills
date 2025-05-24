@@ -97,14 +97,11 @@ Declare variables at the point of initialization
 
 Avoid multipurpose variables
 
----
-
-### 📝 Task 12: Refactor Special Numbers  
-**Description:**  
+📝 Task 12: Refactor Special Numbers
+Description:
 Refactor the code solving Task 5 to improve readability, naming, and logic structure.
 
-**Sample Code (Before Refactor):**
-```csharp
+Sample Code (Before Refactor):
 int kolkko = int.Parse(Console.ReadLine());
 int obshto = 0;
 int takova = 0;
@@ -123,3 +120,11 @@ for (int ch = 1; ch <= kolkko; ch++)
     obshto = 0;
     ch = takova;
 }
+💡 Suggestions:
+
+Rename variables (e.g., toe → isSpecialNum)
+
+Avoid reusing variables for different purposes
+
+Improve code clarity and maintainability
+
