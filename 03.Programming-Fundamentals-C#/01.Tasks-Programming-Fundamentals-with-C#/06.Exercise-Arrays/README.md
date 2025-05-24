@@ -4,55 +4,55 @@ This folder contains tasks from the **Arrays - Exercise** section of the _Progra
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Train]  
+### 📝 Task 1: Train  
 **Problem Statement:**  
 A train has n number of wagons (integer, received as input). On the next n lines, you will receive the number of people that are going to get on each wagon. Print out the number of passengers in each wagon followed by the total number of passengers on the train.
 
 ---
 
-### 📝 Task 2: [Common Elements]  
+### 📝 Task 2: Common Elements  
 **Problem Statement:**  
 Create a program that prints out all common elements in two arrays. You have to compare the elements of the second array to the elements of the first.
 
 ---
 
-### 📝 Task 3: [Zig-Zag Arrays]  
+### 📝 Task 3: Zig-Zag Arrays  
 **Problem Statement:**  
 Create a program that creates 2 arrays. You will be given an integer n. On the next n lines, you will get 2 integers. Form 2 new arrays in a zig-zag pattern as shown below.
 
 ---
 
-### 📝 Task 4: [Array Rotation]  
+### 📝 Task 4: Array Rotation  
 **Problem Statement:**  
 Create a program that receives an array and several rotations that you have to perform. The rotations are done by moving the first element of the array from the front to the back. Print the resulting array.
 
 ---
 
-### 📝 Task 5: [Top Integers]  
+### 📝 Task 5: Top Integers  
 **Problem Statement:**  
 Create a program to find all the top integers in an array. A top integer is an integer that is greater than all the elements to its right.
 
 ---
 
-### 📝 Task 6: [Equal Sums]  
+### 📝 Task 6: Equal Sums  
 **Problem Statement:**  
 Create a program that determines if an element exists in an array for which the sum of all elements to its left is equal to the sum of all elements to its right. If there are no elements to the left or right, their sum is considered to be 0. Print the index of the element that satisfies the condition or "no" if there is no such element.
 
 ---
 
-### 📝 Task 7: [Max Sequence of Equal Elements]  
+### 📝 Task 7: Max Sequence of Equal Elements  
 **Problem Statement:**  
 Create a program that finds the longest sequence of equal elements in an array of integers. If several equal sequences are present in the array, print out the leftmost one.
 
 ---
 
-### 📝 Task 8: [Magic Sum]  
+### 📝 Task 8: Magic Sum  
 **Problem Statement:**  
 Create a program, which prints all unique pairs in an array of integers whose sum is equal to a given number.
 
 ---
 
-### 📝 Task 9: [Kamino Factory]  
+### 📝 Task 9: Kamino Factory 
 **Problem Statement:**  
 The clone factory in Kamino got another order to clone troops. But this time you are tasked to find the best DNA sequence to use in the production.
 
@@ -76,7 +76,7 @@ Output
 
 ---
 
-### 📝 Task 10: [LadyBugs]  
+### 📝 Task 10: LadyBugs  
 **Problem Statement:**  
 You are given a field size and the indexes where ladybugs can be found on the field. On every new line, until the "end" command is given, a ladybug changes its position either to its left or to its right by a given fly length.
 
@@ -98,7 +98,7 @@ Output
 
 ---
 
-### 📝 Task 11: [Encrypt, Sort, and Print Array]  
+### 📝 Task 11: Encrypt, Sort, and Print Array  
 **Problem Statement:**  
 Write a program that reads a sequence of strings from the console. Encrypt every string by summing:
 
@@ -113,7 +113,7 @@ Input
 
 ---
 
-### 📝 Task 12: [Pascal Triangle]  
+### 📝 Task 12: Pascal Triangle  
 **Problem Statement:**  
 Construct Pascal's Triangle as follows:  
 Row 0 contains a single number 1. Each element in a subsequent row is the sum of the element above and to the left plus the element above and to the right (treating missing entries as 0).
@@ -130,7 +130,7 @@ More info: https://en.wikipedia.org/wiki/Pascal's_triangle
 
 ---
 
-### 📝 Task 13: [Recursive Fibonacci]  
+### 📝 Task 13: Recursive Fibonacci 
 **Problem Statement:**  
 Implement a recursive function to calculate the nth Fibonacci number. The sequence starts as 1, 1, 2, 3, 5, 8, ... where each number is the sum of the two preceding ones.
 
@@ -149,13 +149,13 @@ Output:
 
 ---
 
-### 📝 Task 14: [Fold and Sum]  
+### 📝 Task 14: Fold and Sum  
 **Problem Statement:**  
 Read an array of 4*k integers, fold it as shown below, and print the sum of the upper and lower two rows (each holding 2*k integers).
 
 ---
 
-### 📝 Task 15: [Longest Increasing Subsequence (LIS)]  
+### 📝 Task 15: Longest Increasing Subsequence (LIS)  
 **Problem Statement:**  
 Read a list of integers and find the longest increasing subsequence (LIS). If several such subsequences exist, print the leftmost one.
 
