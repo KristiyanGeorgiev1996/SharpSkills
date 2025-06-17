@@ -155,16 +155,7 @@ Start with the point **closest to the origin (0, 0)**.
 
 ---
 
-### 📝 Task 15: Tribonacci Sequence  
-**Problem Statement:**  
-In the Tribonacci sequence, each number is the sum of the previous 3 numbers.
-
-You are given an integer `num`.  
-Print the first `num` elements of the Tribonacci sequence starting from `1`.
-
----
-
-### 📝 Task 16: Multiplication Sign  
+### 📝 Task 15: Multiplication Sign  
 **Problem Statement:**  
 You are given three numbers: `num1`, `num2`, `num3`.
 
