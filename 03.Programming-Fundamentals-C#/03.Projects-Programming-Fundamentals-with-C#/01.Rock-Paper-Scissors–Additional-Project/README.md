@@ -1,83 +1,85 @@
-# 🎮 Игра Камък - Ножица - Хартия (C#)
+# 🎮 Rock - Paper - Scissors Game (C#)
 
-## 📋 Описание
+## 📋 Description
 
-Това е конзолна реализация на класическата игра **Камък - Ножица - Хартия**, написана на C#. Играта позволява на потребителя да играе срещу компютъра, като избира една от трите опции: камък 🪨, хартия 📄 или ножица ✂️.
+This is a console implementation of the classic **Rock - Paper - Scissors** game, written in C#. The game allows the user to play against the computer by choosing one of three options: rock 🪨, paper 📄, or scissors ✂️.
 
-Правилата на играта са прости:
+The rules are simple:
 
-- 🪨 Камък побеждава ножица (камъкът чупи ножицата)
-- ✂️ Ножица побеждава хартия (ножицата реже хартията)
-- 📄 Хартия побеждава камък (хартията покрива камъка)
+- 🪨 Rock beats scissors (rock breaks scissors)
+- ✂️ Scissors beats paper (scissors cut paper)
+- 📄 Paper beats rock (paper covers rock)
 
-Ако и двамата играчи изберат една и съща опция, резултатът е равенство.
-
----
-
-## ✅ Изисквания
-
-Играта трябва да отговаря на следните критерии:
-
-- Играчът може да въвежда избора си чрез една буква (`r`, `p` или `s`) или цялата дума (`rock`, `paper`, `scissors`).
-- Компютърът избира случайно своя ход.
-- Програмата сравнява ходовете на играча и компютъра и определя победителя.
-- Програмата следи резултата: брой победи, загуби и равенства.
-- Играта се повтаря в цикъл, позволявайки на играча да играе няколко рунда.
-- След всеки рунд играчът може да избере дали да играе отново или да излезе.
-- Валидация на въвеждането – при грешен вход играчът се подканва да въведе отново.
-- Изходът в конзолата е ясен с цветови индикатори за печалба (🟢 зелен), загуба (🔴 червен) и равенство (🟡 жълт).
+If both players choose the same option, the result is a draw.
 
 ---
 
-## ⚙️ Детайли за реализиране
+## ✅ Requirements
 
-Решението включва следните основни компоненти:
+The game should meet the following criteria:
 
-- **Обработка на входа:** Четене и валидация на избора на играча.
-- **Генериране на случаен ход:** Компютърът избира ход произволно.
-- **Игрова логика:** Определяне на победителя според правилата.
-- **Следене на резултатите:** Натрупване на победи, загуби и равенства.
-- **Потребителски интерфейс:** Съобщения в конзолата с цветове и ясни инструкции.
-- **Цикличност:** Главният цикъл продължава докато играчът не избере да спре.
-
----
-
-## ▶️ Как да стартирате
-
-1. Клонирайте репозиторито или свалете сорс кода.
-2. Отворете проекта в Visual Studio или друга съвместима C# среда.
-3. Компилирайте и стартирайте проекта.
-4. Следвайте инструкциите на екрана, за да играете.
+- The player can enter their choice by typing a single letter (`r`, `p`, or `s`) or the full word (`rock`, `paper`, `scissors`).
+- The computer randomly selects its move.
+- The program compares the player's and computer's moves and determines the winner.
+- The program keeps track of the score: wins, losses, and draws.
+- The game loops, allowing the player to play multiple rounds.
+- After each round, the player can choose to play again or exit.
+- Input validation – if the input is invalid, the player is prompted to try again.
+- Console output uses clear color indicators for win (🟢 green), loss (🔴 red), and draw (🟡 yellow).
 
 ---
 
-## 📚 Обзор на кода
+## ⚙️ Implementation Details
 
-Накратко за основните методи:
+The solution includes the following main components:
 
-- `GetPlayerMove()` — Подканва потребителя за избор и го валидира.
-- `GetComputerMove()` — Генерира случайно хода на компютъра.
-- `DetermineWinner(player, computer)` — Връща резултата от срещата (`win`, `lose` или `draw`).
-- `DisplayResult(result)` — Отпечатва съобщението за резултата с подходящ цвят.
-- `PrintScore()` — Показва текущия резултат.
-
----
-
-## 🖥 Примерен изход
-
-==== Резултат ====
-Играч: 3
-Компютър: 2
-Равни: 1
-Избери [r]ock, [p]aper или [s]cissors: r
-Компютърът избра: paper
-Ти загуби!
-
-Искаш ли да играеш отново? (y/n): n
-Благодаря, че игра!
+- **Input Handling:** Reading and validating the player’s choice.
+- **Random Move Generation:** Computer selects a random move.
+- **Game Logic:** Determining the winner based on the rules.
+- **Score Tracking:** Keeping a tally of wins, losses, and draws.
+- **User Interface:** Console messages with colors and clear instructions.
+- **Looping:** Main loop continues until the player chooses to stop.
 
 ---
 
-## 📄 Лиценз
+## ▶️ How to Run
 
-Проектът е с отворен код и е лицензирана под **MIT License**.
+1. Clone the repository or download the source code.
+2. Open the project in Visual Studio or another compatible C# environment.
+3. Build and run the project.
+4. Follow the on-screen instructions to play.
+
+---
+
+## 📚 Code Overview
+
+Briefly about the main methods:
+
+- `GetPlayerMove()` — Prompts the user for a choice and validates it.
+- `GetComputerMove()` — Generates the computer’s random move.
+- `DetermineWinner(player, computer)` — Returns the outcome (`win`, `lose`, or `draw`).
+- `DisplayResult(result)` — Prints the result message with appropriate color.
+- `PrintScore()` — Displays the current score.
+
+---
+
+## 🖥 Sample Output
+==== Score ====
+Player: 3  
+Computer: 2  
+Draws: 1  
+
+Choose [r]ock, [p]aper or [s]cissors: r  
+Computer chose: paper  
+**You lose!**
+
+Do you want to play again? (y/n): n  
+Thanks for playing!
+
+
+
+---
+
+## 📄 License
+
+This project is open source and licensed under the **MIT License**.
