@@ -1,4 +1,4 @@
-# 🚀 Beginner-Level C# Projects – SoftUni (Additional Practice)
+# 🚀 Beginner-Level C# Projects – Programming Fundamentals with C#
 
 This section of the repository includes additional projects developed as part of the core programming curriculum in C#. These projects demonstrate the application of fundamental programming concepts through standalone mini applications.
 
