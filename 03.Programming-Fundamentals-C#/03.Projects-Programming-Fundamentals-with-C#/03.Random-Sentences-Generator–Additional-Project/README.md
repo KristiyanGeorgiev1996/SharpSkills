@@ -1,5 +1,7 @@
 # 🎲 Random Sentence Generator (C#)
 
+![Random Sentence Generator](../Images/random-sentence-generator.png)
+
 ## 📋 Description
 This is a fun console application that generates random sentences using predefined lists of names, places, verbs, nouns, adverbs, and details. Each generated sentence is unique and can be shared to surprise friends or create humorous content on social media.
 
