@@ -8,7 +8,7 @@ The focus is on writing clean, well-structured code using standard programming p
 
 ## 📁 Projects Overview
 
-### 🪨✂️📄 Rock Paper Scissors – Additional Project  
+### 🪨✂️📄 01. Rock Paper Scissors – Additional Project  
 A console-based implementation of the classic "Rock, Paper, Scissors" game where the user competes against the computer.
 
 **Highlights:**
@@ -18,7 +18,7 @@ A console-based implementation of the classic "Rock, Paper, Scissors" game where
 
 ---
 
-### 🔢 Guess a Number – Additional Project  
+### 🔢 02. Guess a Number – Additional Project  
 A number-guessing game where the program generates a random number and the user tries to guess it, receiving hints on each attempt.
 
 **Highlights:**
@@ -28,7 +28,7 @@ A number-guessing game where the program generates a random number and the user 
 
 ---
 
-### 📝 Random Sentences Generator – Additional Project  
+### 📝 03. Random Sentences Generator – Additional Project  
 A simple program that generates random, funny sentences by combining elements from predefined arrays.
 
 **Highlights:**
