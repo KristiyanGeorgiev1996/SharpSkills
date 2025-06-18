@@ -1,6 +1,6 @@
 # 🎯 Guess the Number Game (C#)
 
-![Guess A Number](../images/guess-the-number.png)
+![Guess A Number](../Images/guess-the-number.png)
 
 ## 📝 Description
 
