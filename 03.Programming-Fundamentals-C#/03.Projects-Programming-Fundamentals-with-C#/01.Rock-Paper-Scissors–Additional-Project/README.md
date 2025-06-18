@@ -1,11 +1,10 @@
 # 🎮 Rock - Paper - Scissors Game (C#)
 
+![Rock Paper Scissors](../Images/0_3oJdSb7B26rt3xjJ.png)
+
 ## 📋 Description
 
 This is a console implementation of the classic **Rock - Paper - Scissors** game, written in C#. The game allows the user to play against the computer by choosing one of three options: rock 🪨, paper 📄, or scissors ✂️.
-
-### Rock - Paper - Scissors Game
-![Rock Paper Scissors](../Images/0_3oJdSb7B26rt3xjJ.png)
 
 The rules are simple:
 
