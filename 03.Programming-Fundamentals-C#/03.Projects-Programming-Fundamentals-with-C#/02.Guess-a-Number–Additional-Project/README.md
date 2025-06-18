@@ -89,6 +89,7 @@ Congratulations! You guessed the number in 3 attempts.
 Do you want to play again? (y/n): n
 Thanks for playing!
 
+---
 
 ## 📄 License
 
