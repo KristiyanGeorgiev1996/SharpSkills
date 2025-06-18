@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\bin\Debug\net6.0\RandomSentencesGenerator.exe
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\bin\Debug\net6.0\RandomSentencesGenerator.deps.json
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\bin\Debug\net6.0\RandomSentencesGenerator.runtimeconfig.json
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\bin\Debug\net6.0\RandomSentencesGenerator.dll
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\bin\Debug\net6.0\RandomSentencesGenerator.pdb
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.AssemblyInfo.cs
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.dll
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\refint\RandomSentencesGenerator.dll
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.pdb
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\RandomSentencesGenerator.genruntimeconfig.cache
+C:\Users\Asus\Desktop\C#\RandomSentencesGenerator\RandomSentencesGenerator\obj\Debug\net6.0\ref\RandomSentencesGenerator.dll
