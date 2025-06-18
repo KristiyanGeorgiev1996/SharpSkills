@@ -4,6 +4,8 @@
 
 This is a console implementation of the classic **Rock - Paper - Scissors** game, written in C#. The game allows the user to play against the computer by choosing one of three options: rock 🪨, paper 📄, or scissors ✂️.
 
+![Rock Paper Scissors](images/rock-paper-scissors.png)
+
 The rules are simple:
 
 - 🪨 Rock beats scissors (rock breaks scissors)
