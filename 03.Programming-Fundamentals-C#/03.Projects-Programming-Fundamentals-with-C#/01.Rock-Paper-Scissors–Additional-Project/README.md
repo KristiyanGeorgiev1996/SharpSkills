@@ -65,9 +65,9 @@ Briefly about the main methods:
 
 ## 🖥 Sample Output
 ==== Score ====
-Player: 3  
-Computer: 2  
-Draws: 1  
+ - Player: 3  
+ - Computer: 2  
+ - Draws: 1  
 
 Choose [r]ock, [p]aper or [s]cissors: r  
 Computer chose: paper  
