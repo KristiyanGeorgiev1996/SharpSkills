@@ -1,5 +1,7 @@
 # 🎯 Guess the Number Game (C#)
 
+![Guess A Number](../images/guess-a-number.png)
+
 ## 📝 Description
 
 "Guess the Number" is a console-based game where the computer selects a random number within a defined range (e.g. 1 to 100), and the player's goal is to guess that number. After each guess, the computer provides a hint whether the number is higher or lower than the entered value. The game continues until the player correctly guesses the number.
