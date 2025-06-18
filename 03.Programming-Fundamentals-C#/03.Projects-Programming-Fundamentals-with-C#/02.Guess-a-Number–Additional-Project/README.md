@@ -63,6 +63,16 @@ The main game logic is cleanly structured and organized:
 
 ---
 
+## 💡 Extension Ideas
+
+- ⏱️ Add a timer and time limit per round.  
+- 📊 Show visual progress indicators.  
+- 💾 Save best scores to a text file.  
+- 🎮 Add multiple difficulty modes.  
+- 🔧 Allow the user to choose their own custom range.  
+
+---
+
 ## 💻 Sample Output
 
 ```text
@@ -79,17 +89,6 @@ Congratulations! You guessed the number in 3 attempts.
 Do you want to play again? (y/n): n
 Thanks for playing!
 
----
-
-## 💡 Extension Ideas
-
-- ⏱️ Add a timer and time limit per round.  
-- 📊 Show visual progress indicators.  
-- 💾 Save best scores to a text file.  
-- 🎮 Add multiple difficulty modes.  
-- 🔧 Allow the user to choose their own custom range.  
-
----
 
 ## 📄 License
 
