@@ -1,63 +1,63 @@
-# 🚀 Beginner-Level C# Projects – Programming Fundamentals with C#
+# 🚀 Beginner-Level C# Projects – SoftUni (Additional Practice)
 
-This section of the repository includes additional projects developed as part of the core programming curriculum in C#. These projects demonstrate the application of fundamental programming concepts through standalone mini applications.
+This section of the repository contains additional C# projects created as part of the core programming curriculum. Each project demonstrates the application of fundamental concepts through simple and functional console-based applications.
 
-Each project is built with a focus on writing clean, readable, and well-structured code, following established best practices.
+The focus is on writing clean, well-structured code using standard programming practices.
 
 ---
 
-## 📁 Project Overview
+## 📁 Projects Overview
 
 ### 🪨✂️📄 Rock Paper Scissors – Additional Project  
-A classic "Rock, Paper, Scissors" game where the user competes against the computer. The implementation uses basic control structures such as `if-else`, `switch`, loops, and string/character handling.
+A console-based implementation of the classic "Rock, Paper, Scissors" game where the user competes against the computer.
 
-**Key Concepts:**
-- Using the `Random` class
-- Handling user input
-- Implementing game logic and winner determination
+**Highlights:**
+- Utilizes the `Random` class for opponent moves  
+- Applies conditional logic (`if-else`, `switch`)  
+- Manages user input and output effectively  
 
 ---
 
 ### 🔢 Guess a Number – Additional Project  
-A number-guessing game where the computer selects a random number, and the user attempts to guess it with the help of hints. The program includes input/output operations and loop control.
+A number-guessing game where the program generates a random number and the user tries to guess it, receiving hints on each attempt.
 
-**Key Concepts:**
-- Generating random numbers
-- Conditional logic
-- Handling invalid user input
+**Highlights:**
+- Random number generation  
+- Loop and conditional control structures  
+- Input validation and feedback handling  
 
 ---
 
 ### 📝 Random Sentences Generator – Additional Project  
-A random sentence generator that creates humorous phrases by combining words from predefined arrays.
+A simple program that generates random, funny sentences by combining elements from predefined arrays.
 
-**Key Concepts:**
-- Working with arrays (`string[]`)
-- Using the `Random` class
-- Structuring logic within the `Main()` method and extracting reusable methods
+**Highlights:**
+- Array manipulation (`string[]`)  
+- Random index selection  
+- Logic separation into reusable methods  
 
 ---
 
-## 🛠️ Technologies and Concepts
+## 🛠️ Technologies & Concepts
 
 - **Language:** C#  
 - **Platform:** .NET Core / .NET Framework  
-- **IDE:** Visual Studio / Visual Studio Code
+- **Development Environment:** Visual Studio / Visual Studio Code  
 
-**Core Topics:**
+**Core Concepts Covered:**
 - Variables and data types  
-- Conditional statements  
+- Conditional statements (`if`, `switch`)  
 - Loops (`for`, `while`)  
-- Arrays and strings  
-- Fundamentals of procedural programming
+- Arrays and string manipulation  
+- Basic procedural programming and method usage  
 
 ---
 
-## 🎯 Purpose and Benefits
+## 🎯 Purpose & Learning Outcomes
 
-These projects reinforce essential programming principles through hands-on practice. Each solution was designed with an emphasis on:
+These projects serve as practice tools for reinforcing foundational programming skills. Each project is designed to focus on:
 
-- Writing clean and maintainable code  
-- Separating logic into methods  
-- Managing possible user errors  
-- Testing different input scenarios
+- Writing clean, readable, and maintainable code  
+- Structuring logic into separate methods  
+- Handling user input and edge cases gracefully  
+- Gaining confidence in solving basic programming problems with C#  
