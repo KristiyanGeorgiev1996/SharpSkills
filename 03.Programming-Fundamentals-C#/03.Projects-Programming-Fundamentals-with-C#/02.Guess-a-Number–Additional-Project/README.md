@@ -69,7 +69,13 @@ The main game logic is cleanly structured and organized:
 - 📊 Show visual progress indicators.  
 - 💾 Save best scores to a text file.  
 - 🎮 Add multiple difficulty modes.  
-- 🔧 Allow the user to choose their own custom range.  
+- 🔧 Allow the user to choose their own custom range.
+
+---
+
+  ## 📄 License
+
+This project is open-source and licensed under the **MIT License**.
 
 ---
 
@@ -91,6 +97,3 @@ Thanks for playing!
 
 ---
 
-## 📄 License
-
-This project is open-source and licensed under the **MIT License**.
