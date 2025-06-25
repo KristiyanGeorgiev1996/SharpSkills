@@ -1,5 +1,7 @@
 # HTTP Basics
 
+![HTTP Diagram](Images/HTTP.png)
+
 This lecture presents the basics of the HTTP protocol and how communication between client and server works in web applications. It is essential for anyone who wants to understand how browsers, servers, and the internet interact.
 
 ---
