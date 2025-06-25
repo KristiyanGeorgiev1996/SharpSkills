@@ -164,7 +164,7 @@ POST https://trips-48955.firebaseio.com/trips.json
   "imagePath": "https://www.aurora-nights.co.uk/wp-content/uploads/2019/07/norway-northern-lights-1500x587_c.jpg",
   "name": "Capture the Northern Lights on camera"
 }
-
+```
 🟢 Expected Result: A unique postId is returned by Firebase in the response body.
 
 📸 Screenshot Tip: Take a screenshot of the request, body, and response postId.
@@ -190,12 +190,13 @@ Request URL:
 PATCH https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json
 
 Request Body (JSON):
-{
+```{
   "description": "Egypt welcomes you!",
   "imagePath": "https://www.karacitours.bg/public/thumbs/767x341/egipet/egipet-4_767x341_crop_542eb8694d.jpg",
   "name": "Pyramids of Giza, Egypt",
   "edit": "true"
 }
+```
 
 🟢 Expected Result: The JSON object is updated with the new values.
 
