@@ -46,7 +46,7 @@ HTML forms send data to the server via HTTP.
 
 ---
 
-📤 HTTP Request
+## 📤 HTTP Request
 Consists of:
 
  - Method – what the client wants (GET, POST, PUT…)
@@ -56,7 +56,7 @@ Consists of:
 
 ---
 
-📥 HTTP Response
+## 📥 HTTP Response
 Consists of:
 
  - Status code – success or failure (200 OK, 404 Not Found…)
@@ -65,7 +65,7 @@ Consists of:
 
 ---
 
-✅ HTTP Methods and When to Use Them
+## ✅ HTTP Methods and When to Use Them
 
 | Method  | Description                 | When to Use                                            |
 |---------|-----------------------------|-------------------------------------------------------|
@@ -79,7 +79,7 @@ Consists of:
 
 ---
 
-🌍 URL Structure
+## 🌍 URL Structure
 A URL contains:
 
 http://mysite.com:8080/demo/index.php?id=27&lang=en#lectures
@@ -92,7 +92,7 @@ http://mysite.com:8080/demo/index.php?id=27&lang=en#lectures
 
 ---
 
-🔠 URL Encoding
+## 🔠 URL Encoding
 URLs can contain only certain characters. Others must be encoded:
 
 | Character | Encoding |
