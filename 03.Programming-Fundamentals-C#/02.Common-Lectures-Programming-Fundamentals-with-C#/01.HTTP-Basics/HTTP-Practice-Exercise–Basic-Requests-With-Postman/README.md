@@ -89,10 +89,11 @@ Request Body (JSON):
 
 ---
 
-✅ Summary
-Method	Action	URL format
-GET	Get all trips	https://.../trips.json
-POST	Create new trip	https://.../trips.json + JSON body
-DELETE	Remove trip	https://.../trips/{postId}.json
-PATCH	Update trip partially	https://.../trips/{postId}.json + partial JSON body
+| Method | Action               | URL Format                                      |
+|--------|----------------------|--------------------------------------------------|
+| GET    | Get all trips        | `https://.../trips.json`                         |
+| POST   | Create new trip      | `https://.../trips.json` + JSON body             |
+| DELETE | Remove trip          | `https://.../trips/{postId}.json`                |
+| PATCH  | Update trip partially| `https://.../trips/{postId}.json` + partial body |
+
 
