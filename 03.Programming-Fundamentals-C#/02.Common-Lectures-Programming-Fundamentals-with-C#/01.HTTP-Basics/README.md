@@ -1,4 +1,4 @@
-# HTTP Basics – Summary
+# HTTP Basics
 
 This lecture presents the basics of the HTTP protocol and how communication between client and server works in web applications. It is essential for anyone who wants to understand how browsers, servers, and the internet interact.
 
@@ -42,12 +42,6 @@ HTML forms send data to the server via HTTP.
 - The `action` attribute defines where data is sent.
 - The `method` attribute defines how data is sent – `GET` (in URL) or `POST` (in request body).
 
-```html
-<form method="post" action="/submit">
-  Name: <input type="text" name="name" />
-  <input type="submit" value="Send" />
-</form>
-
 ---
 
 📤 HTTP Request
@@ -58,15 +52,6 @@ Consists of:
  - Headers – additional info (e.g., content type)
  - Body – data sent (if any, e.g., POST)
 
-POST /post HTTP/1.1
-Host: postman-echo.com
-Content-Type: application/json
-
-{
-  "title": "Found a bug",
-  "body": "I'm having a problem with this."
-}
-
 ---
 
 📥 HTTP Response
@@ -75,12 +60,6 @@ Consists of:
  - Status code – success or failure (200 OK, 404 Not Found…)
  - Headers – content type, length, etc.
  - Body – content (e.g., HTML, JSON)
-
-Example:
-HTTP/1.1 200 OK
-Content-Type: text/html
-
-<html><body>Success</body></html>
 
 ---
 
