@@ -49,9 +49,9 @@ POST https://trips-48955.firebaseio.com/trips.json
   "name": "Capture the Northern Lights on camera"
 }
 ```
-🟢 Expected Result: A unique postId is returned by Firebase in the response body.
+🟢 **Expected Result**: A unique postId is returned by Firebase in the response body.
 
-📸 Screenshot Tip: Take a screenshot of the request, body, and response postId.
+📸 **Screenshot Tip**: Take a screenshot of the request, body, and response postId.
 
 ---
 
@@ -61,9 +61,9 @@ Request URL  (replace {postId}):
 DELETE https://trips-48955.firebaseio.com/trips/{postId}.json
 
 ## 3️⃣ Delete the Trip
-🟢 Expected Result: Status code 200 OK, and response body null.
+🟢 **Expected Result**: Status code 200 OK, and response body null.
 
-📸 Screenshot Tip: Show the request, the DELETE action, and the confirmation response.
+📸 **Screenshot Tip**: Show the request, the DELETE action, and the confirmation response.
 
 ---
 
@@ -83,9 +83,9 @@ Request Body (JSON):
 }
 ```
 
-🟢 Expected Result: The JSON object is updated with the new values.
+🟢 **Expected Result**: The JSON object is updated with the new values.
 
-📸 Screenshot Tip: Show the patch request with updated content and the new response data.
+📸 **Screenshot Tip**: Show the patch request with updated content and the new response data.
 
 ---
 
