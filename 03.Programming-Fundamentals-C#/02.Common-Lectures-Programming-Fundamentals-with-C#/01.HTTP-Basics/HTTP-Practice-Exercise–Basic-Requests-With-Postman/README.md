@@ -68,7 +68,7 @@ DELETE https://trips-48955.firebaseio.com/trips/{postId}.json
 ---
 
 ## 4️⃣ Edit an Existing Trip
-Now perform a PATCH request to update an existing trip.
+Now perform a **PATCH** request to update an existing trip.
 
 Request URL:
 PATCH https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json
