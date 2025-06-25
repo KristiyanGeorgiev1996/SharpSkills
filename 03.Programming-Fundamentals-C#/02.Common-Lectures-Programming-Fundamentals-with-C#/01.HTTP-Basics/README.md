@@ -64,14 +64,16 @@ Consists of:
 ---
 
 ✅ HTTP Methods and When to Use Them
-Method	Description	When to Use
-GET	Retrieve (read) a resource	When you want to fetch data from the server
-POST	Create a new resource	When registering, adding comments, or sending data
-PUT	Replace an entire resource	When you want to overwrite a whole object (e.g., profile)
-PATCH	Partially update a resource	When updating only part of the data (e.g., email only)
-DELETE	Delete a resource	To remove records (e.g., delete a product/user)
-HEAD	Retrieve only headers	For checking, without loading the content
-OPTIONS	Return supported methods	Used in CORS preflight requests
+
+| Method  | Description                 | When to Use                                            |
+|---------|-----------------------------|-------------------------------------------------------|
+| GET     | Retrieve (read) a resource  | When you want to fetch data from the server           |
+| POST    | Create a new resource       | When registering, adding comments, or sending data    |
+| PUT     | Replace an entire resource  | When you want to overwrite a whole object (e.g., profile) |
+| PATCH   | Partially update a resource | When updating only part of the data (e.g., email only)|
+| DELETE  | Delete a resource           | To remove records (e.g., delete a product/user)       |
+| HEAD    | Retrieve only headers       | For checking, without loading the content              |
+| OPTIONS | Return supported methods    | Used in CORS preflight requests                        |
 
 ---
 
@@ -91,11 +93,12 @@ http://mysite.com:8080/demo/index.php?id=27&lang=en#lectures
 🔠 URL Encoding
 URLs can contain only certain characters. Others must be encoded:
 
-Character	Encoding
-space	%20
-&	%26
-щ	%D1%89
-爱	%E7%88%B1
+| Character | Encoding |
+|-----------|----------|
+| space     | %20      |
+| &         | %26      |
+| щ         | %D1%89   |
+| 爱        | %E7%88%B1 |
 
 ---
 
