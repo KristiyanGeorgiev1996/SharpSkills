@@ -29,7 +29,7 @@ GET https://trips-48955.firebaseio.com/trips.json
 
 🟢 **Expected Result**: A JSON list of all trips currently stored in the Firebase database.
 
-📸 **Screenshot Tip**: Take a screenshot of the request in Postman and the response body in JSON format.
+![HTTP Practice](Images/Screenshot-1-GET-All-Trips.png)
 
 ---
 
@@ -51,7 +51,7 @@ POST https://trips-48955.firebaseio.com/trips.json
 ```
 🟢 **Expected Result**: A unique postId is returned by Firebase in the response body.
 
-📸 **Screenshot Tip**: Take a screenshot of the request, body, and response postId.
+![HTTP Practice](Images/Screenshot-2-POST-New-Trip.png)
 
 ---
 
@@ -63,7 +63,7 @@ DELETE https://trips-48955.firebaseio.com/trips/{postId}.json
 ## 3️⃣ Delete the Trip
 🟢 **Expected Result**: Status code 200 OK, and response body null.
 
-📸 **Screenshot Tip**: Show the request, the DELETE action, and the confirmation response.
+![HTTP Practice](Images/Screenshot-3-DELETE-Last-Trip.png)
 
 ---
 
@@ -85,7 +85,7 @@ Request Body (JSON):
 
 🟢 **Expected Result**: The JSON object is updated with the new values.
 
-📸 **Screenshot Tip**: Show the patch request with updated content and the new response data.
+![HTTP Practice](Images/Screenshot-4-PATCH-Edit-Trip.png)
 
 ---
 
