@@ -96,7 +96,7 @@ MongoDB is a free, open-source, cross-platform, document-oriented database syste
 
 ## MongoDB common operations:
  - Create a collection:
- - ```sql
+```sql
 db.createCollection('people');
 ```
  - Insert a document:
