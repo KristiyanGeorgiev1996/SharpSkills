@@ -52,23 +52,32 @@ DBMS software defines, manipulates, retrieves, and manages data within databases
 SELECT * FROM people;
 ```
  - Create a database and table:
+```sql
 CREATE DATABASE employees;
-
+```
+```sql
 CREATE TABLE people (
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   email VARCHAR(40) NOT NULL,
   first_name VARCHAR(40) NOT NULL,
   last_name VARCHAR(40) NOT NULL
 );
+```
  - Insert data:
+```sql
 INSERT INTO people(email, first_name, last_name)
 VALUES ('john@gmail.com', 'John', 'Smith');
+```
  - Update records:
+```sql
 UPDATE people SET last_name = 'Adams' WHERE first_name = 'John';
+```
  - Delete records and tables:
+```sql
 DELETE FROM people WHERE first_name = 'George';
 DROP TABLE people;
 DROP DATABASE employees;
+```
 
 ---
 
@@ -76,23 +85,30 @@ DROP DATABASE employees;
 NoSQL databases avoid SQL and tables, using document collections (usually JSON), key-value pairs, graphs, or wide-column stores. They provide flexible schemas, scalability, and superior performance for dynamic and large data.
 
 Example JSON document in MongoDB:
+```sql
 {
   "_id": ObjectId("59d3fe7ed81452db0933a871"),
   "email": "peter@gmail.com",
   "age": 22
 }
+```
 MongoDB is a free, open-source, cross-platform, document-oriented database system that stores data as JSON-like documents with or without schema. It supports indexing for performance and is often used in mobile backends, CMS, blogs, product catalogs, and poll systems.
 
 ## MongoDB common operations:
  - Create a collection:
+ - ```sql
 db.createCollection('people');
+```
  - Insert a document:
+```sql
 db.getCollection('people').insert({
   firstName: 'Michael',
   lastName: 'Smith',
   email: 'michael@gmail.com'
 });
+```
  - Retrieve documents:
+```sql
 db.getCollection('people').find({});
 db.getCollection('people').find({ firstName: 'Michael' });
  - Update documents:
@@ -100,9 +116,12 @@ db.getCollection('people').updateOne(
   { firstName: 'Kate' },
   { $set: { firstName: 'George', age: 25 } }
 );
+```
  - Delete documents:
+```sql
 db.getCollection('people').deleteOne({ firstName: 'George' });
 db.getCollection('people').deleteMany({ firstName: 'George' });
+```
 
 ---
 
