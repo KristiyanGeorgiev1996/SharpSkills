@@ -1,12 +1,13 @@
-
 # Programming Advanced for QA
 
-The course delves deeper into programming concepts, associative arrays, lambda expressions, LINQ, regular expressions, and object-oriented programming, including classes and objects, inheritance, and interfaces. In this course, learners will define and use classes and objects, and will also explore advanced topics such as static members, generic types, and exceptions. The course concludes with a practical project, where students will implement an OOP project, navigate through it, and test it, applying popular methodologies and best practices for writing code. Throughout the course, learners will gain hands-on experience through exercises that will help them master key concepts.
+This course builds upon fundamental programming knowledge and introduces more advanced concepts relevant to quality assurance and automation. Students will work with associative data structures and gain experience in string manipulation, including the use of regular expressions. The course covers in-depth object-oriented programming principles such as defining classes and objects, implementing inheritance, and working with interfaces. Additionally, learners will explore advanced features like static members, generics, and exception handling.
 
-## Skills you will gain
+The practical part of the course involves a comprehensive project where students design, implement, and test an object-oriented application. This project helps solidify their understanding of software design patterns, coding best practices, and test automation methodologies through hands-on exercises and real-world examples.
 
-- Working with associative data structures  
-- Working with string manipulation and regular expressions  
-- Working with classes and creating generic classes  
-- Creating class hierarchies and using inheritance  
-- Understanding the object-oriented programming paradigm  
+## Skills you will develop
+
+- Using associative collections and data structures  
+- Manipulating strings and applying regular expressions  
+- Defining and working with classes and generic types  
+- Building class hierarchies and employing inheritance  
+- Applying object-oriented programming concepts in practice  
