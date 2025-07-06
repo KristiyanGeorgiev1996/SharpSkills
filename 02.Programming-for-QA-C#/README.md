@@ -1,20 +1,20 @@
 # Programming for QA
 
-The module aims to provide students with programming skills necessary for the software quality assurance process, focusing on the .NET platform and the C# language in various aspects. It covers the fundamentals of programming, testing, data structures, and object-oriented programming (OOP) concepts. Learners will gain knowledge of automated testing principles, explore different automation frameworks, and write tests using NUnit. The module includes plenty of practical exercises and projects to ensure that participants are prepared to apply their knowledge in a real business context.
+This module is designed to equip students with essential programming skills tailored for software quality assurance roles, with a focus on the .NET environment and C# language. It covers core programming principles, introduces testing concepts, and dives into key data structures and object-oriented programming (OOP) techniques. Throughout the course, learners will explore automated testing frameworks, especially NUnit, and develop hands-on experience by writing and running unit tests. The curriculum emphasizes practical exercises and real-world projects to prepare participants for effective application of their skills in professional testing environments.
 
-The module includes two sub-courses:
-- **Programming Fundamentals and Unit Testing** – covers the basics of programming in C# and introduces component/unit testing using the NUnit framework.
-- **Programming Advanced for QA** – builds upon the fundamentals by introducing more complex data structures, generic programming, regular expressions, and more advanced OOP concepts relevant to test automation.
+The module is divided into two parts:  
+- **Programming Fundamentals and Unit Testing** – introduces the basics of C# programming alongside fundamental unit testing practices using NUnit.  
+- **Advanced Programming for QA** – extends foundational knowledge by exploring more sophisticated data structures, generics, regular expressions, and advanced OOP concepts important for test automation development.
 
-## Skills you will gain
+## Key Competencies You Will Develop
 
-- Working with the standard functionality of the C# programming language  
-- Working with linear data structures  
-- Declaring and calling methods  
-- Component (unit) testing  
-- Understanding core concepts of automated testing  
-- Working with associative data structures  
-- String manipulation and regular expressions  
-- Working with classes and creating generic classes  
-- Creating class hierarchies and using inheritance  
-- Understanding the object-oriented programming paradigm  
+- Utilizing core features and syntax of the C# language  
+- Working effectively with linear collections like arrays and lists  
+- Defining, implementing, and invoking methods  
+- Writing and maintaining unit tests to ensure code quality  
+- Gaining a clear understanding of automated testing principles  
+- Managing associative data structures such as dictionaries  
+- Handling string processing and pattern matching with regular expressions  
+- Designing and working with classes and generic types  
+- Building class hierarchies and applying inheritance to promote code reuse  
+- Applying object-oriented programming concepts in practical QA scenarios  
