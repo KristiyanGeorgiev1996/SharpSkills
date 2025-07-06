@@ -1,6 +1,6 @@
 # Common Lectures - Programming Fundamentals with C#
 
-This repository contains all the **common lectures** covered in the **Programming Fundamentals with C#** course. The lectures cover key concepts and technologies that are fundamental to a deeper understanding of programming and software development.
+This file contains all the **common lectures** covered in the **Programming Fundamentals with C#** course. The lectures cover key concepts and technologies that are fundamental to a deeper understanding of programming and software development.
 
 ## Technologies and Topics Covered:
 
