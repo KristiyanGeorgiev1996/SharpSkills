@@ -1,13 +1,14 @@
 # Programming Fundamentals with C#
 
-With the "Programming Fundamentals" course, students begin their journey through SoftUni's internal program for comprehensive software engineering training. The course covers fundamental programming concepts that serve as the foundation for effective and high-quality learning in the professional modules.
+This course marks the next step in SoftUni’s comprehensive software engineering training program. It introduces students to essential programming concepts that form the groundwork for mastering more advanced professional topics.
 
-Learners will build upon the knowledge gained in the Programming Basics course and start using more advanced programming techniques and structures such as arrays, lists, objects, and classes. Additional technologies essential for every software developer will also be introduced, including HTML and CSS, HTTP, bitwise operations, and more.
+Building on the skills acquired in the Programming Basics course, learners will begin working with more complex programming structures such as arrays, lists, objects, and classes. The course also introduces important technologies and concepts widely used in software development, including basic web technologies like HTML and CSS, HTTP protocol, and bitwise operations.
 
-The basics of web development will be explored, along with some of the most widely used technologies and tools, giving students a solid understanding of what to expect in the upcoming professional modules and the knowledge they will acquire to become successful software developers.
+Students will get an overview of web development fundamentals and key tools and technologies, preparing them for the professional modules ahead and equipping them with the foundational knowledge necessary for a successful career in software development.
+
 ## Skills Acquired:
-- Working with the standard functionality of the programming language
-- Handling linear data structures
-- Understanding the relationships between various IT concepts
-- Analyzing problems and breaking them down into computer-executable steps
-- Basic skills in working with HTML and CSS
+- Utilizing core programming language features  
+- Managing linear data structures  
+- Understanding connections between key IT concepts  
+- Breaking down problems into executable steps  
+- Basic familiarity with HTML and CSS  
