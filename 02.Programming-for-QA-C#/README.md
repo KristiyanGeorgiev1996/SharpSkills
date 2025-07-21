@@ -6,7 +6,7 @@ The module is divided into two parts:
 - **Programming Fundamentals and Unit Testing** – introduces the basics of C# programming alongside fundamental unit testing practices using NUnit.  
 - **Advanced Programming for QA** – extends foundational knowledge by exploring more sophisticated data structures, generics, regular expressions, and advanced OOP concepts important for test automation development.
 
-## Key Competencies You Will Develop...
+## Key Competencies You Will Develop
 
 - Utilizing core features and syntax of the C# language  
 - Working effectively with linear collections like arrays and lists  
