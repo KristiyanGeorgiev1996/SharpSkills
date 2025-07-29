@@ -2,65 +2,69 @@
 
 This folder contains tasks from the **While Loop** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview:
+## 🔧 Tasks Overview
 
-### 📝 Task 1: [Reading Words]  
-**Problem Statement:**  
-Write a program that reads text from the console (string) and prints it until it receives the command "Stop".
-
----
-
-### 📝 Task 2: [Password]  
-**Problem Statement:**  
-Write a program that initially reads a username and password for a user profile. Then, it reads a password for login.
-
-- If the entered password is wrong, the user should be prompted to enter a new one.
-- If the correct password is entered, print "Welcome {username}!".
+### 📝 Task 1: [Reading Input Until "Stop"]  
+**Description:**  
+Create a program that continuously reads lines of text from the console and prints each line. The program should stop reading and exit when the input is exactly "Stop".
 
 ---
 
-### 📝 Task 3: [Sum of Numbers]  
-**Problem Statement:**  
-Write a program that reads an integer from the console, then keeps reading integers until their sum is greater than or equal to the initial number. After completion, print the sum of the entered numbers.
+### 📝 Task 2: [User Login]  
+**Description:**  
+Write a program that first reads a username and a password. Then, it repeatedly asks the user to enter a password for login.
+
+- If the entered password is incorrect, prompt the user to try again.
+- When the correct password is entered, display the message: "Welcome {username}!".
 
 ---
 
-### 📝 Task 4: [Series of Numbers 2k + 1]  
-**Problem Statement:**  
-Write a program that reads a number n from the user and prints all numbers ≤ n from the series: 1, 3, 7, 15, 31, …. Each next number is calculated by multiplying the previous one by 2 and adding 1.
+### 📝 Task 3: [Summation Until Limit]  
+**Description:**  
+Develop a program that reads an integer `limit` from the user. Then, keep reading integers, summing them up, until the total sum reaches or exceeds `limit`. Finally, print the resulting sum.
 
 ---
 
-### 📝 Task 5: [Balance on Account]  
-**Problem Statement:**  
-Write a program that calculates the total money in an account after a certain number of deposits. For each deposit, a number will be provided until the command "NoMoreMoney" is given.
+### 📝 Task 4: [Print Sequence 2k + 1]  
+**Description:**  
+Write a program that reads an integer `n` and prints all numbers in the sequence defined by the formula `number = previous_number * 2 + 1` starting from 1, which are less than or equal to `n`.
 
-- If a negative number is entered, print "Invalid operation!" and terminate the program.
-- After termination, print "Total: " + the total balance formatted to two decimal places.
-
----
-
-### 📝 Task 6: [Largest Number]  
-**Problem Statement:**  
-Write a program that keeps reading integers from the user and finds the largest one, until the "Stop" command is entered. One number is entered per line.
+Example sequence: 1, 3, 7, 15, 31, ...
 
 ---
 
-### 📝 Task 7: [Smallest Number]  
-**Problem Statement:**  
-Write a program that keeps reading integers from the user and finds the smallest one, until the "Stop" command is entered. One number is entered per line.
+### 📝 Task 5: [Account Balance Calculator]  
+**Description:**  
+Create a program that reads deposits until it encounters the command "NoMoreMoney".
+
+- If a deposit is a negative number, print "Invalid operation!" and stop reading further input.
+- Otherwise, accumulate the deposits.
+- After finishing, print the total balance formatted to two decimal places with the prefix "Total: ".
 
 ---
 
-### 📝 Task 8: [Graduation]  
-**Problem Statement:**  
-Write a program that calculates the average grade of a student throughout their education. The program starts by reading the student's name, followed by their grades for each year.
+### 📝 Task 6: [Find the Largest Number]  
+**Description:**  
+Write a program that continuously reads integer numbers from the user until the command "Stop" is received. The program should then output the largest number entered.
 
-- If the student fails (grade < 4.00) more than once, they are excluded from school, and the program terminates, printing the student's name and the grade they were excluded at.
-- If the student successfully graduates after 12th grade, print:  
-  "{student's name} graduated. Average grade: {average grade from all years}"
+---
 
-- If the student is excluded, print:  
-  "{student's name} has been excluded at {the grade they were excluded in}"
+### 📝 Task 7: [Find the Smallest Number]  
+**Description:**  
+Similar to Task 6, but this time find and print the smallest number entered before the "Stop" command.
 
-The average grade and the exclusion grade should be formatted to two decimal places.
+---
+
+### 📝 Task 8: [Student Graduation Average]  
+**Description:**  
+Develop a program to calculate a student’s average grade across 12 school years.
+
+- First, read the student’s name.
+- Then, read grades for each year.
+- If the student receives a grade below 4.00 more than once, they are excluded. The program should stop and print the student's name along with the year they were excluded.
+- If the student successfully passes all 12 years, print:  
+  "{student name} graduated. Average grade: {average}"
+
+Grades should be shown with two decimal points precision.
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
