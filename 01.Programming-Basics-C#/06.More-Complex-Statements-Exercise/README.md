@@ -5,187 +5,220 @@ This folder contains tasks from the **More Complex Statements - Exercise** secti
 ## 🔧 Tasks Overview:
 
 ### 📝 Task 1: [Cinema]  
-**Problem Statement:**  
-In a cinema hall, the seats are arranged in a rectangular form with r rows and c columns. There are three types of screenings with tickets at different prices:
+**Description:**  
+A cinema hall has a rectangular seating arrangement defined by r rows and c columns. There are three ticket types, each with a different price:
 
-- Premiere – a premiere screening, priced at 12.00 leva.
-- Normal – a standard screening, priced at 7.50 leva.
-- Discount – a screening for children, students, and students at a discounted price of 5.00 leva.
+- Premiere screening: 12.00 leva per ticket  
+- Normal screening: 7.50 leva per ticket  
+- Discount screening (for children, students): 5.00 leva per ticket  
 
-Write a program that reads the type of screening (string), the number of rows and columns in the hall (integers) entered by the user, and calculates the total revenue from tickets when the hall is full. The result should be printed in the format of the examples below, with two decimal places.
+Write a program that takes as input the screening type (string), the number of rows, and columns (integers). Calculate and output the total income from selling tickets if all seats are occupied. Display the result with two decimal places.
 
 ---
 
 ### 📝 Task 2: [Summer Clothing]  
-**Problem Statement:**  
-It's summer with very changeable weather, and Viktor needs your help. Write a program that, based on the time of day and the temperature, recommends what clothes Viktor should wear. Your friend has different plans for each part of the day, which require different outfits. You can see them in the table.
+**Description:**  
+Viktor needs your help deciding what to wear on a summer day with unpredictable weather. Based on the temperature and time of day, your program should recommend an outfit and shoes according to the table below.
 
-Two inputs are read from the console:
+Input two values from the user:
 
-- Temperature - an integer in the range [10…42]
-- Time of day - a text, which can be: "Morning", "Afternoon", "Evening"
+- Temperature (integer between 10 and 42)  
+- Time of day ("Morning", "Afternoon", or "Evening")  
 
-| Time of Day     | Temperature 10-18  | Temperature 18-24  | Temperature 25+ |
-| --------------- | ------------------ | ------------------ | --------------- |
-| Morning         | Outfit = Sweatshirt, Shoes = Sneakers | Outfit = Shirt, Shoes = Moccasins | Outfit = Shirt, Shoes = Moccasins |
-| Afternoon       | Outfit = Shirt, Shoes = Moccasins | Outfit = T-Shirt, Shoes = Sandals | Outfit = Shirt, Shoes = Moccasins |
-| Evening         | Outfit = Shirt, Shoes = Moccasins | Outfit = Shirt, Shoes = Moccasins | Outfit = Shirt, Shoes = Moccasins |
+| Time of Day | 10-18 °C           | 19-24 °C          | 25+ °C           |
+|-------------|--------------------|-------------------|------------------|
+| Morning     | Sweatshirt, Sneakers | Shirt, Moccasins  | Shirt, Moccasins |
+| Afternoon   | Shirt, Moccasins    | T-Shirt, Sandals  | Shirt, Moccasins |
+| Evening     | Shirt, Moccasins    | Shirt, Moccasins  | Shirt, Moccasins |
 
-Print:  
-"It's {temperature} degrees, get your {outfit} and {shoes}."
+Print the sentence:  
+`"It's {temperature} degrees, get your {outfit} and {shoes}."`
 
 ---
 
 ### 📝 Task 3: [New House]  
-**Problem Statement:**  
-Marin and Neli are buying a house near Sofia. Neli loves flowers so much that she convinces you to write a program that calculates how much it will cost to plant a certain number of flowers and whether the available budget will be enough. Different flowers have different prices.
+**Description:**  
+Marin and Neli plan to buy a house near Sofia and want to plant flowers. Neli is very fond of flowers and asks for a program that calculates the total cost based on flower type and quantity, and checks if the budget is sufficient.
 
-| Flower         | Price per unit in leva |
-| -------------- | ---------------------- |
-| Rose           | 5                      |
-| Dahlia         | 3.80                   |
-| Tulip          | 2.80                   |
-| Narcissus      | 3                      |
-| Gladiolus      | 2.50                   |
+Prices per flower type:
 
-There are the following discounts:
+| Flower    | Price (leva) |
+|-----------|--------------|
+| Rose      | 5.00         |
+| Dahlia    | 3.80         |
+| Tulip     | 2.80         |
+| Narcissus | 3.00         |
+| Gladiolus | 2.50         |
 
-- If Neli buys more than 80 Roses – a 10% discount on the total price.
-- If Neli buys more than 90 Dahlias – a 15% discount on the total price.
-- If Neli buys more than 80 Tulips – a 15% discount on the total price.
-- If Neli buys less than 120 Narcissus – the price increases by 15%.
-- If Neli buys less than 80 Gladioluses – the price increases by 20%.
+Discounts and surcharges:
 
-The program should print:
+- Over 80 Roses: 10% discount  
+- Over 90 Dahlias: 15% discount  
+- Over 80 Tulips: 15% discount  
+- Less than 120 Narcissus: price increases by 15%  
+- Less than 80 Gladioluses: price increases by 20%  
 
-- "Hey, you have a great garden with {number of flowers} {flower type} and {remaining budget} leva left."
-- "Not enough money, you need {required amount} leva more."
+Output:
+
+- If budget suffices:  
+  `"Hey, you have a great garden with {count} {flower} and {remaining} leva left."`  
+- Otherwise:  
+  `"Not enough money, you need {needed} leva more."`
 
 ---
 
 ### 📝 Task 4: [Fishing Boat]  
-**Problem Statement:**  
-Toni and his friends are very passionate about fishing, so they decide to rent a boat. The cost of renting the boat depends on the season and the number of fishermen.
+**Description:**  
+Toni and friends want to rent a fishing boat. The rental cost depends on the season and the number of fishermen.
 
-The rental price depends on the season:
+Rental prices:
 
-- Spring – 3000 leva
-- Summer and Autumn – 4200 leva
-- Winter – 2600 leva
+- Spring: 3000 leva  
+- Summer & Autumn: 4200 leva  
+- Winter: 2600 leva  
 
-There are discounts based on the number of people in the group:
+Group discounts based on group size:
 
-- If the group has up to 6 people, they get a 10% discount.
-- If the group has between 7 and 11 people, they get a 15% discount.
-- If the group has 12 or more people, they get a 25% discount.
+- Up to 6 people: 10% off  
+- 7 to 11 people: 15% off  
+- 12 or more: 25% off  
 
-An additional 5% discount is given if the group is even-numbered, except in autumn, when no additional discount is applied.
+Additional discount:
 
-The program should print:
+- If the group has an even number of people and it's not Autumn, apply extra 5% off.
 
-- "Yes! You have {remaining money} leva left."
-- "Not enough money! You need {amount needed} leva."
+Output:
+
+- If money is enough:  
+  `"Yes! You have {remaining} leva left."`  
+- If insufficient:  
+  `"Not enough money! You need {needed} leva."`
 
 ---
 
 ### 📝 Task 5: [Trip]  
-**Problem Statement:**  
-A young programmer has a specific budget and free time during a given season. Write a program that accepts the budget and season as inputs and calculates where the programmer will vacation and how much they will spend.
+**Description:**  
+A young programmer plans a vacation with a fixed budget during a given season. The destination and accommodation depend on the budget and season.
 
-The destination is determined by the budget, and the season determines how much of the budget will be spent. If it’s summer, they will camp, and if it’s winter, they will stay in a hotel. If the destination is Europe, regardless of the season, the vacation will be in a hotel.
+Destinations by budget:
 
-Here are the destination rules based on the budget:
+- ≤ 100 leva: Bulgaria  
+- ≤ 1000 leva: Balkans  
+- > 1000 leva: Europe  
 
-- Up to 100 leva – in Bulgaria
-    - Summer – 30% of the budget
-    - Winter – 70% of the budget
-- Up to 1000 leva – in the Balkans
-    - Summer – 40% of the budget
-    - Winter – 80% of the budget
-- More than 1000 leva – in Europe
-    - Regardless of season – 90% of the budget
+Accommodation type:
 
-The program should print:
+- Summer: camp  
+- Winter: hotel  
+- In Europe: always hotel regardless of season  
 
-- "Somewhere in {destination}"
-- "{Vacation type} - {Spent amount}"
+Spending percentages of budget:
+
+| Destination | Summer | Winter |
+|-------------|--------|--------|
+| Bulgaria    | 30%    | 70%    |
+| Balkans     | 40%    | 80%    |
+| Europe      | 90%    | 90%    |
+
+Output:
+
+- `"Somewhere in {destination}"`
+- `"{vacation_type} - {spent_amount}"`
 
 ---
 
 ### 📝 Task 6: [Operations between Numbers]  
-**Problem Statement:**  
-Write a program that reads two integers (N1 and N2) and an operator, and performs the specified mathematical operation with them. The possible operations are: Addition (+), Subtraction (-), Multiplication (*), Division (/), and Modulus (%). When adding, subtracting, or multiplying, print the result and whether it is even or odd. For division, print the result. For modulus, print the remainder. Be aware that division by zero should print a special message.
+**Description:**  
+Create a program that reads two integers and an operator symbol (+, -, *, /, %). Perform the operation accordingly:
 
-The program should print:
+- For addition, subtraction, multiplication: print the result and specify if it’s even or odd.  
+- For division: print the result with two decimal places.  
+- For modulus: print the remainder.  
+- If dividing by zero, print `"Cannot divide {N1} by zero"`.
 
-- For division: "{N1} / {N2} = {result}" (formatted to two decimal places)
-- For modulus: "{N1} % {N2} = {remainder}"
-- If dividing by zero: "Cannot divide {N1} by zero"
+Format output as follows:
+
+- Division: `"{N1} / {N2} = {result}"`  
+- Modulus: `"{N1} % {N2} = {remainder}"`
 
 ---
 
 ### 📝 Task 7: [Hotel Room]  
-**Problem Statement:**  
-A hotel offers two types of rooms: a studio and an apartment. Write a program that calculates the total price for the entire stay for a studio and apartment. The prices depend on the month of the stay:
+**Description:**  
+Calculate the total price for a hotel stay in a studio or apartment depending on the month and number of nights.
 
-| Month         | Studio Price | Apartment Price |
-| ------------- | ------------ | --------------- |
-| May, October  | 50 leva      | 65 leva          |
-| June, September | 75.20 leva  | 68.70 leva       |
-| July, August  | 76 leva      | 77 leva          |
+Prices per night:
 
-Discounts are available:
+| Month           | Studio (leva) | Apartment (leva) |
+|-----------------|---------------|------------------|
+| May, October    | 50.00         | 65.00            |
+| June, September | 75.20         | 68.70            |
+| July, August    | 76.00         | 77.00            |
 
-- Studio:
-  - More than 7 nights in May/October: 5% off
-  - More than 14 nights in May/October: 30% off
-  - More than 14 nights in June/September: 20% off
-- Apartment:
-  - More than 14 nights in any month: 10% off
+Discounts:
 
-The program should print:
+- Studio:  
+  - > 7 nights in May/October: 5% discount  
+  - > 14 nights in May/October: 30% discount  
+  - > 14 nights in June/September: 20% discount  
+- Apartment:  
+  - > 14 nights any month: 10% discount  
 
-- "Apartment: {total cost for the entire stay} leva."
-- "Studio: {total cost for the entire stay} leva."
+Print:
+
+- `"Apartment: {total} leva."`  
+- `"Studio: {total} leva."`
 
 ---
 
 ### 📝 Task 8: [On Time for the Exam]  
-**Problem Statement:**  
-A student needs to attend an exam at a specific time (e.g., 9:30 AM). They arrive at the exam hall at a certain time (e.g., 9:40 AM). The student is considered on time if they arrive at the exam time or up to 30 minutes before. If they arrive more than 30 minutes early, they are early. If they arrive after the exam time, they are late.
+**Description:**  
+A student arrives at an exam hall. Determine if they are late, on time, or early compared to the exam start time.
 
-The program should print:
+Definitions:
 
-- "Late" if the student arrives after the exam time.
-- "On time" if the student arrives on time or up to 30 minutes early.
-- "Early" if the student arrives more than 30 minutes early.
+- Late: arrives after exam start  
+- On time: arrives exactly at exam start or up to 30 minutes before  
+- Early: arrives more than 30 minutes before exam start  
 
-If the student arrives at least one minute after the exam time, print:
+Output messages:
 
-- "{minutes} minutes after the start"
-- If the delay is 1 hour or more: "{hours}:{minutes} hours after the start"
+- `"Late"`  
+- `"On time"`  
+- `"Early"`  
+
+If late or early, also print time difference:
+
+- If delay/early time less than 1 hour:  
+  `"{minutes} minutes after/before the start"`  
+- If delay/early time 1 hour or more:  
+  `"{hours}:{minutes} hours after/before the start"`
 
 ---
 
 ### 📝 Task 9: [Ski Vacation]  
-**Problem Statement:**  
-Atanas decides to spend his vacation in Bansko and go skiing. Before he leaves, he needs to book a hotel and calculate the cost of his stay. The following types of rooms are available, with the corresponding prices per night:
+**Description:**  
+Atanas plans a ski vacation in Bansko. Depending on the room type and length of stay, discounts apply.
 
-- "room for one person" – 18.00 leva
-- "apartment" – 25.00 leva
-- "president apartment" – 35.00 leva
+Room prices per night:
 
-Depending on the number of days (e.g., 11 days = 10 nights) and the type of room, there are discounts:
+- "room for one person": 18.00 leva  
+- "apartment": 25.00 leva  
+- "president apartment": 35.00 leva  
 
-| Room Type            | Less than 10 days | 10-15 days | More than 15 days |
-| -------------------- | ----------------- | ---------- | ----------------- |
-| room for one person  | No discount       | No discount| No discount       |
-| apartment            | 30% off           | 35% off    | 50% off           |
-| president apartment  | 10% off           | 15% off    | 20% off           |
+Discounts based on length of stay:
 
-After the stay, Atanas will evaluate the hotel. If his evaluation is positive, an additional 25% is added to the discounted price. If negative, 10% is subtracted.
+| Room Type           | < 10 days | 10-15 days | > 15 days |
+|---------------------|-----------|------------|-----------|
+| room for one person  | no discount | no discount | no discount |
+| apartment           | 30% off    | 35% off    | 50% off    |
+| president apartment | 10% off    | 15% off    | 20% off    |
 
-The program should print:
+After the discount, the evaluation affects the final price:
 
-- The total cost for the stay, formatted to two decimal places.
+- Positive evaluation: add 25% to the price  
+- Negative evaluation: subtract 10% from the price  
 
+Print the final amount formatted to two decimals.
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
