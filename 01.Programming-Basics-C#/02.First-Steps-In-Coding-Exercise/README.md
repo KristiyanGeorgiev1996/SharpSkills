@@ -2,161 +2,159 @@
 
 This folder contains tasks from the **First steps in coding - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
+---
+
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Console Converter: USD to BGN]  
-**Problem Statement:**  
-Write a program that converts US dollars (USD) to Bulgarian lev (BGN). Use a fixed exchange rate: 1 USD = 1.79549 BGN.
+### 📝 Task 1: [Currency Exchange: USD to BGN]  
+**Task Description:**  
+Develop a program that converts an input amount in US dollars to Bulgarian lev using a fixed exchange rate of 1 USD equals 1.79549 BGN.
 
 ---
 
-### 📝 Task 2: [Console Converter: Radians to Degrees]  
-**Problem Statement:**  
-Write a program that reads an angle in radians (a floating-point number) and converts it to degrees.  
-Use the formula: degrees = radians * 180 / π.  
-The number π in C# is available via `Math.PI`.
+### 📝 Task 2: [Radians to Degrees Conversion]  
+**Task Description:**  
+Create a program that accepts an angle value in radians (floating-point) and calculates its equivalent in degrees. Use the conversion formula: degrees = radians × 180 ÷ π.  
+In C#, you can access the constant π through `Math.PI`.
 
 ---
 
-### 📝 Task 3: [Deposit Calculator]  
-**Problem Statement:**  
-Write a program that calculates the amount of money you will have at the end of a deposit period with a given interest rate.  
+### 📝 Task 3: [Interest Calculation for Deposit]  
+**Task Description:**  
+Implement a program that computes the final amount after a deposit period based on the initial deposited sum, deposit duration in months, and annual interest rate.  
 Use the formula:  
-amount = deposited amount + deposit term * ((deposited amount * annual interest rate) / 12)
+final amount = deposited sum + deposit duration × ((deposited sum × annual interest rate) / 12)
 
-**Input:**
-The console receives 3 lines:
-1. Deposited amount – real number [100.00 … 10000.00]  
-2. Deposit term (months) – integer [1…12]  
-3. Annual interest rate – real number [0.00 … 100.00]
+**Input Details:**  
+The program reads three lines:  
+1. Initial deposit (real number between 100.00 and 10,000.00)  
+2. Duration in months (integer between 1 and 12)  
+3. Annual interest rate as a percentage (real number between 0.00 and 100.00)
 
-**Output:**
-Print the final amount after the term.
-
----
-
-### 📝 Task 4: [Required Reading]  
-**Problem Statement:**  
-During summer vacation, George has a set number of pages to read as required reading. Since he prefers to play with his friends, help him calculate how many hours per day he needs to dedicate to reading.
-
-**Input:**
-The console receives 3 lines:
-1. Number of pages in the book – integer [1…1000]  
-2. Pages read per hour – integer [1…1000]  
-3. Number of days to finish the book – integer [1…1000]
-
-**Output:**
-Print the number of hours George needs to read each day.
+**Output:**  
+Print the resulting amount after applying interest for the full term.
 
 ---
 
-### 📝 Task 5: [Supplies for School]  
-**Problem Statement:**  
-The school year has begun, and class monitor Annie needs to buy supplies: pens, markers, and board cleaner. She gets a discount, which is a percentage of the total cost.  
-Calculate how much money Annie needs to collect.
+### 📝 Task 4: [Reading Time Estimator]  
+**Task Description:**  
+George has a fixed number of pages to read over his summer break. Since he prefers spending time with friends, calculate how many hours per day he must allocate to finish the book in the given timeframe.
 
-**Prices:**
-- Pack of pens – 5.80 BGN  
-- Pack of markers – 7.20 BGN  
-- Board cleaner (per liter) – 1.20 BGN
+**Input Details:**  
+The program receives three inputs:  
+1. Total pages in the book (integer between 1 and 1000)  
+2. Number of pages George can read per hour (integer between 1 and 1000)  
+3. Number of days to finish reading (integer between 1 and 1000)
 
-**Input:**
-The console receives 4 numbers:
-- Number of pen packs – integer [0...100]  
-- Number of marker packs – integer [0...100]  
-- Liters of cleaner – integer [0…50]  
-- Discount percentage – integer [0...100]
-
-**Output:**
-Print the final cost after applying the discount.
+**Output:**  
+Display the number of hours per day George needs to dedicate to reading.
 
 ---
 
-### 📝 Task 6: [Repainting]  
-**Problem Statement:**  
-Rumen wants to repaint his living room and hires workers. Write a program to calculate the total cost of materials and labor.
+### 📝 Task 5: [Calculating School Supplies Cost]  
+**Task Description:**  
+At the start of the school year, Annie, the class representative, must purchase supplies: pens, markers, and board cleaner. A discount applies to the total purchase price.  
+Calculate the final amount Annie will need to pay after applying the discount.
 
-**Prices:**
-- Nylon – 1.50 BGN per sq.m.  
-- Paint – 14.50 BGN per liter  
-- Paint thinner – 5.00 BGN per liter
+**Price List:**  
+- Pack of pens: 5.80 BGN  
+- Pack of markers: 7.20 BGN  
+- Board cleaner (per liter): 1.20 BGN
 
-**Additional Requirements:**
-- Add 10% more paint  
-- Add 2 extra sq.m. of nylon  
-- Add 0.40 BGN for bags  
-- Labor cost per hour is 30% of the total material cost
+**Input Details:**  
+The program reads four values:  
+- Number of pen packs (integer from 0 to 100)  
+- Number of marker packs (integer from 0 to 100)  
+- Liters of board cleaner (integer from 0 to 50)  
+- Discount percentage (integer from 0 to 100)
 
-**Input:**
-The console receives 4 lines:
-1. Needed nylon (sq.m.) – integer [1...100]  
-2. Needed paint (liters) – integer [1…100]  
-3. Paint thinner (liters) – integer [1…30]  
-4. Hours needed – integer [1…9]
-
-**Output:**
-Print one line:  
-- "{total cost}"
+**Output:**  
+Print the total cost after discount deduction.
 
 ---
 
-### 📝 Task 7: [Food Delivery]  
-**Problem Statement:**  
-A restaurant has opened and offers meal deals at fixed prices:
+### 📝 Task 6: [Paint Job Cost Calculation]  
+**Task Description:**  
+Rumen plans to repaint his living room and has hired workers to help. Calculate the overall expense covering materials and labor.
 
-- Chicken menu – 10.35 BGN  
-- Fish menu – 12.40 BGN  
-- Vegetarian menu – 8.15 BGN
+**Materials Pricing:**  
+- Nylon (per sq.m.): 1.50 BGN  
+- Paint (per liter): 14.50 BGN  
+- Paint thinner (per liter): 5.00 BGN
 
-The group will also order dessert, which costs 20% of the total meal price (excluding delivery).  
-Delivery costs 2.50 BGN and is added at the end.
+**Additional Instructions:**  
+- Add 10% more paint to the needed amount  
+- Add 2 sq.m. extra nylon for safety  
+- Include a fixed 0.40 BGN cost for bags  
+- Labor cost is 30% of the total material costs, multiplied by the number of hours worked
 
-**Input:**
-The console receives 3 lines:
-- Number of chicken menus – integer [0…99]  
-- Number of fish menus – integer [0…99]  
-- Number of vegetarian menus – integer [0…99]
+**Input Details:**  
+The program reads four lines:  
+1. Nylon area required in sq.m. (integer 1–100)  
+2. Paint amount needed in liters (integer 1–100)  
+3. Paint thinner quantity in liters (integer 1–30)  
+4. Number of work hours (integer 1–9)
 
-**Output:**
-Print one line:  
-- "{total order price}"
-
----
-
-### 📝 Task 8: [Basketball Equipment]  
-**Problem Statement:**  
-Jessie wants to start playing basketball and needs equipment.  
-Write a program to calculate her expenses based on the annual training fee.
-
-**Prices (relative to the training fee):**
-- Shoes – 40% less than the training fee  
-- Kit – 20% less than the shoes  
-- Ball – 25% of the kit price  
-- Accessories – 20% of the ball price
-
-**Input:**
-The console receives one line:
-- Annual training fee – integer [0…9999]
-
-**Output:**
-Print one line:  
-- Total cost for Jessie to start playing basketball
+**Output:**  
+Print the total expense (materials + labor + extras).
 
 ---
 
-### 📝 Task 9: [Aquarium]  
-**Problem Statement:**  
-For his birthday, Lyubomir received a rectangular aquarium.  
-Write a program to calculate how many liters of water it holds, considering a certain percentage of the volume is taken by decorations.
+### 📝 Task 7: [Meal Order Total Price]  
+**Task Description:**  
+A restaurant offers three fixed-price meal options: chicken, fish, and vegetarian. The group plans to order some meals and dessert. Dessert costs 20% of the meal total price (excluding delivery), and delivery has a fixed fee.
 
-1 liter = 1 dm³.
+**Prices:**  
+- Chicken menu: 10.35 BGN  
+- Fish menu: 12.40 BGN  
+- Vegetarian menu: 8.15 BGN  
+- Delivery fee: 2.50 BGN
 
-**Input:**
-The console receives 4 lines:
-1. Length (cm) – integer [10 … 500]  
-2. Width (cm) – integer [10 … 300]  
-3. Height (cm) – integer [10 … 200]  
-4. Percentage taken up by decorations – real number [0.000 … 100.000]
+**Input Details:**  
+The program reads three integers representing the quantities ordered:  
+- Chicken menus (0–99)  
+- Fish menus (0–99)  
+- Vegetarian menus (0–99)
 
-**Output:**
-Print one number – the liters of water the aquarium can hold.
+**Output:**  
+Print the final total amount payable.
+
+---
+
+### 📝 Task 8: [Basketball Equipment Budget]  
+**Task Description:**  
+Jessie wants to buy basketball equipment based on her annual training fee. Calculate the total cost including shoes, kit, ball, and accessories, with each item's price adjusted relative to the training fee.
+
+**Price Breakdown:**  
+- Shoes cost 40% less than the training fee  
+- Kit costs 20% less than the shoes price  
+- Ball costs 25% of the kit price  
+- Accessories cost 20% of the ball price
+
+**Input Details:**  
+A single integer indicating the annual training fee (0–9999).
+
+**Output:**  
+Output the total amount Jessie will need to pay to purchase all equipment.
+
+---
+
+### 📝 Task 9: [Aquarium Water Capacity]  
+**Task Description:**  
+Lyubomir received a rectangular aquarium as a gift. Calculate how many liters of water it can hold, taking into account the volume occupied by decorations.
+
+Note: 1 liter corresponds to 1 cubic decimeter (dm³).
+
+**Input Details:**  
+The program reads four values:  
+1. Aquarium length in centimeters (10–500)  
+2. Aquarium width in centimeters (10–300)  
+3. Aquarium height in centimeters (10–200)  
+4. Percentage of volume taken by decorations (floating-point between 0.000 and 100.000)
+
+**Output:**  
+Print the volume of water in liters that can be filled in the aquarium.
+
+---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
