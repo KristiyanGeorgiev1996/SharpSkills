@@ -4,17 +4,17 @@ This folder contains tasks from the **More Complex Statements** section of the _
 
 # Overview of Programming Assignments
 
-## Task 1: Identify the Day of the Week  
+### 📝 Task 1: Identify the Day of the Week  
 Create a program that takes an integer input between 1 and 7 and outputs the corresponding day of the week in English. If the input falls outside this range, the program should print "Error".
 
 ---
 
-## Task 2: Distinguish Between Weekday and Weekend  
+### 📝 Task 2: Distinguish Between Weekday and Weekend  
 Develop a program that reads a day name in English. If the day is a weekday (Monday through Friday), output "Working day". If it is a weekend (Saturday or Sunday), output "Weekend". For any invalid input, output "Error".
 
 ---
 
-## Task 3: Determine Animal Class  
+### 📝 Task 3: Determine Animal Class  
 Write a program that accepts an animal's name and outputs its category as follows:
 
 - "dog" maps to "mammal"  
@@ -23,7 +23,7 @@ Write a program that accepts an animal's name and outputs its category as follow
 
 ---
 
-## Task 4: Assign Proper Title Based on Age and Gender  
+### 📝 Task 4: Assign Proper Title Based on Age and Gender  
 Design a program that requests the user's age (decimal number) and gender ('m' or 'f'). Based on these inputs, print one of the following titles:
 
 - "Mr." if male and aged 16 or above  
@@ -33,7 +33,7 @@ Design a program that requests the user's age (decimal number) and gender ('m' o
 
 ---
 
-## Task 5: Pricing in a Small Shop  
+### 📝 Task 5: Pricing in a Small Shop  
 A business operates small shops in different cities, each having unique prices for several products:
 
 | City    | coffee | water | beer | sweets | peanuts |
@@ -46,17 +46,17 @@ Write a program that inputs a product name, city, and quantity, then calculates 
 
 ---
 
-## Task 6: Check if Number Lies Within Range  
+### 📝 Task 6: Check if Number Lies Within Range  
 Create a program that reads a number and verifies if it falls within the interval [-100, 100], excluding zero. Print "Yes" if true, otherwise print "No".
 
 ---
 
-## Task 7: Office Open Hours Verification  
+### 📝 Task 7: Office Open Hours Verification  
 Write a program to read an hour (integer) and a day of the week (string). Determine if the office is open during that time. Office hours are from 10 AM to 6 PM, Monday through Saturday inclusive.
 
 ---
 
-## Task 8: Cinema Ticket Pricing  
+### 📝 Task 8: Cinema Ticket Pricing  
 Build a program that takes a day of the week and prints the corresponding ticket price:
 
 - Monday, Tuesday, Friday → 12  
@@ -65,7 +65,7 @@ Build a program that takes a day of the week and prints the corresponding ticket
 
 ---
 
-## Task 9: Classify Product as Fruit or Vegetable  
+### 📝 Task 9: Classify Product as Fruit or Vegetable  
 Write a program that accepts a product name and prints whether it is a fruit, a vegetable, or unknown:
 
 - Fruits: banana, apple, kiwi, cherry, lemon, grapes → print "fruit"  
@@ -74,12 +74,12 @@ Write a program that accepts a product name and prints whether it is a fruit, a 
 
 ---
 
-## Task 10: Validate Number Range  
+### 📝 Task 10: Validate Number Range  
 A number is valid if it lies between 100 and 200 (inclusive) or if it equals zero. Write a program that reads an integer and outputs "invalid" if the number doesn’t meet these conditions.
 
 ---
 
-## Task 11: Calculate Total Price in Fruit Shop  
+### 📝 Task 11: Calculate Total Price in Fruit Shop  
 A fruit shop sells fruits at prices that differ on weekdays and weekends.
 
 **Weekday pricing:**
@@ -110,7 +110,7 @@ The program should accept a fruit, the day of the week, and a quantity, then out
 
 ---
 
-## Task 12: Calculate Sales Commission  
+### 📝 Task 12: Calculate Sales Commission  
 A company provides commissions depending on the city and sales volume:
 
 | City    | Sales ≤ 500 | 500 < Sales ≤ 1,000 | 1,000 < Sales ≤ 10,000 | Sales > 10,000 |
