@@ -58,3 +58,4 @@ Bozhidara is landscaping a yard and hires a company to do the work.
 Write a program that reads the yard area in square meters and calculates the total cost at 7.61 BGN/m², then applies an 18% discount.  
 Print the final price and the discount amount.
 
+# Note The tasks are sourced from the respective SoftUni course and have been reformulated to provide clearer and more illustrative presentations of the exercises.
