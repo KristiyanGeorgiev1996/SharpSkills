@@ -2,75 +2,70 @@
 
 This folder contains tasks from the **For Loop** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview:
+# 🔧 Summary of Programming Exercises
 
-### 📝 Task 1: [Numbers from 1 to 100]  
-**Problem Statement:**  
-Write a program that prints the numbers from 1 to 100, each on a new line.
-
----
-
-### 📝 Task 2: [Numbers from N to 1 in Reverse Order]  
-**Problem Statement:**  
-Write a program that reads a positive integer `n` entered by the user and prints the numbers from `n` to 1 in reverse order. The entered number `n` will always be greater than 1.
+### 📝 Exercise 1: [Print Numbers 1 through 100]  
+**Description:**  
+Develop a simple application that outputs every number starting at 1 and ending at 100, printing each number on a separate line.
 
 ---
 
-### 📝 Task 3: [Numbers from 1 to N with Step 3]  
-**Problem Statement:**  
-Write a program that reads an integer `n` entered by the user and prints the numbers from 1 to `n` with a step of 3.
+### 📝 Exercise 2: [Countdown from N to 1]  
+**Description:**  
+Create a program that prompts the user to input a positive integer `n` (always greater than 1). The program should then display all numbers starting from `n` counting down to 1, each printed on its own line.
 
 ---
 
-### 📝 Task 4: [Even Powers of 2]  
-**Problem Statement:**  
-Write a program that reads an integer `n` entered by the user and prints the even powers of 2 (2^0, 2^2, 2^4, …, up to 2^n).
+### 📝 Exercise 3: [Numbers from 1 to N with Step Size 3]  
+**Description:**  
+Write code that takes an integer `n` as input and prints all numbers beginning at 1 up to `n`, incrementing by 3 each time.
 
 ---
 
-### 📝 Task 5: [Stream of Characters]  
-**Problem Statement:**  
-Write a program that reads a string entered by the user and prints each character from the string on a new line.
+### 📝 Exercise 4: [Print Even Exponents of 2]  
+**Description:**  
+Implement a program that accepts an integer `n` and prints the powers of two raised to even exponents (0, 2, 4, ...) up to `n`. For example, 2⁰, 2², 2⁴, ..., until the exponent reaches `n`.
 
 ---
 
-### 📝 Task 6: [Summing the Vowels]  
-**Problem Statement:**  
-Write a program that reads a string entered by the user and calculates and prints the sum of the values of the vowels according to the table below:
-
-| Letter | a | e | i | o | u |
-|--------|---|---|---|---|---|
-| Value  | 1 | 2 | 3 | 4 | 5 |
+### 📝 Exercise 5: [Output Characters Individually]  
+**Description:**  
+Build a program that reads a line of text from the user and prints each character on a new line, effectively breaking the string into individual characters.
 
 ---
 
-### 📝 Task 7: [Summing the Numbers]  
-**Problem Statement:**  
-Write a program that reads `n` integers entered by the user and sums them.
+### 📝 Exercise 6: [Calculate Vowel Sum]  
+**Description:**  
+Write a program that takes a user-input string and calculates the total value of all vowels found within it. Each vowel has a specific assigned value:
 
-- The first line of input contains the number `n`.
-- The next `n` lines contain one integer each.
+| Vowel | a | e | i | o | u |
+|-------|---|---|---|---|---|
+| Value | 1 | 2 | 3 | 4 | 5 |
 
-The program should read the numbers, sum them, and print the result.
-
----
-
-### 📝 Task 8: [Sequence of Integers]  
-**Problem Statement:**  
-Write a program that reads `n` integers. Print the largest and smallest number among the entered numbers.
+The program should sum these values and print the result.
 
 ---
 
-### 📝 Task 9: [Left and Right Sum]  
-**Problem Statement:**  
-Write a program that reads `2 * n` integers entered by the user and checks if the sum of the first `n` numbers (left sum) is equal to the sum of the next `n` numbers (right sum). If they are equal, print "Yes, sum = [sum]"; otherwise, print "No, diff = [difference]". The difference should be calculated as an absolute value.
+### 📝 Exercise 7: [Sum of Multiple Integers]  
+**Description:**  
+Create a program that first reads a number `n`, indicating how many integers will follow. Then, read those `n` integers one by one, calculate their sum, and output the total.
 
 ---
 
-### 📝 Task 10: [Even / Odd Sum]  
-**Problem Statement:**  
-Write a program that reads `n` integers entered by the user and checks if the sum of the numbers at even positions is equal to the sum of the numbers at odd positions.
+### 📝 Exercise 8: [Find Minimum and Maximum]  
+**Description:**  
+Develop a solution that reads `n` integers and identifies the smallest and largest number among them. Print both values.
 
-- If the sums are equal, print two lines: "Yes" and on the next line "Sum = [sum]".
-- If the sums are not equal, print two lines: "No" and on the next line "Diff = [difference]".  
-The difference should be calculated as an absolute value.
+---
+
+### 📝 Exercise 9: [Compare Left and Right Halves]  
+**Description:**  
+Write a program that accepts `2 * n` integers. Sum the first `n` numbers (left side) and the following `n` numbers (right side). If the sums match, print a confirmation with the sum value. Otherwise, print the absolute difference between the sums.
+
+---
+
+### 📝 Exercise 10: [Sum by Even and Odd Positions]  
+**Description:**  
+Implement a program that reads `n` integers and calculates two sums: one of the numbers at even positions and another of those at odd positions (considering the first number as position 1). If the sums are equal, print "Yes" followed by the sum value. If not, print "No" and the absolute difference between the sums.
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
