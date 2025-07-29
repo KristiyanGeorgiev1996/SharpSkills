@@ -2,101 +2,93 @@
 
 This folder contains tasks from the **While Loop - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview:
+## 🔧 Tasks Overview
 
 ### 📝 Task 1: [The Old Library]  
 **Problem Statement:**  
-Ani goes back to her hometown after a long period abroad. Upon returning home, she sees her grandmother's old library and remembers her favorite book. Help Ani by writing a program in which she enters the book she is looking for (string). The program should keep reading the names of books one by one until Ani either finds her favorite book or checks all the books in the library. The program ends when it receives the command "No More Books."
+Ani returns home and looks for her favorite book in her grandmother’s old library. The program reads the name of the book Ani is searching for (string). Then it reads the names of books one by one until Ani finds her book or all books are checked. The process stops when the command "No More Books" is received.
 
-- If the book is not found, print the following on two lines:
-  - "The book you search is not here!"
-  - "You checked {number} books."
-- If the book is found, print:
-  - "You checked {number} books and found it."
+- If the book is not found, print two lines:  
+  "The book you search is not here!"  
+  "You checked {number} books."
+- If the book is found, print:  
+  "You checked {number} books and found it."
 
 ---
 
 ### 📝 Task 2: [Exam Preparation]  
 **Problem Statement:**  
-Write a program where Marin solves exam tasks until he gets the "Enough" message from his lecturer. After each solved task, he receives a grade. The program should end either upon receiving the "Enough" command or if Marin receives the specified number of failing grades. A failing grade is any grade less than or equal to 4.
+Marin solves exam tasks and receives grades until he gets the "Enough" command or reaches a limit of failing grades (grades ≤ 4). The first input is the allowed number of failing grades (1 to 5), followed by task names and their grades.
 
-**Input:**
-- The first line contains the number of failing grades (an integer in the range [1…5]).
-- Then, multiple lines follow with:
-  - Task name (string)
-  - Grade (integer in the range [2…6])
+**Output:**  
+- If "Enough" is received, print:  
+  "Average score: {average}"  
+  "Number of problems: {total tasks}"  
+  "Last problem: {last task name}"
+- If failing grades limit is reached, print:  
+  "You need a break, {number} poor grades."
 
-**Output:**
-- If Marin receives the "Enough" command, print on 3 lines:
-  - "Average score: {average score}"
-  - "Number of problems: {total number of tasks}"
-  - "Last problem: {name of the last task}"
-- If Marin gets the specified number of failing grades, print:
-  - "You need a break, {number of failing grades} poor grades."
-
-The average score should be formatted to two decimal places.
+The average is formatted to two decimal places.
 
 ---
 
 ### 📝 Task 3: [Holiday Savings]  
 **Problem Statement:**  
-Jesse wants to save money for a holiday and asks for your help to determine if she'll manage to gather the needed amount. She saves or spends part of her money every day. If she tries to spend more than her available money, she will spend all she has left, leaving 0 money.
+Jesse tries to save money for a holiday by saving or spending daily. If Jesse spends more than available, her money drops to zero.
 
-**Input:**
-- The first line contains the amount of money needed for the holiday (a real number in the range [1.00...25000.00]).
-- The second line contains the available money (a real number in the range [0.00...25000.00]).
-- Then, multiple lines follow with:
-  - Action type (string with values "spend" or "save")
-  - The amount spent or saved (a real number in the range [0.01…25000.00])
+**Input:**  
+- Needed amount for holiday (real number)  
+- Initial money available (real number)  
+- Multiple lines with action ("spend" or "save") and amount (real number)
 
-**Output:**
-- If Jesse spends for 5 consecutive days, print:
-  - "You can't save the money."
-  - "{total number of days}"
-- If Jesse manages to save the required amount for the holiday, print:
-  - "You saved the money for {total number of days} days."
+**Output:**  
+- If Jesse spends money 5 days in a row, print:  
+  "You can't save the money."  
+  "{total days}"
+- If she saves enough, print:  
+  "You saved the money for {total days} days."
 
 ---
 
 ### 📝 Task 4: [Steps Goal]  
 **Problem Statement:**  
-Gabi wants to start living a healthy lifestyle and has set a goal to walk 10,000 steps every day. However, some days she’s very tired from work and might want to go home before reaching her goal. Write a program that reads the number of steps Gabi walks each time she leaves during the day, and when she reaches her goal, print "Goal reached! Good job!" along with how many extra steps she walked.
+Gabi wants to walk 10,000 steps per day. She inputs steps taken multiple times per day. If she wants to go home early, she enters "Going home" and inputs the steps walked back home.
 
-If she wants to go home early, she will enter the command "Going home" and input the steps walked while returning home. Afterward, if she hasn't reached her goal, print:
-  - "{remaining steps} more steps to reach goal."
+**Output:**  
+- If goal reached, print:  
+  "Goal reached! Good job!"  
+  "{extra steps} steps over the goal."
+- Otherwise, print:  
+  "{remaining steps} more steps to reach goal."
 
 ---
 
 ### 📝 Task 5: [Coins]  
 **Problem Statement:**  
-Vending machine manufacturers wanted to make sure their machines return the smallest possible number of coins as change. Write a program that takes an amount of money (change) and calculates how many coins it can be given back with the fewest possible coins.
+Given an amount of change, calculate the minimum number of coins needed to return it.
 
 ---
 
 ### 📝 Task 6: [Cake]  
 **Problem Statement:**  
-You are invited to a 30th birthday party where the birthday person is serving a huge cake. However, the birthday person doesn’t know how many pieces of cake the guests can take. Your task is to write a program that calculates how many pieces the guests have taken before the cake runs out. You will receive the cake's dimensions (width and length) as integers in the range [1...1000]. Then, on each line, you will receive the number of pieces guests take until the command "STOP" is given or the cake runs out.
+At a birthday party, guests take pieces of a cake with given width and length. Read the number of pieces taken until the command "STOP" or the cake runs out.
 
-**Output:**
-- If you reach the command "STOP" and there are still cake pieces left, print:
-  - "{number of pieces} pieces are left."
-- If the cake runs out, print:
-  - "No more cake left! You need {number of pieces missing} pieces more."
+**Output:**  
+- If cake pieces remain after "STOP", print:  
+  "{pieces left} pieces are left."
+- If cake runs out, print:  
+  "No more cake left! You need {pieces missing} pieces more."
 
 ---
 
 ### 📝 Task 7: [Moving]  
 **Problem Statement:**  
-On his 18th birthday, Jose decided to move out and live in an apartment. He packed his things in boxes and found a suitable apartment. He starts moving his things in parts since he can't carry everything at once. There's limited space in his new apartment, and he needs to make sure it’s enough for all his things.
+Jose moves into a new apartment. The apartment’s free space dimensions (width, length, height) are given. Boxes are moved in one by one until the command "Done" or until space runs out.
 
-Write a program that calculates the remaining space in Jose’s apartment after he moves in all his things.
+**Output:**  
+- If space remains after "Done", print:  
+  "{free space} Cubic meters left."
+- If space runs out before "Done", print:  
+  "No more free space! You need {missing space} Cubic meters more."
 
-**Input:**
-- The first three lines contain the dimensions of the free space in the apartment: width, length, and height (all integers in the range [1…1000]).
-- Then, subsequent lines contain the number of boxes moved in (integer in the range [1…10000]) until the command "Done" is entered.
-
-**Output:**
-- If you reach the "Done" command and there is still free space, print:
-  - "{number of free cubic meters} Cubic meters left."
-- If the free space runs out before the "Done" command, print:
-  - "No more free space! You need {missing cubic meters} Cubic meters more."
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
