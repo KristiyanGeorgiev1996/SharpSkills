@@ -2,94 +2,59 @@
 
 This folder contains tasks from the **First steps in coding** section of the Programming Basics with C# course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview:
+## 🔧 Tasks Overview
 
-### 📝 Task 1: [Console Program "Hello SoftUni"]  
-**Problem Statement:**  
-Write a C# console program that prints the text: "Hello SoftUni".
-
----
-
-### 📝 Task 2: [Numbers from 1 to 10]  
-**Problem Statement:**  
-Write a C# console program that prints the numbers from 1 to 10, each on a new line.
+### 📝 Task 1: Hello SoftUni
+Create a simple C# console application that prints a welcome message:  
+**"Hello SoftUni"**
 
 ---
 
-### 📝 Task 3: [Calculate Rectangle Area]  
-**Problem Statement:**  
-Write a console program that reads two integers (the sides of a rectangle a and b) and calculates the rectangle’s area.
+### 📝 Task 2: Numbers from 1 to 10  
+Write a program that prints the numbers from 1 to 10. Each number should be on a separate line.
 
 ---
 
-### 📝 Task 4: [Converter: Inches to Centimeters]  
-**Problem Statement:**  
-Write a program that reads a real number from the console and converts it from inches to centimeters.  
-To convert inches to centimeters, multiply the inches by 2.54 (1 inch = 2.54 cm).
+### 📝 Task 3: Calculate Rectangle Area  
+Build a program that reads the width and height of a rectangle as integers, then calculates and prints its area.
 
 ---
 
-### 📝 Task 5: [Greeting by Name]  
-**Problem Statement:**  
-Write a program that reads a text (a person's name) from the console and prints "Hello, <name>!", where `<name>` is the entered name.
+### 📝 Task 4: Inches to Centimeters Converter  
+Develop a program that reads a measurement in inches (as a real number) and converts it to centimeters.  
+Use the formula: `centimeters = inches * 2.54`.
 
 ---
 
-### 📝 Task 6: [Concatenate Text and Numbers]  
-**Problem Statement:**  
-Write a program that reads a first name, last name, age, and city from the console and prints the following message:  
-"You are <firstName> <lastName>, a <age>-years old person from <town>."
+### 📝 Task 5: Greeting by Name  
+Write a program that reads a name from the console and prints a personalized greeting:  
+**"Hello, <name>!"**
 
 ---
 
-### 📝 Task 7: [Project Creation]  
-**Problem Statement:**  
-Write a program that calculates how many hours an architect will need to complete several building projects. One project takes 3 hours to complete.
-
-**Input:**
-
-The console will receive 2 lines:
-1. The architect's name – string  
-2. Number of projects to complete – integer in the range [0 … 100]  
-
-**Output:**
-
-Print the following message:
-"The architect {architect's name} will need {needed hours} hours to complete {number of projects} project/s."
+### 📝 Task 6: Concatenate Text and Numbers  
+Create a program that reads the user's first name, last name, age, and hometown, then prints a message like:  
+**"You are <firstName> <lastName>, a <age>-years old person from <town>."**
 
 ---
 
-### 📝 Task 8: [Pet Shop]  
-**Problem Statement:**  
-Write a program that calculates the cost for buying dog and cat food from a pet shop.  
-The price for one pack of dog food is 2.50 BGN, and the price for one pack of cat food is 4.00 BGN.
-
-**Input:**
-
-The console receives 2 lines:
-1. Number of dog food packs – integer in the range [0…100]  
-2. Number of cat food packs – integer in the range [0…100]  
-
-**Output:**
-
-Print the total cost:  
-"{total sum} lv."
+### 📝 Task 7: Project Creation  
+Write a program that calculates the time an architect needs to complete a given number of projects.  
+Each project takes 3 hours to finish. The program should read the architect’s name and number of projects, and then display a summary message.
 
 ---
 
-### 📝 Task 9: [Yard Greening]  
-**Problem Statement:**  
-Bozhidara owns several houses on the Black Sea coast and wants to landscape some of their yards to create a cozy and pleasant environment for her guests. She hires a landscaping company.
+### 📝 Task 8: Pet Shop  
+Create a program that calculates the total cost of purchasing dog and cat food.  
+Prices:  
+- Dog food: 2.50 BGN per pack  
+- Cat food: 4.00 BGN per pack  
+The program reads the number of each and prints the total amount due.
 
-Write a program that calculates the final amount Bozhidara has to pay the company.  
-The price per square meter is 7.61 BGN (including VAT). Since her yard is quite large, the company offers an 18% discount on the total price.
+---
 
-**Input:**
+### 📝 Task 9: Yard Greening  
+Bozhidara is landscaping a yard and hires a company to do the work.  
+Write a program that reads the yard area in square meters and calculates the total cost at 7.61 BGN/m², then applies an 18% discount.  
+Print the final price and the discount amount.
 
-The console receives a single real number in the range [0.00 … 10000.00] representing the area in square meters to be landscaped.
-
-**Output:**
-
-Print two lines:
-- "The final price is: {final price} lv."  
-- "The discount is: {discount} lv."
