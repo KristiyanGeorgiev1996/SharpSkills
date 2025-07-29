@@ -2,14 +2,13 @@
 
 This folder contains tasks from the **Nested Loops - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview:
+# 🔧 Tasks Overview
 
 ### 📝 Task 1: [Number Pyramid]  
-**Problem Statement:**  
-Write a program that reads an integer n, entered by the user, and prints a pyramid of numbers as shown in the examples:
+**Description:**  
+Create a program that takes an integer n as input and prints a pyramid of numbers. Each line starts at 1 and counts up to the line number, forming a number pyramid with n rows. Each row should be printed on a new line, as shown in the examples.
 
-**Input / Output examples:**
-
+**Examples:**  
 - Input: 7  
   Output:  
   1  
@@ -25,113 +24,79 @@ Write a program that reads an integer n, entered by the user, and prints a pyram
   1  
   1 2  
   1 2 3  
-  1 2 3 4  
-  1 2 3 4 5  
-  1 2 3 4 5 6  
-  1 2 3 4 5 6 7  
-  1 2 3 4 5 6 7 8  
-  1 2 3 4 5 6 7 8 9  
+  ...  
   1 2 3 4 5 6 7 8 9 10
-
-- Input: 12  
-  Output:  
-  1  
-  1 2  
-  1 2 3  
-  1 2 3 4  
-  1 2 3 4 5  
-  1 2 3 4 5 6  
-  1 2 3 4 5 6 7  
-  1 2 3 4 5 6 7 8  
-  1 2 3 4 5 6 7 8 9  
-  1 2 3 4 5 6 7 8 9 10  
-  1 2 3 4 5 6 7 8 9 10 11  
-  1 2 3 4 5 6 7 8 9 10 11 12
 
 ---
 
 ### 📝 Task 2: [Equal Sums of Even and Odd Positions]  
-**Problem Statement:**  
-Write a program that reads two six-digit integers in the range from 100000 to 300000 from the console. The first number will always be smaller than the second number. Print on the console, in one line separated by spaces, all numbers between the two numbers that satisfy the following condition:
-
-- The sum of the digits at even and odd positions must be equal. If no numbers satisfy the condition, print nothing.
+**Description:**  
+Write a program that reads two six-digit numbers between 100000 and 300000 (inclusive). The first number is always smaller than the second. Your program should print all numbers in this range where the sum of the digits in even positions equals the sum of the digits in odd positions. If no such numbers exist, print nothing.
 
 ---
 
 ### 📝 Task 3: [Sum of Prime and Non-Prime Numbers]  
-**Problem Statement:**  
-Write a program that reads integers from the console until the command "stop" is entered. The program should find the sum of all prime numbers and the sum of all non-prime numbers. Since negative numbers cannot be prime, if a negative number is entered, the program should print "Number is negative." and ignore that number (it should not be added to either sum). The program should then continue waiting for the next number.
+**Description:**  
+Develop a program that continuously reads integers until the command "stop" is received. It should calculate the sum of all prime numbers and the sum of all non-prime numbers separately. If a negative number is entered, print "Number is negative." and disregard that number (do not add it to any sum).
 
-On the output, print the two sums in the following format:
-
-- "Sum of all prime numbers is: {prime numbers sum}"
-- "Sum of all non prime numbers is: {nonprime numbers sum}"
+**Output:**  
+- "Sum of all prime numbers is: {sum of prime numbers}"  
+- "Sum of all non prime numbers is: {sum of non-prime numbers}"
 
 ---
 
 ### 📝 Task 4: [Train the Trainers]  
-**Problem Statement:**  
-The "Train the Trainers" course is nearing its end, and the final assessments are approaching. Your task is to help the jury evaluate the presentations by writing a program that calculates the average grade for each presentation from a given student, and finally, the average grade for all of them.
+**Description:**  
+The "Train the Trainers" course is coming to an end, and the jury needs to evaluate the presentations. Write a program that calculates the average grade for each presentation based on jury scores, and finally computes the overall average grade for all presentations.
 
-The first input line will be the number of people in the jury, n – an integer in the range [1…20].
+**Input:**  
+- First, read the number of jury members n (integer between 1 and 20).  
+- Then, repeatedly read the presentation name.  
+- For each presentation, read n grades (real numbers between 2.00 and 6.00).
 
-Then, on a new line, the name of the presentation will be read.
+When the input "Finish" is received instead of a presentation name, the program should print the final average grade across all presentations.
 
-For each presentation, n grades will be entered on new lines – real numbers in the range [2.00…6.00].
+**Output:**  
+- After each presentation: "{presentation name} - {average grade}."  
+- At the end: "Student's final assessment is {final average grade}."
 
-After calculating the average grade for a presentation, print the following on the console:
-
-- "{presentation name} - {average grade}."
-
-When the command "Finish" is received, the program will print:  
-- "Student's final assessment is {average grade for all presentations}."  
-And the program will end.
-
-All grades must be formatted to two decimal places.
+All grades should be formatted to two decimal places.
 
 ---
 
 ### 📝 Task 5: [Special Numbers]  
-**Problem Statement:**  
-Write a program that reads an integer N entered by the user, and generates all possible "special" numbers from 1111 to 9999. A number is considered "special" if it satisfies the following condition:
+**Description:**  
+Write a program that reads an integer N and finds all "special" numbers between 1111 and 9999. A number is considered special if N is evenly divisible by each of its digits.
 
-- N must be divisible by each of its digits without remainder.
-
-Example: for N = 16, 2418 is a special number:
-
-- 16 / 2 = 8 with no remainder
-- 16 / 4 = 4 with no remainder
-- 16 / 1 = 16 with no remainder
-- 16 / 8 = 2 with no remainder
+**Example:**  
+For N = 16, the number 2418 is special because 16 divides evenly by 2, 4, 1, and 8.
 
 **Input:**  
-The input consists of one integer in the range [1…600000].
+One integer N in the range [1 … 600000].
 
 **Output:**  
-Print all "special" numbers separated by a space on the console.
+Print all special numbers separated by spaces.
 
 ---
 
 ### 📝 Task 6: [Cinema Tickets]  
-**Problem Statement:**  
-Your task is to write a program that calculates the percentage of tickets sold for each type of ticket: student, standard, and kid, for all movie screenings. You also need to calculate the percentage of the cinema hall that is filled for each screening.
+**Description:**  
+Write a program to track ticket sales for multiple movie screenings. For each screening, you will read the movie name, the number of free seats, and then the type of each ticket sold ("student", "standard", or "kid") until the hall is full or "End" is entered.
+
+Your program should calculate and display the percentage of seats filled for each movie, as well as the overall statistics on ticket types sold after all movies are processed.
 
 **Input:**  
-The input consists of integers and text:
-
-- The first line contains the movie name – text.
-- The second line contains the number of free seats in the cinema hall for each screening – an integer [1…100].
-- For each movie, a line is read for each ticket sold until the hall is full or the command "End" is entered:
-  - The type of ticket purchased – text ("student", "standard", "kid").
+- Movie name (string)  
+- Number of free seats in the cinema hall (integer between 1 and 100)  
+- For each ticket sold, the ticket type as a string  
+- Input ends when "Finish" is entered instead of a movie name
 
 **Output:**  
-After each movie, print the following:
+- After each movie: "{movie name} - {percentage filled}% full."  
+- After all movies:  
+  - "Total tickets: {total number of tickets sold}"  
+  - "{percentage}% student tickets."  
+  - "{percentage}% standard tickets."  
+  - "{percentage}% kids tickets."
 
-- "{movie name} - {percentage of cinema hall filled}% full."
-
-When the command "Finish" is received, print four lines:
-
-- "Total tickets: {total number of tickets sold for all movies}"
-- "{percentage of student tickets}% student tickets."
-- "{percentage of standard tickets}% standard tickets."
-- "{percentage of kids tickets}% kids tickets."
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
