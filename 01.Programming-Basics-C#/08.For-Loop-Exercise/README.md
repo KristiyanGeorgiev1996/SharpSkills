@@ -2,15 +2,15 @@
 
 This folder contains tasks from the **For Loop - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 Overview of Programming Tasks
+## 🔧 Overview of Programming Tasks
 
-### 📝 Task 1: [Numbers Ending with 7 Between 1 and 1000]  
+### 📝 Task 1: Numbers Ending with 7 Between 1 and 1000  
 **Task:**  
 Create a program that outputs all integers from 1 up to 1000 that end with the digit 7.
 
 ---
 
-### 📝 Task 2: [Check for Element Equal to Sum of Others]  
+### 📝 Task 2: Check for Element Equal to Sum of Others  
 **Task:**  
 Write a program that takes `n` integers from the user and determines if any of these numbers equals the sum of all the others combined.
 
@@ -19,7 +19,7 @@ Write a program that takes `n` integers from the user and determines if any of t
 
 ---
 
-### 📝 Task 3: [Number Distribution Histogram]  
+### 📝 Task 3: Number Distribution Histogram  
 **Task:**  
 Given `n` integers (each between 1 and 1000), calculate the percentage of numbers falling into the following ranges:
 
@@ -43,7 +43,7 @@ Example input and distribution:
 
 ---
 
-### 📝 Task 4: [Lily's Birthday Savings]  
+### 📝 Task 4: Lily's Birthday Savings  
 **Task:**  
 Lily is `N` years old and receives gifts each birthday.
 
@@ -63,7 +63,7 @@ Both amounts should be formatted with two decimals.
 
 ---
 
-### 📝 Task 5: [Employee Salary Deductions]  
+### 📝 Task 5: Employee Salary Deductions  
 **Task:**  
 A company is monitoring employees’ browsing habits and applies fines when certain distracting websites are found open.
 
@@ -78,7 +78,7 @@ Input consists of the number of open browser tabs and the starting salary. For e
 
 ---
 
-### 📝 Task 6: [Oscar Points Calculation]  
+### 📝 Task 6: Oscar Points Calculation  
 **Task:**  
 An actor starts with an initial number of points given by the academy. Then, several reviewers give their scores. For each reviewer, the actor gains points calculated by multiplying the length of the reviewer’s name by their score and dividing by two.
 
@@ -95,7 +95,7 @@ Numbers should be formatted to one decimal place.
 
 ---
 
-### 📝 Task 7: [Climbing Group Distribution]  
+### 📝 Task 7: Climbing Group Distribution  
 **Task:**  
 Groups of climbers are categorized by size and assigned to different mountains:
 
@@ -111,7 +111,7 @@ Output percentages should be formatted with two decimal places.
 
 ---
 
-### 📝 Task 8: [Tennis Ranking Points]  
+### 📝 Task 8: Tennis Ranking Points  
 **Task:**  
 Grigor Dimitrov plays a series of tournaments, earning points depending on the stage reached:
 
