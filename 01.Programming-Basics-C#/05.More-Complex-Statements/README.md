@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **More Complex Statements** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# Overview of Programming Assignments
+# Tasks Overview
 
 ### 📝 Task 1: Identify the Day of the Week  
 Create a program that takes an integer input between 1 and 7 and outputs the corresponding day of the week in English. If the input falls outside this range, the program should print "Error".
@@ -120,5 +120,7 @@ A company provides commissions depending on the city and sales volume:
 | Plovdiv | 5.5%        | 8%                  | 12%                    | 14.5%          |
 
 Write a program that reads a city and sales amount, calculates the commission, and prints it formatted to two decimals. For invalid input (wrong city or negative sales), print "error".
+
+---
 
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
