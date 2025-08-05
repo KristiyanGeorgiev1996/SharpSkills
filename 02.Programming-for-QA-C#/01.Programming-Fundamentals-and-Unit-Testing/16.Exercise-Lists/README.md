@@ -4,8 +4,6 @@ This folder contains tasks from the **Exercise - Lists** section of the _Program
 
 ## 🔧 Tasks Overview:
 
----
-
 ### Task 1: Change List  
 Write a program that:
 
