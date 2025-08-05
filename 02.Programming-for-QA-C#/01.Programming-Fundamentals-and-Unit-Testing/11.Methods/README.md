@@ -4,82 +4,60 @@ This folder contains tasks from the **Methods** section of the _Programming Fund
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Sign of Integer Number]  
-**Problem Statement:**  
-Write a program that:
+---
 
-- Reads an integer number N from the console
-- Create a method that prints the sign of an entered number N:
-  - If the number is positive (N > 0): "The number {number} is positive."
-  - If the number is negative (N < 0): "The number {number} is negative."
-  - If the number is zero (N = 0): "The number {number} is zero."
+### Task 1: Sign of Integer Number  
+Write a program that:  
+- Reads an integer number N from input.  
+- Implements a method that prints the sign of N:  
+  - If N > 0: prints `"The number {N} is positive."`  
+  - If N < 0: prints `"The number {N} is negative."`  
+  - If N = 0: prints `"The number {N} is zero."`
 
 ---
 
-### 📝 Task 2: [Grades]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads a grade (floating-point number) from the console
-- Create a method that receives a grade between 2.00 and 6.00
-- Prints the corresponding grade in words:
-  - "Fail" - If the grade is in range 2.00 – 2.99 (inclusively)
-  - "Average" - If the grade is in range 3.00 – 3.49 (inclusively)
-  - "Good" - If the grade is in range 3.50 – 4.49 (inclusively)
-  - "Very good" - If the grade is in range 4.50 – 5.49 (inclusively)
-  - "Excellent" - If the grade is in range 5.50 – 6.00 (inclusively)
+### Task 2: Grades  
+Write a program that:  
+- Reads a floating-point grade from input.  
+- Implements a method that receives a grade between 2.00 and 6.00 and prints the grade in words:  
+  - "Fail" for grades 2.00 – 2.99  
+  - "Average" for grades 3.00 – 3.49  
+  - "Good" for grades 3.50 – 4.49  
+  - "Very good" for grades 4.50 – 5.49  
+  - "Excellent" for grades 5.50 – 6.00
 
 ---
 
-### 📝 Task 3: [Printing Triangle]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads an integer number N from the console
-- Create a method for printing triangle depending on value of the number N
+### Task 3: Printing Triangle  
+Write a program that:  
+- Reads an integer N from input.  
+- Implements a method to print a triangle based on N.
 
 ---
 
-### 📝 Task 4: [Calculate Rectangle Area]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads two integer numbers from the console: width and length
-- Create a method which returns rectangle area with given width and length
-
-Hint: Rectangle area can be calculated when you multiply width and length of the rectangle.
+### Task 4: Calculate Rectangle Area  
+Write a program that:  
+- Reads two integers: width and length.  
+- Implements a method that calculates and returns the area of the rectangle (width × length).
 
 ---
 
-### 📝 Task 5: [Repeat String]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads a text (string) and repeat count (integer number) from the console
-- Write a method that receives a string and a repeat count
-- The method should return a new string, containing the initial one, repeated count times without space
+### Task 5: Repeat String  
+Write a program that:  
+- Reads a string and a repeat count (integer) from input.  
+- Implements a method that receives the string and repeat count, and returns a new string with the original string repeated count times, concatenated without spaces.
 
 ---
 
-### 📝 Task 6: [Math Power]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads two integer numbers from the console: base number and power
-- Create a method, which receives two numbers as parameters:
-  - The first number – the base
-  - The second number – the power
-- The method should return the base raised to the given power
+### Task 6: Math Power  
+Write a program that:  
+- Reads two integers: base number and power.  
+- Implements a method that receives the base and power, and returns the base raised to the given power.
 
 ---
 
-### 📝 Task 7: [Greater of Two Values]  
-**Problem Statement:**  
-Write a program that:
-
-- Reads a type (string) and two values of this type from the console
-- Entered type can be one of the following values: "int", "char" or "string"
-- Create methods which can compare int, char or string
-- Return the biggest of the two values
-
----
+### Task 7: Greater of Two Values  
+Write a program that:  
+- Reads a type (string) and two values of that type from input.  
+- The type can be "int", "char", or "string".  
+- Implements methods to compare two values of the given type and returns the greater one.
