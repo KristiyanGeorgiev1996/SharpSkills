@@ -4,14 +4,14 @@ This folder contains tasks from the **Nested Loops** section of the _Programming
 
 ## 🔧 Tasks Overview:
 
-## Task 1: Numbers From N to 1  
+### 📝 Task 1: Numbers From N to 1  
 Write a program that:  
 - Reads an integer number N from input.  
 - Prints the numbers from N down to 1, each on a separate line.
 
 ---
 
-## Task 2: Even Powers of 2  
+### 📝 Task 2: Even Powers of 2  
 Write a program that:  
 - Reads an integer number n.  
 - Prints the powers of two with even exponents in the range [0 … n], i.e.,  
@@ -19,14 +19,14 @@ Write a program that:
 
 ---
 
-## Task 3: Triangle of Stars  
+### 📝 Task 3: Triangle of Stars  
 Write a program that:  
 - Reads an integer number (size of the triangle).  
 - Prints a triangle of stars with the given size, line by line.
 
 ---
 
-## Task 4: Building  
+### 📝 Task 4: Building  
 Write a program that:  
 - Reads two integers: number of floors and number of estates per floor.  
 - Prints a table representing the building with identifiers for each estate:  
@@ -36,14 +36,14 @@ Write a program that:
 
 ---
 
-## Task 5: Number Pyramid  
+### 📝 Task 5: Number Pyramid  
 Write a program that:  
 - Reads an integer number n.  
 - Prints a number pyramid of height n as shown in examples.
 
 ---
 
-## Task 6: Travel Savings  
+### 📝 Task 6: Travel Savings  
 Write a program that:  
 - Reads a destination (string) and needed budget (float).  
 - Continuously reads collected money amounts until the budget is reached or exceeded.  
@@ -54,7 +54,7 @@ Write a program that:
 
 ---
 
-## Task 7: Sum of Digits Calculator  
+### 📝 Task 7: Sum of Digits Calculator  
 Write a program that:  
 - Continuously reads integers from input until `"End"` is entered.  
 - For each integer, prints the sum of its digits in the format:  
@@ -63,7 +63,7 @@ Write a program that:
 
 ---
 
-## Task 8: Prime Numbers  
+### 📝 Task 8: Prime Numbers  
 Write a program that:  
 - Reads two integers: start and end of a range.  
 - Prints all prime numbers within the given range inclusively.
