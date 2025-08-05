@@ -4,115 +4,83 @@ This folder contains tasks from the **Key Concepts** section of the _Programming
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Convertor: USD to EUR
-**Problem Statement:**  
-Write a program to convert from USD to EUR:
+## Task 1: Currency Converter - USD to EUR
 
-- Read a floating-point number: the dollars to be converted  
-- Convert dollars to euro (use a fixed rate of 0.88)  
-- Print the converted value in euro, formatted to the 2nd digit
-
----
-
-### 📝 Task 2: Four Operations
-**Problem Statement:**  
-Write a program that:
-
-- Reads two floating-point numbers: first number and second number  
-- Performs 4 arithmetic operations in the following order:
-  - Addition (+)  
-  - Subtraction (-)  
-  - Multiplication (*)  
-  - Division (/)
-- Prints the results formatted to the 2nd digit, in the format:
-  - `{first number} + {second number} = {result}`  
-  - `{first number} - {second number} = {result}`  
-  - `{first number} * {second number} = {result}`  
-  - `{first number} / {second number} = {result}`
+Develop a program that converts a given amount from US dollars to euros.  
+- Input: a floating-point number representing the amount in USD.  
+- Use a fixed exchange rate of 0.88 to convert the amount into EUR.  
+- Output the result rounded to two decimal places.
 
 ---
 
-### 📝 Task 3: Market
-**Problem Statement:**  
-Write a program that:
+## Task 2: Basic Arithmetic Operations
 
-- A farmer sells tomatoes and cucumbers at the market  
-- Reads four floating-point numbers:
-  - Tomato price  
-  - Tomato quantity  
-  - Cucumber price  
-  - Cucumber quantity  
-- Calculates the total cost of the produce  
-- Prints the total cost formatted to the 2nd digit
+Write a program that receives two floating-point numbers and performs the following arithmetic operations: addition, subtraction, multiplication, and division.  
+- Input: two floating-point numbers.  
+- Output: print each operation with its result, formatted to two decimal places, as follows:  
+  `{first number} + {second number} = {result}`  
+  `{first number} - {second number} = {result}`  
+  `{first number} * {second number} = {result}`  
+  `{first number} / {second number} = {result}`
 
 ---
 
-### 📝 Task 4: Tiles
-**Problem Statement:**  
-Write a program that:
+## Task 3: Market Sales Calculator
 
-- A rectangular bathroom has dimensions W x H  
-- It will be covered with tiles of size Wt x Ht  
-- Reads four floating-point numbers:
-  - Bathroom width (W)  
-  - Bathroom height (H)  
-  - Tile width (Wt)  
-  - Tile height (Ht)  
-- Calculates how many tiles are needed, with 10% surplus  
-- Prints the count of needed tiles, rounded to the nearest integer
+Create a program for a farmer selling tomatoes and cucumbers at a market.  
+- Input: four floating-point values representing the price and quantity of tomatoes, and the price and quantity of cucumbers.  
+- Calculate the total cost of all items.  
+- Output the total price rounded to two decimal places.
 
 ---
 
-### 📝 Task 5: Deposit Calculator
-**Problem Statement:**  
-Write a program that calculates how much you will receive at the end of the deposit period using this formula:
+## Task 4: Tile Calculation for Bathroom
 
-amount = deposited amount + term * (deposited amount * annual interest rate) / 12
-
-**Input:**  
-Read 3 values from the console:
-1. Deposited amount – real number in range [100.00 ... 10000.00]  
-2. Term (months) – integer in range [1...12]  
-3. Annual interest rate – real number in range [0.00 ... 100.00]
-
-**Output:**  
-Print the amount at the end of the term.
+Write a program to compute the number of tiles needed to cover a rectangular bathroom floor.  
+- Input: four floating-point numbers: bathroom width (W), bathroom height (H), tile width (Wt), and tile height (Ht).  
+- Calculate the total tiles required, including a 10% surplus to account for extras.  
+- Output the total tile count rounded to the nearest whole number.
 
 ---
 
-### 📝 Task 6: Mandatory Literature
-**Problem Statement:**  
-Help Joro calculate how many hours a day he needs to spend reading to finish a book in time.
+## Task 5: Deposit Profit Calculator
 
-**Input:**  
-Read 3 lines from the console:
-1. Number of pages in the book – integer [1...1000]  
-2. Pages read per hour – integer [1...1000]  
-3. Number of days to finish – integer [1...1000]
-
-**Hint:** Integer division rounds towards zero.
-
-**Output:**  
-Print the number of hours per day Joro needs to read.
+Implement a program that calculates the total amount after a deposit period using this formula:  
+`total_amount = deposited_amount + term_months * (deposited_amount * annual_interest_rate / 12)`  
+- Input:  
+  1. Deposited amount (float) between 100.00 and 10000.00  
+  2. Term duration in months (integer) between 1 and 12  
+  3. Annual interest rate (float) between 0.00 and 100.00  
+- Output: print the final amount after the term.
 
 ---
 
-### 📝 Task 7: Supplies for School
-**Problem Statement:**  
-Annie needs to buy school supplies and gets a discount. Calculate the total price based on:
+## Task 6: Reading Schedule Calculator
 
-- Pens: 5.80 BGN per package  
-- Markers: 7.20 BGN per package  
-- Board cleaner: 1.20 BGN per liter  
-
-**Input:**  
-Read 4 values from the console:
-1. Number of pen packages – integer [0...100]  
-2. Number of marker packages – integer [0...100]  
-3. Liters of board cleaner – integer [0...50]  
-4. Discount percentage – integer [0...100]
-
-**Output:**  
-Print the final amount Annie needs to pay.
+Help Joro figure out how many hours per day he needs to read to finish a book on time.  
+- Input: three integers read from the console:  
+  1. Total number of pages in the book (1 to 1000)  
+  2. Number of pages read per hour (1 to 1000)  
+  3. Number of days to finish the book (1 to 1000)  
+- Note: Use integer division which truncates decimals.  
+- Output: print the required reading hours per day.
 
 ---
+
+## Task 7: School Supplies Cost Calculator
+
+Annie is buying school supplies and receives a discount. Calculate the total price to pay based on:  
+- Pens cost 5.80 BGN per package  
+- Markers cost 7.20 BGN per package  
+- Board cleaner costs 1.20 BGN per liter  
+
+- Input: four values:  
+  1. Number of pen packages (integer between 0 and 100)  
+  2. Number of marker packages (integer between 0 and 100)  
+  3. Liters of board cleaner (integer between 0 and 50)  
+  4. Discount percentage (integer between 0 and 100)  
+
+- Output: print the final total amount after applying the discount.
+
+---
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
