@@ -70,4 +70,6 @@ Write a program that:
 
 > Hint: A prime number is a positive integer greater than 1 with exactly two divisors: 1 and itself.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
