@@ -106,4 +106,5 @@ Calculate the volume of water required to fill a rectangular aquarium.
 Print the required water volume in liters, formatted to two decimal places.
 
 ---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
