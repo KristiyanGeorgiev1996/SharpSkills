@@ -68,4 +68,6 @@ Input details:
 
 The output should be the area, rounded to three decimal places.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
