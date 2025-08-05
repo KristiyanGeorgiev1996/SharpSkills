@@ -6,20 +6,20 @@ This folder contains tasks from the **First steps in coding - Exercise** section
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Currency Exchange: USD to BGN]  
+### 📝 Task 1: Currency Exchange: USD to BGN 
 **Task Description:**  
 Develop a program that converts an input amount in US dollars to Bulgarian lev using a fixed exchange rate of 1 USD equals 1.79549 BGN.
 
 ---
 
-### 📝 Task 2: [Radians to Degrees Conversion]  
+### 📝 Task 2: Radians to Degrees Conversion  
 **Task Description:**  
 Create a program that accepts an angle value in radians (floating-point) and calculates its equivalent in degrees. Use the conversion formula: degrees = radians × 180 ÷ π.  
 In C#, you can access the constant π through `Math.PI`.
 
 ---
 
-### 📝 Task 3: [Interest Calculation for Deposit]  
+### 📝 Task 3: Interest Calculation for Deposit  
 **Task Description:**  
 Implement a program that computes the final amount after a deposit period based on the initial deposited sum, deposit duration in months, and annual interest rate.  
 Use the formula:  
@@ -36,7 +36,7 @@ Print the resulting amount after applying interest for the full term.
 
 ---
 
-### 📝 Task 4: [Reading Time Estimator]  
+### 📝 Task 4: Reading Time Estimator  
 **Task Description:**  
 George has a fixed number of pages to read over his summer break. Since he prefers spending time with friends, calculate how many hours per day he must allocate to finish the book in the given timeframe.
 
@@ -51,7 +51,7 @@ Display the number of hours per day George needs to dedicate to reading.
 
 ---
 
-### 📝 Task 5: [Calculating School Supplies Cost]  
+### 📝 Task 5: Calculating School Supplies Cost  
 **Task Description:**  
 At the start of the school year, Annie, the class representative, must purchase supplies: pens, markers, and board cleaner. A discount applies to the total purchase price.  
 Calculate the final amount Annie will need to pay after applying the discount.
@@ -73,7 +73,7 @@ Print the total cost after discount deduction.
 
 ---
 
-### 📝 Task 6: [Paint Job Cost Calculation]  
+### 📝 Task 6: Paint Job Cost Calculation  
 **Task Description:**  
 Rumen plans to repaint his living room and has hired workers to help. Calculate the overall expense covering materials and labor.
 
@@ -100,7 +100,7 @@ Print the total expense (materials + labor + extras).
 
 ---
 
-### 📝 Task 7: [Meal Order Total Price]  
+### 📝 Task 7: Meal Order Total Price  
 **Task Description:**  
 A restaurant offers three fixed-price meal options: chicken, fish, and vegetarian. The group plans to order some meals and dessert. Dessert costs 20% of the meal total price (excluding delivery), and delivery has a fixed fee.
 
@@ -121,7 +121,7 @@ Print the final total amount payable.
 
 ---
 
-### 📝 Task 8: [Basketball Equipment Budget]  
+### 📝 Task 8: Basketball Equipment Budget 
 **Task Description:**  
 Jessie wants to buy basketball equipment based on her annual training fee. Calculate the total cost including shoes, kit, ball, and accessories, with each item's price adjusted relative to the training fee.
 
@@ -139,7 +139,7 @@ Output the total amount Jessie will need to pay to purchase all equipment.
 
 ---
 
-### 📝 Task 9: [Aquarium Water Capacity]  
+### 📝 Task 9: Aquarium Water Capacity  
 **Task Description:**  
 Lyubomir received a rectangular aquarium as a gift. Calculate how many liters of water it can hold, taking into account the volume occupied by decorations.
 
