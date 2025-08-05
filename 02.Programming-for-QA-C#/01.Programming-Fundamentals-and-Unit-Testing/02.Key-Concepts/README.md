@@ -83,4 +83,5 @@ Annie is buying school supplies and receives a discount. Calculate the total pri
 - Output: print the final total amount after applying the discount.
 
 ---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
