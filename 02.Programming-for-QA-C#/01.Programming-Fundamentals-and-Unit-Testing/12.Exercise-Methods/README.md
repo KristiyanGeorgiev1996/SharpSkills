@@ -4,8 +4,6 @@ This folder contains tasks from the **Exercise - Methods** section of the _Progr
 
 ## 🔧 Tasks Overview:
 
----
-
 ## Task 1: Vowels Count  
 Write a program that:  
 - Reads a text (string) from the console  
