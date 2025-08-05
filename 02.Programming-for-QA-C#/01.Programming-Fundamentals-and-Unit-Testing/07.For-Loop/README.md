@@ -72,4 +72,6 @@ Write a program that:
 - Prints all letters from the first letter to the second letter inclusive  
 - Assumes the first letter comes before the second in the Latin alphabet
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
