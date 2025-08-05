@@ -4,8 +4,6 @@ This folder contains tasks from the **Lists** section of the _Programming Fundam
 
 ## 🔧 Tasks Overview:
 
----
-
 ### Task 1: Change List  
 Write a program that:  
 - Reads a list of integers from the console  
