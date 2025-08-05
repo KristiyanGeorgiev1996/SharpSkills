@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **Data Types and Variables** section of the _Programming Fundamentals and Unit Testing_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 C# Tasks Overview
+# 🔧 Tasks Overview
 
 This repository contains beginner-friendly C# programming exercises. Each task includes a short description and a specific goal to practice basic syntax, operations, and input/output in C#.
 
