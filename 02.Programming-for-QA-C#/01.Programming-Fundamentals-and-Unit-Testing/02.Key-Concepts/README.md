@@ -4,7 +4,7 @@ This folder contains tasks from the **Key Concepts** section of the _Programming
 
 ## 🔧 Tasks Overview
 
-### Task 1: Currency Converter - USD to EUR
+### 📝 Task 1: Currency Converter - USD to EUR
 
 Develop a program that converts a given amount from US dollars to euros.  
 - Input: a floating-point number representing the amount in USD.  
@@ -13,7 +13,7 @@ Develop a program that converts a given amount from US dollars to euros.
 
 ---
 
-### Task 2: Basic Arithmetic Operations
+### 📝 Task 2: Basic Arithmetic Operations
 
 Write a program that receives two floating-point numbers and performs the following arithmetic operations: addition, subtraction, multiplication, and division.  
 - Input: two floating-point numbers.  
@@ -25,7 +25,7 @@ Write a program that receives two floating-point numbers and performs the follow
 
 ---
 
-### Task 3: Market Sales Calculator
+### 📝 Task 3: Market Sales Calculator
 
 Create a program for a farmer selling tomatoes and cucumbers at a market.  
 - Input: four floating-point values representing the price and quantity of tomatoes, and the price and quantity of cucumbers.  
@@ -34,7 +34,7 @@ Create a program for a farmer selling tomatoes and cucumbers at a market.
 
 ---
 
-### Task 4: Tile Calculation for Bathroom
+### 📝 Task 4: Tile Calculation for Bathroom
 
 Write a program to compute the number of tiles needed to cover a rectangular bathroom floor.  
 - Input: four floating-point numbers: bathroom width (W), bathroom height (H), tile width (Wt), and tile height (Ht).  
@@ -43,7 +43,7 @@ Write a program to compute the number of tiles needed to cover a rectangular bat
 
 ---
 
-### Task 5: Deposit Profit Calculator
+### 📝 Task 5: Deposit Profit Calculator
 
 Implement a program that calculates the total amount after a deposit period using this formula:  
 `total_amount = deposited_amount + term_months * (deposited_amount * annual_interest_rate / 12)`  
@@ -55,7 +55,7 @@ Implement a program that calculates the total amount after a deposit period usin
 
 ---
 
-### Task 6: Reading Schedule Calculator
+### 📝 Task 6: Reading Schedule Calculator
 
 Help Joro figure out how many hours per day he needs to read to finish a book on time.  
 - Input: three integers read from the console:  
@@ -67,7 +67,7 @@ Help Joro figure out how many hours per day he needs to read to finish a book on
 
 ---
 
-### Task 7: School Supplies Cost Calculator
+### 📝 Task 7: School Supplies Cost Calculator
 
 Annie is buying school supplies and receives a discount. Calculate the total price to pay based on:  
 - Pens cost 5.80 BGN per package  
