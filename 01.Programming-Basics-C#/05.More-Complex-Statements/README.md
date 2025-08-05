@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **More Complex Statements** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# Tasks Overview
+## Tasks Overview
 
 ### 📝 Task 1: Identify the Day of the Week  
 Create a program that takes an integer input between 1 and 7 and outputs the corresponding day of the week in English. If the input falls outside this range, the program should print "Error".
