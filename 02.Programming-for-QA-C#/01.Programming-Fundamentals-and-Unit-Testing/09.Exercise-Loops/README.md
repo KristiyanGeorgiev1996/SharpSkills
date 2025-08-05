@@ -6,22 +6,20 @@ This folder contains tasks from the **Exercise - Loops** section of the _Program
 
 ### 📝 Task 1: [Power of Number]  
 **Problem Statement:**  
-Write a program to calculate number raising to a certain power:
-
-- Reads an integer number n from the console
-- Reads an integer number p which represents power from the console
-- Print the result of n to the power of p
-
+Write a program that:  
+- Reads an integer `n` from input.  
+- Reads an integer `p` representing the power.  
+- Calculates `n` raised to the power of `p` without using built-in power functions (use loops).  
+- Prints the result.
 Note: Don't use Math.Pow(), use loops
 
 ---
 
 ### 📝 Task 2: [Multiplication Table]  
 **Problem Statement:**  
-Write a program that prints a multiplication table:
-
-- Reads an integer number n from the console
-- Print a multiplication table of size 10 for given integer n in the following format:
+Write a program that:  
+- Reads an integer `n` from input.  
+- Prints the multiplication table of size 10 for `n` in the format:  
 
   "{n} x {i} = {result}" for each i in the range [1…10]
 
@@ -29,64 +27,60 @@ Write a program that prints a multiplication table:
 
 ### 📝 Task 3: [Biggest Number]  
 **Problem Statement:**  
-Write a program to find the biggest among given n numbers:
-
-- Read an integer number n (the amount of input numbers) and n integer numbers from the console
-- Find and print the biggest number
+Write a program that:  
+- Reads an integer `n` – the count of numbers to read.  
+- Reads `n` integers from input.  
+- Finds and prints the biggest number among them.
 
 ---
 
 ### 📝 Task 4: [Vowel Sum]  
 **Problem Statement:**  
-Write a program to sum N vowels, according to the table below:
-
-- Read an integer number N: the count of characters
-- Read N characters and for each vowel character adds its value from the table to the result
+Write a program that:  
+- Reads an integer `N` representing the number of characters.  
+- Reads `N` characters.  
+- Calculates the sum of the values of vowels from the given characters according to a predefined table.  
+- Prints the total sum.
 
 ---
 
 ### 📝 Task 5: [Division to 2, 3 and 4]  
 **Problem Statement:**  
-Write a program to find statistics about division to 2, 3 and 4:
-
-- Read an integer number N and N integers from the console
-- Find in percentages how many of these integers can divide without a remainder to numbers 2, 3 and 4
-- Print the percentages, formatted to the second decimal digit:
-
-  o On the first line print percent of the numbers that are divisible by 2  
-  o On the first line print percent of the numbers that are divisible by 3  
-  o On the first line print percent of the numbers that are divisible by 4  
+Write a program that:  
+- Reads an integer `N`.  
+- Reads `N` integers.  
+- Calculates the percentage of numbers divisible by 2, 3, and 4 respectively.  
+- Prints the percentages formatted to two decimal places, one per line in the order:  
+1. Percentage divisible by 2  
+2. Percentage divisible by 3  
+3. Percentage divisible by 4
 
 ---
 
 ### 📝 Task 6: [Special Number]  
 **Problem Statement:**  
-Write a program to check if given number is special:
-
-- Special numbers are divisible by all of their digits without remainder
-- Reads an integer number and check whether it is a special number
-- If the number IS special print: "{num} is special"
-- If the number is NOT special print: "{num} is not special"
-
-Note: There will not be numbers with digit 0 in them.
+Write a program that:  
+- Reads an integer number.  
+- Checks if the number is special, meaning it is divisible by each of its digits without a remainder.  
+- Prints `"{num} is special"` if true, otherwise `"{num} is not special"`.  
+> Note: Input numbers will not contain the digit zero.
 
 ---
 
 ### 📝 Task 7: [Special Bonus]  
 **Problem Statement:**  
-Write a program to apply a 20% bonus for certain number:
-
-- Reads an integer number from the console: the "stop number"
-- Keep reading integers until it finds the stop number
-- When the stop number is found, increase the value of the previous number before it with 20% and print it
+Write a program that:  
+- Reads integers until a specific "stop number" is entered.  
+- When the stop number is encountered, increases the value of the number read just before it by 20%.  
+- Prints the updated value.
 
 ---
 
 ### 📝 Task 8: [Account Balance]  
 **Problem Statement:**  
-Write a program to calculate an account balance:
+Write a program that:  
+- Reads a sequence of money transactions (incomes or expenses) until the command `"End"` is entered.  
+- For each transaction, prints `"Increase: {amount}"` if positive or `"Decrease: {amount}"` if negative, formatted to two decimal places.  
+- Calculates and prints the final balance formatted to two decimals in the format: `"Balance: {balance}"`.
 
-- Read a sequence of incomes / expenses, until "End" is read
-- Add the money to the balance (starting from 0)
-- Print "Increase: {money}" or "Decrease: {money}", where value is formatted to the second decimal digit
-- Finally, print the account balance, formatted to the second decimal digit in the following format: "Balance: {account balance}"
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
