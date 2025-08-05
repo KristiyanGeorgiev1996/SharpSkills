@@ -83,4 +83,6 @@ Write a program that:
 - For each transaction, prints `"Increase: {amount}"` if positive or `"Decrease: {amount}"` if negative, formatted to two decimal places.  
 - Calculates and prints the final balance formatted to two decimals in the format: `"Balance: {balance}"`.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
