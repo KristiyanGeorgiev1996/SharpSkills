@@ -6,60 +6,59 @@ This folder contains tasks from the **Exception Handling** section of the _Progr
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: Square Root
+### Task 1: Square Root Calculation
 
-**Problem Statement:**  
-Write a program that reads an integer number and calculates and prints its square root.
+**Description:**  
+Create a program that reads an integer from input and attempts to compute its square root.
 
-**Requirements:**
-- If the number is negative, print:
-Invalid number.
-- In all cases, print:
-Goodbye.
+**Behavior:**
+- If the input number is negative, output:  
+  `Invalid number.`  
+- Regardless of the input, always print:  
+  `Goodbye.`
 
-**Hint:**
-- Use `try-catch-finally` structure.
-
----
-
-### 📝 Task 2: Enter Numbers
-
-**Problem Statement:**  
-Write a method `ReadNumber(int start, int end)` that enters an integer number in a given range `(start…end)`, excluding `start` and `end`.  
-If an invalid number or non-number text is entered, the method should throw an exception.
-
-**Main Program Logic:**
-- Read 10 numbers: `a1, a2, ..., a10`, such that:
-1 < a1 < a2 < ... < a10 < 100
-  - If the user enters an invalid number, continue prompting until 10 valid numbers are entered.
-- Print the numbers, separated by comma and space `", "`.
-
-**Messages:**
-- If the entered value is not an integer:
-Invalid Number!
-- If the integer is out of range:
-Your number is not in range {start} - 100!
+**Implementation Tip:**  
+Use a `try-catch-finally` block to handle exceptions and ensure `Goodbye.` is printed.
 
 ---
 
-### 📝 Task 3: Sum of Integers
+### Task 2: Number Input with Range Validation
 
-**Problem Statement:**  
-You will receive a sequence of elements of different types, separated by space.  
-Your task is to calculate the sum of all **valid integer numbers** in the input.
+**Description:**  
+Implement a method named `ReadNumber(int start, int end)` that reads an integer within the exclusive range `(start, end)`.
 
-**For each element:**
-- If the element is not a valid format (e.g. string or special characters):  
-The element '{element}' is in wrong format!
-- If the element is out of the integer range:  
-The element '{element}' is out of range!
+**Details:**
+- If the input is not a valid integer or outside the allowed range, the method should throw an exception.
+- Your main program should collect 10 valid integers `a1, a2, ..., a10` satisfying:  
+  `1 < a1 < a2 < ... < a10 < 100`
+- If an invalid value is entered, prompt the user again until all 10 valid numbers are read.
 
-**After each processed element:**
-- Print:  
-Element '{element}' processed - current sum: {sum}
+**Error Messages:**
+- For non-integer input:  
+  `Invalid Number!`
+- For integers outside the range:  
+  `Your number is not in range {start} - 100!`
 
-**Final Output:**
-- After all elements are processed, print:  
-The total sum of all integers is: {sum}
+**Output:**  
+After successfully reading all numbers, print them separated by commas and spaces, like:  
+`a1, a2, ..., a10`
 
 ---
+
+### Task 3: Summation of Integers from Mixed Input
+
+**Description:**  
+You will be given a sequence of elements separated by spaces, which can be of different data types. Your goal is to calculate the sum of all valid integers among these elements.
+
+**Processing Rules:**
+- For each element:
+  - If it cannot be parsed as an integer (invalid format), print:  
+    `The element '{element}' is in wrong format!`
+  - If the element is outside the valid integer range, print:  
+    `The element '{element}' is out of range!`
+- After processing each element (whether added or skipped), print:  
+  `Element '{element}' processed - current sum: {sum}`
+
+**Final Output:**  
+After all elements have been processed, print:  
+`The total sum of all integers is: {sum}`
