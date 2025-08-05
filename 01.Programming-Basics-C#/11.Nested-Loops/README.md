@@ -2,28 +2,28 @@
 
 This folder contains tasks from the **Nested Loops** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 Tasks Overview
+## 🔧 Tasks Overview
 
-### 📝 Task 1: [Clock]  
+### 📝 Task 1: Clock  
 **Description:**  
 Create a program that outputs every minute of a full day, starting at 00:00 and ending at 23:59. Each time should be displayed on its own line in the format "{hour}:{minute}".
 
 ---
 
-### 📝 Task 2: [Multiplication Table]  
+### 📝 Task 2: Multiplication Table  
 **Description:**  
 Generate and print the multiplication table for numbers 1 through 10. Each line should show the multiplication expression and its result like this:  
 "{first number} * {second number} = {product}".
 
 ---
 
-### 📝 Task 3: [Combinations]  
+### 📝 Task 3: Combinations  
 **Description:**  
 Calculate the number of possible triples of non-negative integers (including zero) whose sum equals a user-provided integer n.
 
 ---
 
-### 📝 Task 4: [Sum of Two Numbers]  
+### 📝 Task 4: Sum of Two Numbers  
 **Description:**  
 Given a numeric range and a target "magic" number, examine all pairs of numbers within the range. Your program should find the first pair whose sum equals the target. If found, display the combination number and the pair. If no such pair exists, indicate the total combinations tested and that none matched the sum.
 
@@ -40,13 +40,13 @@ Given a numeric range and a target "magic" number, examine all pairs of numbers 
 
 ---
 
-### 📝 Task 5: [Travel]  
+### 📝 Task 5: Travel  
 **Description:**  
 Ani wants to visit multiple destinations during the year. For each destination, she inputs the place name and the minimum budget needed. She then accumulates savings until she reaches or surpasses that budget, at which point the program announces her travel to that destination. The process continues until "End" is entered, signaling no more travel plans.
 
 ---
 
-### 📝 Task 6: [Building]  
+### 📝 Task 6: Building  
 **Description:**  
 Design a program that prints the labels of rooms in a building, starting from the highest floor down to the ground floor, based on the following rules:
 
