@@ -6,7 +6,7 @@ This folder contains tasks from the **Object and Classes** section of the _Progr
 
 ## 🔧 Tasks Overview
 
-### Task 1: Songs Collection
+### 📝 Task 1: Songs Collection
 
 **Description:**  
 Create a class `Song` that holds the following properties:  
@@ -26,7 +26,7 @@ Create a class `Song` that holds the following properties:
 
 ---
 
-### Task 2: Student Records
+### 📝 Task 2: Student Records
 
 **Description:**  
 Define a class `Student` with the following fields:  
@@ -45,7 +45,7 @@ Define a class `Student` with the following fields:
 
 ---
 
-### Task 3: Warehouse Boxes
+### 📝 Task 3: Warehouse Boxes
 
 **Description:**  
 Create two classes:  
@@ -68,7 +68,7 @@ Create two classes:
 
 ---
 
-### Task 4: Vehicle Catalogue
+### 📝 Task 4: Vehicle Catalogue
 
 **Description:**  
 Build a vehicle catalogue that stores only Cars and Trucks.
