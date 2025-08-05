@@ -4,109 +4,106 @@ This folder contains tasks from the **Exercise - Data Types, Variables and Key C
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Reversed Numbers
-**Problem Statement:**  
-Write a program that:
+### Task 1: Reverse Order of Numbers
 
-- Reads three floating-point numbers from the console  
-- Prints them in reversed order, each number on a new line
+Create a program that reads three floating-point numbers from the input and then prints them in reverse order, each on a separate line.
 
 ---
 
-### 📝 Task 2: Centuries to Minutes
-**Problem Statement:**  
+### Task 2: Convert Centuries to Minutes
+
 Write a program that:
 
-- Reads an integer representing centuries  
-- Converts:
-  - Centuries to years (1 century = 100 years)  
-  - Years to days (1 year = 365.2422 days)  
-  - Days to hours (1 day = 24 hours)  
-  - Hours to minutes (1 hour = 60 minutes)  
+- Reads an integer representing a number of centuries  
+- Converts centuries to years (1 century = 100 years)  
+- Converts years to days using 365.2422 days per year  
+- Converts days to hours (24 hours per day)  
+- Converts hours to minutes (60 minutes per hour)  
 - Prints the result in the format:  
   `"{centuries} centuries = {years} years = {days} days = {hours} hours = {minutes} minutes"`
 
 ---
 
-### 📝 Task 3: Redecorating
-**Problem Statement:**  
-Rumen wants to repaint his living room and needs a cost estimate. Material prices:
+### Task 3: Repainting Cost Calculator
 
-- Nylon – 1.50 BGN/m²  
-- Paint – 14.50 BGN/l  
-- Thinner – 5.00 BGN/l  
-- Extra: +10% paint, +2 m² nylon, +0.40 BGN for bags  
-- Craftsmen cost = 30% of total materials cost
+Rumen plans to repaint his living room and wants to calculate the total expense. The costs per material are:
 
-**Input (from console):**
+- Nylon: 1.50 BGN per square meter  
+- Paint: 14.50 BGN per liter  
+- Thinner: 5.00 BGN per liter  
 
-1. Nylon needed (int) [1...100]  
-2. Paint needed (int) [1...100]  
-3. Thinner quantity (int) [1...75]  
-4. Hours of work (int) [1...50]
+Additional considerations:  
+- Add 10% extra paint  
+- Add 2 extra square meters of nylon  
+- Add 0.40 BGN for bags  
+- Labor cost is 30% of the total material cost
+
+**Input:**  
+- Nylon quantity (int)  
+- Paint quantity (int)  
+- Thinner quantity (int)  
+- Working hours (int)
 
 **Output:**  
-Print: `{total cost}`
+Print the total cost.
 
 ---
 
-### 📝 Task 4: Food Delivery
-**Problem Statement:**  
-Calculate the total cost of a food delivery order.
+### Task 4: Food Delivery Cost Calculator
 
-Menu prices:
+Calculate the total price for a food delivery order with the following menu prices:
 
-- Chicken – 10.35 BGN  
-- Fish – 12.40 BGN  
-- Vegetarian – 8.15 BGN  
-- Dessert = 20% of total food price  
-- Delivery = 2.50 BGN
+- Chicken menu: 10.35 BGN  
+- Fish menu: 12.40 BGN  
+- Vegetarian menu: 8.15 BGN  
 
-**Input (from console):**
+Additional charges:  
+- Dessert costs 20% of the total food price  
+- Delivery fee is 2.50 BGN
 
-1. Chicken menus (int) [0...99]  
-2. Fish menus (int) [0...99]  
-3. Vegetarian menus (int) [0...99]
+**Input:**  
+- Number of chicken menus (int)  
+- Number of fish menus (int)  
+- Number of vegetarian menus (int)
 
 **Output:**  
-Print: `{order price}`
+Print the total order cost.
 
 ---
 
-### 📝 Task 5: Basketball Equipment
-**Problem Statement:**  
-Jesse needs to buy basketball gear. Given the annual training fee:
+### Task 5: Basketball Equipment Expense
 
-- Sneakers = 40% less than fee  
-- Uniform = 20% less than sneakers  
-- Ball = 25% of uniform price  
-- Accessories = 20% of ball price
+Jesse is buying equipment for basketball training. Given the annual training fee, calculate total expenses:  
 
-**Input (from console):**
+- Sneakers cost 40% less than the training fee  
+- Uniform costs 20% less than the sneakers  
+- Ball costs 25% of the uniform price  
+- Accessories cost 20% of the ball price  
 
-- Training fee (int) [0...9999]
+**Input:**  
+- Annual training fee (int)
 
 **Output:**  
-Print total cost Jesse will spend.
+Print the total amount Jesse will spend.
 
 ---
 
-### 📝 Task 6: Aquarium
-**Problem Statement:**  
-Calculate how many liters of water are needed to fill an aquarium.
+### Task 6: Aquarium Water Volume Calculator
 
-- Shape: rectangular (W × H × L in cm)  
-- 1 liter = 1 dm³  
-- A certain percentage is occupied by other materials
+Calculate the volume of water required to fill a rectangular aquarium.
 
-**Input (from console):**
+- Aquarium dimensions are given in centimeters (Length × Width × Height)  
+- 1 liter equals 1 cubic decimeter (dm³)  
+- Some percentage of the aquarium volume is occupied by decorations or equipment
 
-1. Length (int) [10...500]  
-2. Width (int) [10...300]  
-3. Height (int) [10...200]  
-4. Occupied percentage (float) [0.000...100.000]
+**Input:**  
+- Length (int)  
+- Width (int)  
+- Height (int)  
+- Occupied volume percentage (float)
 
 **Output:**  
-Print the liters of water needed, formatted to 2 decimal places.
+Print the required water volume in liters, formatted to two decimal places.
 
 ---
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
