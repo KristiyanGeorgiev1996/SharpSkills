@@ -2,9 +2,9 @@
 
 This folder contains tasks from the **Nested Loops - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 Tasks Overview
+## 🔧 Tasks Overview
 
-### 📝 Task 1: [Number Pyramid]  
+### 📝 Task 1: Number Pyramid  
 **Description:**  
 Create a program that takes an integer n as input and prints a pyramid of numbers. Each line starts at 1 and counts up to the line number, forming a number pyramid with n rows. Each row should be printed on a new line, as shown in the examples.
 
@@ -29,13 +29,13 @@ Create a program that takes an integer n as input and prints a pyramid of number
 
 ---
 
-### 📝 Task 2: [Equal Sums of Even and Odd Positions]  
+### 📝 Task 2: Equal Sums of Even and Odd Positions  
 **Description:**  
 Write a program that reads two six-digit numbers between 100000 and 300000 (inclusive). The first number is always smaller than the second. Your program should print all numbers in this range where the sum of the digits in even positions equals the sum of the digits in odd positions. If no such numbers exist, print nothing.
 
 ---
 
-### 📝 Task 3: [Sum of Prime and Non-Prime Numbers]  
+### 📝 Task 3: Sum of Prime and Non-Prime Numbers  
 **Description:**  
 Develop a program that continuously reads integers until the command "stop" is received. It should calculate the sum of all prime numbers and the sum of all non-prime numbers separately. If a negative number is entered, print "Number is negative." and disregard that number (do not add it to any sum).
 
@@ -45,7 +45,7 @@ Develop a program that continuously reads integers until the command "stop" is r
 
 ---
 
-### 📝 Task 4: [Train the Trainers]  
+### 📝 Task 4: Train the Trainers  
 **Description:**  
 The "Train the Trainers" course is coming to an end, and the jury needs to evaluate the presentations. Write a program that calculates the average grade for each presentation based on jury scores, and finally computes the overall average grade for all presentations.
 
@@ -64,7 +64,7 @@ All grades should be formatted to two decimal places.
 
 ---
 
-### 📝 Task 5: [Special Numbers]  
+### 📝 Task 5: Special Numbers  
 **Description:**  
 Write a program that reads an integer N and finds all "special" numbers between 1111 and 9999. A number is considered special if N is evenly divisible by each of its digits.
 
@@ -79,7 +79,7 @@ Print all special numbers separated by spaces.
 
 ---
 
-### 📝 Task 6: [Cinema Tickets]  
+### 📝 Task 6: Cinema Tickets  
 **Description:**  
 Write a program to track ticket sales for multiple movie screenings. For each screening, you will read the movie name, the number of free seats, and then the type of each ticket sold ("student", "standard", or "kid") until the hall is full or "End" is entered.
 
@@ -98,5 +98,7 @@ Your program should calculate and display the percentage of seats filled for eac
   - "{percentage}% student tickets."  
   - "{percentage}% standard tickets."  
   - "{percentage}% kids tickets."
+
+---
 
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
