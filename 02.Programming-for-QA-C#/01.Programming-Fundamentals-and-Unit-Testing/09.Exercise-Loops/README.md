@@ -4,7 +4,7 @@ This folder contains tasks from the **Exercise - Loops** section of the _Program
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Power of Number]  
+### 📝 Task 1: Power of Number 
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer `n` from input.  
@@ -15,7 +15,7 @@ Note: Don't use Math.Pow(), use loops
 
 ---
 
-### 📝 Task 2: [Multiplication Table]  
+### 📝 Task 2: Multiplication Table  
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer `n` from input.  
@@ -25,7 +25,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 3: [Biggest Number]  
+### 📝 Task 3: Biggest Number  
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer `n` – the count of numbers to read.  
@@ -34,7 +34,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 4: [Vowel Sum]  
+### 📝 Task 4: Vowel Sum  
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer `N` representing the number of characters.  
@@ -44,7 +44,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 5: [Division to 2, 3 and 4]  
+### 📝 Task 5: Division to 2, 3 and 4  
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer `N`.  
@@ -57,7 +57,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 6: [Special Number]  
+### 📝 Task 6: Special Number  
 **Problem Statement:**  
 Write a program that:  
 - Reads an integer number.  
@@ -67,7 +67,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 7: [Special Bonus]  
+### 📝 Task 7: Special Bonus  
 **Problem Statement:**  
 Write a program that:  
 - Reads integers until a specific "stop number" is entered.  
@@ -76,7 +76,7 @@ Write a program that:
 
 ---
 
-### 📝 Task 8: [Account Balance]  
+### 📝 Task 8: Account Balance  
 **Problem Statement:**  
 Write a program that:  
 - Reads a sequence of money transactions (incomes or expenses) until the command `"End"` is entered.  
