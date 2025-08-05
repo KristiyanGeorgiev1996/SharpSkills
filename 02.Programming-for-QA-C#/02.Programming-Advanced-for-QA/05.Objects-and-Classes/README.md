@@ -6,89 +6,90 @@ This folder contains tasks from the **Object and Classes** section of the _Progr
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Songs
+### Task 1: Songs Collection
 
-**Problem Statement:**  
-Define a class `Song` that holds the following information:
-- `TypeList` (string)
-- `Name` (string)
-- `Time` (string)
+**Description:**  
+Create a class `Song` that holds the following properties:  
+- `TypeList` (string)  
+- `Name` (string)  
+- `Time` (string)  
 
-**Input:**
-- First line: an integer `N` – the number of songs.
-- Next `N` lines: song data in the format:  
-{typeList}{name}{time}
-- Last line: a `TypeList` or `"all"`.
+**Input:**  
+- The first line contains an integer `N` – the number of songs.  
+- The next `N` lines contain song details in the format:  
+  `{TypeList}{Name}{Time}`  
+- The last line contains either a specific `TypeList` or the word `"all"`.
 
-**Output:**
-- If a specific `TypeList` is given, print only the names of the songs that match.
-- If `"all"` is received, print the names of **all** songs.
-
----
-
-### 📝 Task 2: Students
-
-**Problem Statement:**  
-Define a class `Student` with the following fields:
-- `firstName` (string)
-- `lastName` (string)
-- `age` (int)
-- `homeTown` (string)
-
-**Input:**
-- Read student data until the `"end"` command.
-- Then read a city name.
-
-**Output:**
-- Print students from the given city in the format:
-{firstName} {lastName} is {age} years old.
+**Output:**  
+- If a specific `TypeList` is provided, print only the names of the songs matching that type.  
+- If `"all"` is given, print the names of all songs.
 
 ---
 
-### 📝 Task 3: Store Boxes
+### Task 2: Student Records
 
-**Problem Statement:**  
-Define two classes:
-- `Item` with properties: `Name` (string), `Price` (decimal)
+**Description:**  
+Define a class `Student` with the following fields:  
+- `firstName` (string)  
+- `lastName` (string)  
+- `age` (int)  
+- `homeTown` (string)  
+
+**Input:**  
+- Read student information until the `"end"` command is received.  
+- Then read the name of a city.
+
+**Output:**  
+- Print the details of the students from the specified city in the format:  
+  `{firstName} {lastName} is {age} years old.`
+
+---
+
+### Task 3: Warehouse Boxes
+
+**Description:**  
+Create two classes:  
+- `Item` with properties: `Name` (string), `Price` (decimal)  
 - `Box` with properties:  
-- `SerialNumber` (string)  
-- `Item` (object of class Item)  
-- `ItemQuantity` (int)  
-- `PriceForABox` (decimal, calculated as `ItemQuantity * Item.Price`)
+  - `SerialNumber` (string)  
+  - `Item` (an instance of the `Item` class)  
+  - `ItemQuantity` (int)  
+  - `PriceForABox` (decimal), calculated as `ItemQuantity * Item.Price`
 
-**Input:**
+**Input:**  
 - Read lines in the format:  
-{SerialNumber} {ItemName} {ItemQuantity} {ItemPrice}
-- Stop reading when `"end"` is received.
+  `{SerialNumber} {ItemName} {ItemQuantity} {ItemPrice}`  
+- Stop reading input when `"end"` is received.
 
-**Output:**
-- Print all boxes **ordered by total box price descending**, in the format:
-{SerialNumber} -- {ItemName} – ${ItemPrice}: {ItemQuantity} -- ${TotalPrice}
-
-- Prices should be formatted to **2 decimal places**.
+**Output:**  
+- Print all boxes ordered by their total price (`PriceForABox`) in descending order, in the format:  
+  `{SerialNumber} -- {ItemName} – ${ItemPrice}: {ItemQuantity} -- ${PriceForABox}`  
+- Prices should be formatted to 2 decimal places.
 
 ---
 
-### 📝 Task 4: Vehicle Catalogue
+### Task 4: Vehicle Catalogue
 
-**Problem Statement:**  
-Create a vehicle catalogue that stores only **Cars** and **Trucks**.
+**Description:**  
+Build a vehicle catalogue that stores only Cars and Trucks.
 
-**Classes to define:**
-- `Truck`: Brand, Model, Weight
-- `Car`: Brand, Model, Horse Power
-- `Catalog`: Lists of Cars and Trucks
+**Classes:**  
+- `Truck` with properties: Brand, Model, Weight  
+- `Car` with properties: Brand, Model, Horse Power  
+- `Catalog` containing lists of Cars and Trucks
 
-**Input:**
-- Read lines in the format:  
-{type}/{brand}/{model}/{horsePower or weight}
-- Stop reading when `"end"` is received.
+**Input:**  
+- Read input lines in the format:  
+  `{type}/{brand}/{model}/{horsePower or weight}`  
+- Stop reading when `"end"` is entered.
 
-**Output:**
-- Print the vehicles ordered **alphabetically by brand** in the format:
-Cars: {Brand}: {Model} - {Horse Power}hp
-
-Trucks: {Brand}: {Model} - {Weight}kg
+**Output:**  
+- Print the vehicles ordered alphabetically by brand, in the format:  
+  `Cars:`  
+  `{Brand}: {Model} - {Horse Power}hp`  
+  `Trucks:`  
+  `{Brand}: {Model} - {Weight}kg`
 
 ---
 
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
