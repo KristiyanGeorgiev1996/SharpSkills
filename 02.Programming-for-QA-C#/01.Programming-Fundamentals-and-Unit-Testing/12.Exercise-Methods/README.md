@@ -4,7 +4,7 @@ This folder contains tasks from the **Exercise - Methods** section of the _Progr
 
 ## 🔧 Tasks Overview:
 
-## Task 1: Vowels Count  
+### 📝 Task 1: Vowels Count  
 Write a program that:  
 - Reads a text (string) from the console  
 - Implements a method that receives the text and returns the count of vowels in it  
@@ -12,7 +12,7 @@ Write a program that:
 
 ---
 
-## Task 2: Factorial Division  
+### 📝 Task 2: Factorial Division  
 Write a program that:  
 - Reads two integers in the range [1…10] from the console  
 - Calculates the factorial of each number  
@@ -21,7 +21,7 @@ Write a program that:
 
 ---
 
-## Task 3: Multiplication Sign  
+### 📝 Task 3: Multiplication Sign  
 Write a program that:  
 - Reads three integers (num1, num2, num3) from the console  
 - Determines whether the product num1 * num2 * num3 is negative, positive or zero  
@@ -34,7 +34,7 @@ Write a program that:
 
 ---
 
-## Task 4: Password Validator  
+### 📝 Task 4: Password Validator  
 Write a program that validates a password with the following rules:  
 - Password length must be between 6 and 10 characters (inclusive)  
 - Password must consist only of letters and digits  
@@ -47,7 +47,7 @@ For every rule not fulfilled, print the corresponding message:
 
 ---
 
-## Task 5: Multiply Evens by Odds  
+### 📝 Task 5: Multiply Evens by Odds  
 Write a program that:  
 - Reads an integer number from the console  
 - Implements:  
@@ -58,7 +58,7 @@ Write a program that:
 
 ---
 
-## Task 6: Orders  
+### 📝 Task 6: Orders  
 Write a program that:  
 - Reads a product name (string): "coffee", "water", "coke", or "snacks"  
 - Reads a quantity (integer)  
