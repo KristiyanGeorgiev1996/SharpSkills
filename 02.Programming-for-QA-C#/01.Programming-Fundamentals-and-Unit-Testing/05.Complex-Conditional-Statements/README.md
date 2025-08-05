@@ -4,7 +4,7 @@ This folder contains tasks from the **Complex Conditional Statements** section o
 
 ## 🔧 Tasks Overview
 
-### Task 1: Product Price Lookup
+### 📝 Task 1: Product Price Lookup
 
 Create a program that:
 
@@ -14,7 +14,7 @@ Create a program that:
 
 ---
 
-### Task 2: Find the Largest of Three Numbers
+### 📝 Task 2: Find the Largest of Three Numbers
 
 Write a program that:
 
@@ -23,7 +23,7 @@ Write a program that:
 
 ---
 
-### Task 3: Calculate Bonus Points
+### 📝 Task 3: Calculate Bonus Points
 
 Write a program that:
 
@@ -36,7 +36,7 @@ Write a program that:
 
 ---
 
-### Task 4: Classify Product as Food or Drink
+### 📝 Task 4: Classify Product as Food or Drink
 
 Write a program that:
 
@@ -47,7 +47,7 @@ Write a program that:
 
 ---
 
-### Task 5: Validate Number Range
+### 📝 Task 5: Validate Number Range
 
 Write a program that:
 
@@ -57,7 +57,7 @@ Write a program that:
 
 ---
 
-### Task 6: Day Name by Number
+### 📝 Task 6: Day Name by Number
 
 Write a program that:
 
@@ -74,7 +74,7 @@ Write a program that:
 
 ---
 
-### Task 7: Identify Vowel or Consonant
+### 📝 Task 7: Identify Vowel or Consonant
 
 Write a program that:
 
@@ -84,7 +84,7 @@ Write a program that:
 
 ---
 
-### Task 8: Check Sorting Order of Three Numbers
+### 📝 Task 8: Check Sorting Order of Three Numbers
 
 Write a program that:
 
@@ -95,7 +95,7 @@ Write a program that:
 
 ---
 
-### Task 9: Cinema Ticket Cost Calculator
+### 📝 Task 9: Cinema Ticket Cost Calculator
 
 Write a program that:
 
