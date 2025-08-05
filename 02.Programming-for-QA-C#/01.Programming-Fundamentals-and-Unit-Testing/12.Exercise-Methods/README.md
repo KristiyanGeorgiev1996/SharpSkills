@@ -71,4 +71,5 @@ Write a program that:
 - Prints the total price formatted to 2 decimal places
 
 ---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
