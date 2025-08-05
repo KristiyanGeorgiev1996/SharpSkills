@@ -4,7 +4,7 @@ This folder contains tasks from the **Simple Conditional Statements** section of
 
 ## 🔧 Tasks Overview
 
-### Task 1: Freezing Weather Check
+### 📝 Task 1: Freezing Weather Check
 
 Create a program that:
 
@@ -14,7 +14,7 @@ Create a program that:
 
 ---
 
-### Task 2: Even or Odd Number
+### 📝 Task 2: Even or Odd Number
 
 Write a program that:
 
@@ -24,7 +24,7 @@ Write a program that:
 
 ---
 
-### Task 3: Number to Word (1 to 9)
+### 📝 Task 3: Number to Word (1 to 9)
 
 Write a program that:
 
@@ -43,7 +43,7 @@ Write a program that:
 
 ---
 
-### Task 4: Find the Greater Number
+### 📝 Task 4: Find the Greater Number
 
 Write a program that:
 
@@ -54,7 +54,7 @@ Write a program that:
 
 ---
 
-### Task 5: Password Validation
+### 📝 Task 5: Password Validation
 
 Write a program that:
 
@@ -64,7 +64,7 @@ Write a program that:
 
 ---
 
-### Task 6: Boiling Water Check
+### 📝 Task 6: Boiling Water Check
 
 Write a program that:
 
@@ -74,7 +74,7 @@ Write a program that:
 
 ---
 
-### Task 7: Speed Classification
+### 📝 Task 7: Speed Classification
 
 Write a program that:
 
@@ -84,7 +84,7 @@ Write a program that:
 
 ---
 
-### Task 8: Ticket Price Calculator
+### 📝 Task 8: Ticket Price Calculator
 
 Write a program that:
 
@@ -96,7 +96,7 @@ Write a program that:
 
 ---
 
-### Task 9: Triangle Validity Check
+### 📝 Task 9: Triangle Validity Check
 
 Write a program that:
 
