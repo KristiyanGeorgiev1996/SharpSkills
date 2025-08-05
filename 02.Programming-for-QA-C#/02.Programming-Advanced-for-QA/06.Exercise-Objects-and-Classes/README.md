@@ -6,124 +6,123 @@ This folder contains tasks from the **Objects and Classes - Exercise** section o
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: Students  
-**Problem Statement:**  
-Create a program that sorts students by their grade in descending order.
+# Programming Tasks
 
-Each student should have:
-- First name (string)
-- Last name (string)
-- Grade (floating-point number)
+### Task 1: Student Sorting
 
-**Input:**
-- First line: number `n` – the number of students.
-- Next `n` lines: student data in the format:  
-{firstName} {lastName} {grade}
+**Description:**  
+Write a program that orders students based on their grades from highest to lowest.
 
-**Output:**
-- Print the students in the following format:  
-{firstName} {lastName}: {grade}
+Each student should have these attributes:  
+- First name (string)  
+- Last name (string)  
+- Grade (floating-point number)  
 
----
+**Input:**  
+- The first line contains an integer `n` representing the number of students.  
+- The following `n` lines each contain student information in the format:  
+  `{firstName} {lastName} {grade}`  
 
-### 📝 Task 2: Articles  
-**Problem Statement:**  
-Create a class `Article` with the following properties:
-- `Title` (string)
-- `Content` (string)
-- `Author` (string)
-
-**Methods:**
-- `Edit(newContent)` – change the content
-- `ChangeAuthor(newAuthor)` – change the author
-- `Rename(newTitle)` – change the title
-- Override `ToString()` to return:  
-{title} - {content}: {author}
-
-**Input:**
-- First line: initial article in the format:  
-{title}, {content}, {author}
-- Next line: integer `n` – number of commands.
-- Next `n` lines: commands in one of the following formats:
-- `Edit: {new content}`
-- `ChangeAuthor: {new author}`
-- `Rename: {new title}`
-
-**Output:**
-- Print the final state of the article.
+**Output:**  
+- Print each student in descending order by grade, following the format:  
+  `{firstName} {lastName}: {grade}`
 
 ---
 
-### 📝 Task 3: Teamwork Projects  
-**Problem Statement:**  
-Manage the registration and assignment of users to teams.
+### Task 2: Article Management
 
-**Input:**
-- First line: number of teams to register
-- Next lines: team creation in the format:  
-{creator}-{teamName}
-On creation:
-Team {teamName} has been created by {creator}!
+**Description:**  
+Implement a class called `Article` with the properties:  
+- `Title` (string)  
+- `Content` (string)  
+- `Author` (string)  
 
-- After that, assignment of members in the format:  
-{user}-> {teamName}
-- Ends with: `"end of assignment"`
+Include the following methods:  
+- `Edit(newContent)` – updates the article content  
+- `ChangeAuthor(newAuthor)` – modifies the author name  
+- `Rename(newTitle)` – updates the title  
+- Override the `ToString()` method to return:  
+  `{title} - {content}: {author}`  
 
-**Rules:**
-- If a team with the same name exists:  
-Team {teamName} was already created!
-- If a creator tries to create another team:  
-{user} cannot create another team!
-- If user tries to join non-existent team:  
-Team {teamName} does not exist!
-- If a user is already part of a team:  
-Member {user} cannot join team {teamName}!
+**Input:**  
+- The first input line contains the initial article info in the format:  
+  `{title}, {content}, {author}`  
+- Next, read an integer `n` for the number of commands to follow.  
+- The next `n` lines are commands in one of these formats:  
+  - `Edit: {new content}`  
+  - `ChangeAuthor: {new author}`  
+  - `Rename: {new title}`  
 
-**Output:**
-- Print valid teams ordered by:
-- Member count (descending)
-- Then by team name (ascending)
-
-For each team:
-{teamName}
-
-{creator} -- {member1} -- {member2} ...
-
-- Print disbanded teams with no members (only a creator), sorted by name:
-Teams to disband: {teamName1} {teamName2} ...
+**Output:**  
+- Display the article’s final state after all commands have been applied.
 
 ---
 
-### 📝 Task 4: Pokemon Trainer  
-**Problem Statement:**  
-Simulate a Pokémon tournament using classes `Trainer` and `Pokemon`.
+### Task 3: Teamwork Projects Management
 
-**Class `Trainer`:**
-- `Name`
-- `NumberOfBadges`
-- `List<Pokemon>`
+**Description:**  
+Create a system to register teams and assign users to them.
 
-**Class `Pokemon`:**
-- `Name`
-- `Element`
-- `Health`
+**Input:**  
+- First, read the number of teams to create.  
+- For each team, input the creation line in the format:  
+  `{creator}-{teamName}`  
+  Upon successful creation, print:  
+  `Team {teamName} has been created by {creator}!`  
 
-**Input Phase 1:**
-- Read lines in the format:  
-{trainerName} {pokemonName} {pokemonElement} {pokemonHealth}
-- Until: `"Tournament"`
+- Then read member assignments in the format:  
+  `{user}-> {teamName}`  
+- Stop reading when you receive `"end of assignment"`.
 
-**Input Phase 2:**
-- Read commands: `"Fire"`, `"Water"`, `"Electricity"`
-- Until: `"End"`
+**Constraints & Validation:**  
+- If the team name is already taken, print:  
+  `Team {teamName} was already created!`  
+- If a creator attempts to create more than one team, print:  
+  `{user} cannot create another team!`  
+- If a user tries to join a non-existent team, print:  
+  `Team {teamName} does not exist!`  
+- If a user is already in any team, print:  
+  `Member {user} cannot join team {teamName}!`  
 
-**Rules:**
-- If a trainer has a Pokémon with the required element → gets 1 badge.
-- Else → all their Pokémon lose 10 health.
-- Remove Pokémon with `Health <= 0`.
+**Output:**  
+- Print teams with members sorted by member count (descending), then by team name (ascending).  
+- For each team print:  
+  `{teamName}`  
+  `{creator} -- {member1} -- {member2} ...`  
 
-**Output:**
-- Print all trainers ordered by badges (descending), format:
-{trainerName} {badges} {numberOfPokemon}
+- Finally, print teams without members (only creator) sorted alphabetically:  
+  `Teams to disband: {teamName1} {teamName2} ...`
 
 ---
+
+### Task 4: Pokémon Trainer Simulation
+
+**Description:**  
+Model a Pokémon tournament using `Trainer` and `Pokemon` classes.
+
+**Class `Trainer`:**  
+- `Name` (string)  
+- `NumberOfBadges` (int)  
+- `Pokemons` (list of `Pokemon` objects)  
+
+**Class `Pokemon`:**  
+- `Name` (string)  
+- `Element` (string)  
+- `Health` (int)  
+
+**Input Phase 1:**  
+- Read lines until `"Tournament"` in the format:  
+  `{trainerName} {pokemonName} {pokemonElement} {pokemonHealth}`  
+
+**Input Phase 2:**  
+- After that, read commands until `"End"`:  
+  Possible commands: `"Fire"`, `"Water"`, `"Electricity"`
+
+**Rules:**  
+- If a trainer has at least one Pokémon with the specified element, increase their badges by 1.  
+- Otherwise, reduce health of all their Pokémon by 10.  
+- Remove Pokémon with health less or equal to 0.
+
+**Output:**  
+- Print all trainers ordered by number of badges (descending), in the format:  
+  `{trainerName} {NumberOfBadges} {countOfPokemons}`
