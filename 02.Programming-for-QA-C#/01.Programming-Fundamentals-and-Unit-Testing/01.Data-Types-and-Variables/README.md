@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **Data Types and Variables** section of the _Programming Fundamentals and Unit Testing_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 Tasks Overview
+## 🔧 Tasks Overview
 
 
 ### 📝 Task 1: Hello C#
