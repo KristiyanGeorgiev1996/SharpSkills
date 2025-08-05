@@ -221,4 +221,6 @@ After the discount, the evaluation affects the final price:
 
 Print the final amount formatted to two decimals.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
