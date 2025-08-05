@@ -4,75 +4,57 @@ This folder contains tasks from the **While Loop** section of the _Programming F
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Numbers 1 to 100]  
-**Problem Statement:**  
+### Task 1: Print Numbers from 1 to 100
+Write a program that prints the numbers from 1 to 100, each on a new line.
+
+---
+
+### Task 2: Print Numbers from N Down to 1
 Write a program that:
-
-- Print the numbers from 1 to 100, each on separate line
+- Reads an integer `N` from input.
+- Prints numbers from `N` down to 1, each on a new line.
+> Note: `N` will always be greater than 1.
 
 ---
 
-### 📝 Task 2: [Decreasing Numbers]  
-**Problem Statement:**  
+### Task 3: Read Odd Number
 Write a program that:
-
-- Reads an integer number N
-- Print the numbers from N down to 1 (inclusively), each on separate line
-
-Note: N will always be bigger than 1.
+- Continuously reads numbers from the input until an odd number is entered.
+- Prints the odd number once it is entered.
 
 ---
 
-### 📝 Task 3: [Odd Number]  
-**Problem Statement:**  
-Write a program to enter an odd number:
-
-- Read numbers from the console until an odd number is entered
-- Print the odd number as output
-
----
-
-### 📝 Task 4: [Sequence 2k + 1]  
-**Problem Statement:**  
-Write a program to print a sequence of numbers:
-
-- The first number is 1
-- Each next number is 2 times the previous number + 1
-- Read an integer number n from the console – the max number
-- Print the elements of the sequence (starting with 1), which are ≤ n
+### Task 4: Print Sequence 2k + 1
+Write a program that:
+- Starts the sequence at 1.
+- Generates the next number as `previous_number * 2 + 1`.
+- Reads an integer `n` from input.
+- Prints all numbers in the sequence that are less than or equal to `n`.
 
 ---
 
-### 📝 Task 5: [Sum Digits]  
-**Problem Statement:**  
-Write a program to sum the digits of given number:
-
-- Read an integer positive number from the console
-- Sum its digits and print the sum
-
-Example: The number is 3451. Digits sum is 3 + 4 + 5 + 1 = 13.
-
----
-
-### 📝 Task 6: [Number In Range]  
-**Problem Statement:**  
-Write a program to read a number in the range [1 … 100]:
-
-- Read an integer number from the console
-- Check if the number is in the range [1 … 100]
+### Task 5: Sum of Digits
+Write a program that:
+- Reads a positive integer from input.
+- Calculates and prints the sum of its digits.
   
-  o No (number is NOT in the range) → read a new number  
-  o Yes (number is IN the range) → print the number and the program stops
+Example: For input `3451`, output should be `13` (3 + 4 + 5 + 1).
 
 ---
 
-### 📝 Task 7: [Number Processor]  
-**Problem Statement:**  
-Write a program to process a sequence of commands:
+### Task 6: Read Number in Range [1 … 100]
+Write a program that:
+- Reads integer numbers until a number within the range [1 … 100] is entered.
+- Prints the valid number and stops.
 
-- Read an initial number from the input
-- Read and execute a sequence of the following commands:
-  
-  o "Inc" – add 1 to the number (increment)  
-  o "Dec" – subtract 1 from the number (decrement)  
-  o "End" – print the number and stop the program
+---
+
+### Task 7: Number Processor
+Write a program that:
+- Reads an initial integer number.
+- Processes a sequence of commands until the command `"End"` is received:
+  - `"Inc"`: increment the number by 1.
+  - `"Dec"`: decrement the number by 1.
+- After `"End"` command, prints the final number.
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
