@@ -4,7 +4,7 @@ This folder contains tasks from the **Exercise - Lists** section of the _Program
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Change List  
+### 📝 Task 1: Change List  
 Write a program that:
 
 - Reads a list of integers from the console.
@@ -16,7 +16,7 @@ Write a program that:
 
 ---
 
-### Task 2: House Party  
+### 📝 Task 2: House Party  
 Write a program that:
 
 - Reads an integer `n`, representing the number of commands.
@@ -27,7 +27,7 @@ Write a program that:
 
 ---
 
-### Task 3: List Operations  
+### 📝 Task 3: List Operations  
 Write a program that:
 
 - Reads a list of integers from the console.
@@ -42,7 +42,7 @@ Write a program that:
 
 ---
 
-### Task 4: List Manipulation Basics  
+### 📝 Task 4: List Manipulation Basics  
 Write a program that:
 
 - Reads a list of integers from the console.
@@ -56,7 +56,7 @@ Write a program that:
 
 ---
 
-### Task 5: Bomb Numbers  
+### 📝 Task 5: Bomb Numbers  
 Write a program that:
 
 - Reads a sequence of integers from the console.
