@@ -4,7 +4,6 @@ This folder contains tasks from the **Data Types and Variables** section of the 
 
 # 🔧 Tasks Overview
 
----
 
 ### 📝 Task 1: Hello C#
 
