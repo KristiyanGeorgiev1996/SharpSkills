@@ -4,8 +4,6 @@ This folder contains tasks from the **Methods** section of the _Programming Fund
 
 ## 🔧 Tasks Overview:
 
----
-
 ### Task 1: Sign of Integer Number  
 Write a program that:  
 - Reads an integer number N from input.  
@@ -61,3 +59,5 @@ Write a program that:
 - Reads a type (string) and two values of that type from input.  
 - The type can be "int", "char", or "string".  
 - Implements methods to compare two values of the given type and returns the greater one.
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
