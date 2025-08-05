@@ -4,7 +4,7 @@ This folder contains tasks from the **Lists** section of the _Programming Fundam
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Change List  
+### 📝 Task 1: Change List  
 Write a program that:  
 - Reads a list of integers from the console  
 - Then reads commands until "end" is received  
@@ -15,7 +15,7 @@ Write a program that:
 
 ---
 
-### Task 2: List of Products  
+### 📝 Task 2: List of Products  
 Write a program that:  
 - Reads an integer n  
 - Reads n lines with product names  
@@ -23,7 +23,7 @@ Write a program that:
 
 ---
 
-### Task 3: Remove Negatives and Reverse  
+### 📝 Task 3: Remove Negatives and Reverse  
 Write a program that:  
 - Reads a list of integers from the console  
 - Removes all negative numbers from the list  
