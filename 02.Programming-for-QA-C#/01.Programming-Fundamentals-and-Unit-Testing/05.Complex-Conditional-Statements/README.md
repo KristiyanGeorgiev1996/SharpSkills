@@ -4,65 +4,65 @@ This folder contains tasks from the **Complex Conditional Statements** section o
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Marketplace
-**Problem Statement:**  
-Write a program that:
+### Task 1: Product Price Lookup
 
-- Reads two strings from the console: `product` and `day`  
-- Prints the price based on a predefined table (formatted to the second digit)  
-*(See assignment for full price table)*
+Create a program that:
 
----
-
-### 📝 Task 2: Largest Number Out of Three
-**Problem Statement:**  
-Write a program that:
-
-- Reads 3 integer numbers from the console  
-- Prints the largest number
+- Reads two inputs: a product name and a day of the week  
+- Determines and prints the price of the product on that day (formatted to two decimal places)  
+- Refer to the original assignment for the detailed price list
 
 ---
 
-### 📝 Task 3: Bonus Score
-**Problem Statement:**  
+### Task 2: Find the Largest of Three Numbers
+
 Write a program that:
 
-- Reads points (integer) from the console  
-- Adds bonus points based on the range:
-  - 0–3 → +5 points  
-  - 4–6 → +15 points  
-  - 7–9 → +20 points  
-- Prints the final points
+- Reads three integers from the input  
+- Finds and prints the largest number among them
 
 ---
 
-### 📝 Task 4: Food or Drink
-**Problem Statement:**  
+### Task 3: Calculate Bonus Points
+
 Write a program that:
 
-- Reads a product (string)  
-- Prints:
-  - `"food"` if the product is: `"curry"`, `"noodles"`, `"sushi"`, `"spaghetti"`, `"bread"`  
-  - `"drink"` if the product is: `"tea"`, `"water"`, `"coffee"`, `"juice"`  
-  - `"unknown"` otherwise
+- Reads an integer score  
+- Adds bonus points depending on the score range:  
+  - If score is between 0 and 3, add 5 points  
+  - If score is between 4 and 6, add 15 points  
+  - If score is between 7 and 9, add 20 points  
+- Prints the total points after adding bonuses
 
 ---
 
-### 📝 Task 5: Invalid Number
-**Problem Statement:**  
-A number is valid if it is in range [100…200] or is equal to 0.
+### Task 4: Classify Product as Food or Drink
 
-- Reads an integer from the console  
-- Prints `"invalid"` if the number is not valid
+Write a program that:
+
+- Reads the name of a product  
+- Prints `"food"` if the product is one of: `"curry"`, `"noodles"`, `"sushi"`, `"spaghetti"`, or `"bread"`  
+- Prints `"drink"` if the product is one of: `"tea"`, `"water"`, `"coffee"`, or `"juice"`  
+- Prints `"unknown"` if the product is not in the above lists
 
 ---
 
-### 📝 Task 6: Day of Week
-**Problem Statement:**  
+### Task 5: Validate Number Range
+
 Write a program that:
 
-- Reads an integer in the range [1…7]  
-- Prints the corresponding day of the week:
+- Reads an integer number  
+- Checks if the number is either 0 or within the inclusive range 100 to 200  
+- Prints `"invalid"` if the number does not meet the criteria
+
+---
+
+### Task 6: Day Name by Number
+
+Write a program that:
+
+- Reads an integer between 1 and 7  
+- Prints the corresponding weekday name:  
   - 1 → `"Monday"`  
   - 2 → `"Tuesday"`  
   - 3 → `"Wednesday"`  
@@ -70,43 +70,40 @@ Write a program that:
   - 5 → `"Friday"`  
   - 6 → `"Saturday"`  
   - 7 → `"Sunday"`  
-  - Any other → `"Error"`
+- Prints `"Error"` if the number is outside this range
 
 ---
 
-### 📝 Task 7: Vowel or Consonant
-**Problem Statement:**  
+### Task 7: Identify Vowel or Consonant
+
 Write a program that:
 
-- Reads a character (a letter from the English alphabet)  
-- Prints:
-  - `"Vowel"` if the letter is A, E, I, O, U (case-insensitive)  
-  - `"Consonant"` otherwise
+- Reads a single English alphabet letter (case-insensitive)  
+- Prints `"Vowel"` if the letter is one of A, E, I, O, U  
+- Prints `"Consonant"` otherwise
 
 ---
 
-### 📝 Task 8: Sorted Numbers
-**Problem Statement:**  
+### Task 8: Check Sorting Order of Three Numbers
+
 Write a program that:
 
-- Reads 3 distinct integer numbers  
-- Determines the order:
-  - `"Ascending"` if sorted from smallest to largest  
-  - `"Descending"` if sorted from largest to smallest  
-  - `"Not sorted"` otherwise
+- Reads three distinct integers  
+- Prints `"Ascending"` if the numbers are in strictly increasing order  
+- Prints `"Descending"` if the numbers are in strictly decreasing order  
+- Prints `"Not sorted"` if neither condition is met
 
 ---
 
-### 📝 Task 9: Cinema
-**Problem Statement:**  
-Write a program that calculates the total price for all tickets in a cinema:
+### Task 9: Cinema Ticket Cost Calculator
 
-- Reads:
-  - Type of the movie (`"Premiere"`, `"Normal"`, or `"Discount"`)  
-  - Number of rows (integer)  
-  - Number of seats per row (integer)  
-- Calculates the total price based on predefined prices  
-- Prints result formatted to 2 decimal places  
-*(See assignment for full pricing table)*
+Write a program that:
+
+- Reads the movie type (`"Premiere"`, `"Normal"`, or `"Discount"`), the number of rows, and seats per row  
+- Calculates the total ticket price based on the movie type and seat count  
+- Prints the total cost formatted to two decimal places  
+- Refer to the original assignment for exact price details
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
