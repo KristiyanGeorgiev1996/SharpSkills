@@ -4,10 +4,6 @@ This folder contains tasks from the **Nested Loops** section of the _Programming
 
 ## 🔧 Tasks Overview:
 
-# Programming Exercises — Loops and Conditions (Part 3)
-
----
-
 ## Task 1: Numbers From N to 1  
 Write a program that:  
 - Reads an integer number N from input.  
