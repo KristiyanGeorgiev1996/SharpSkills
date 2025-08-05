@@ -8,53 +8,57 @@ This folder contains tasks from the **Dictionaries, Lambda and LINQ - Exercise**
 
 ### 📝 Task 1: Count Chars in a String
 
-**Problem Statement:**  
-Create a program that:
-- Counts all characters in a string, **excluding spaces**.
-- Prints the results in the following format:
+**Description:**  
+Write a program that:
+- Counts how many times each character appears in a given string.
+- Ignores all whitespace characters.
+
+**Output Format:**  
 {char} -> {occurrences}
 
 ---
 
 ### 📝 Task 2: A Miner Task
 
-**Problem Statement:**  
-Create a program that:
-- Reads strings line by line: every **odd line** is a resource name, and every **even line** is a quantity.
-- Collects and stores the total quantity for each resource.
-- Prints each resource and its total quantity in the format:
-{resource} -> {quantity}
+**Description:**  
+Create a program that reads alternating lines of input:
+- Odd lines contain resource names.
+- Even lines contain quantities (integers).
 
-**Notes:**
-- The quantity is in the range [1…2,000,000,000].
+**Requirements:**
+- Track the **total quantity** collected for each resource.
+- Continue reading until the end of input.
+
+**Output Format:**  
+{resource} -> {quantity}
 
 ---
 
 ### 📝 Task 3: Orders
 
-**Problem Statement:**  
-Create a program that:
-- Keeps track of products, each with a name, price, and quantity.
-- If a product already exists:
-- Update the quantity (add the new quantity).
-- Update the price if it has changed.
-- Continues receiving products until the command `"buy"` is given.
+**Description:**  
+Develop a program that keeps track of product prices and quantities.
 
-**Input Format:**
+**Input Format:**  
 {name} {price} {quantity}
 
-**Output Format:**
-{productName} -> {totalPrice}
+**Rules:**
+- If a product is already present:
+  - Update its **quantity** by adding the new quantity.
+  - Update its **price** to the latest value.
 
-- The `totalPrice` is the product of the **latest price** and the **total quantity**.
-- Format prices to **2 decimal places**.
+- Input ends when the command `"buy"` is received.
+
+**Output Format:**  
+{product} -> {total_price}
+Where `total_price = latest_price * total_quantity`, formatted to **2 decimal places**.
 
 ---
 
 ### 📝 Task 4: SoftUni Parking
 
 **Problem Statement:**  
-Create a program that simulates an online parking validation system. It supports two commands:
+Simulate a parking registration system that processes a series of commands.
 
 - `"register {username} {licensePlateNumber}"`:
   - If the user is already registered, print:
@@ -87,12 +91,13 @@ Create a program that simulates an online parking validation system. It supports
 
 ### 📝 Task 5: Student Academy
 
-**Problem Statement:**  
+**Description:**  
 Create a program that:
-- Reads `n` pairs of inputs: student name and their grade.
-- Tracks all grades for each student.
-- Keeps only students with an **average grade >= 4.50**.
-- Prints results in the format:
+- Reads `n` student records (name and grade pairs).
+- Aggregates all grades per student.
+- Keeps only students with an **average grade of 4.50 or higher**.
+
+**Output Format:**  
 {name} -> {averageGrade}
 - Format the average grade to **2 decimal places**.
 
@@ -101,8 +106,7 @@ Create a program that:
 ### 📝 Task 6: Company Users
 
 **Problem Statement:**  
-Create a program that:
-- Keeps track of companies and their employees.
+Build a system that tracks employee assignments by company.
 - Input format:
 {companyName} -> {employeeId}
 - The input ends with `"End"`.
