@@ -4,13 +4,13 @@ This folder contains tasks from the **Conditional Statements - Exercise** sectio
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Total Race Time]  
+### 📝 Task 1: Total Race Time  
 **Description:**  
 Three competitors finish a race, each with a recorded time in seconds (ranging from 1 to 50). Create a program that reads these three times and computes their combined duration. Output the total in the format "minutes:seconds", ensuring seconds are always shown with two digits (e.g., 2 → "02", 7 → "07", 35 → "35").
 
 ---
 
-### 📝 Task 2: [Calculate Bonus Points]  
+### 📝 Task 2: Calculate Bonus Points  
 **Description:**  
 Given an initial integer score, compute the bonus points based on the following criteria, and then calculate the final score including bonuses:
 
@@ -25,13 +25,13 @@ Additional bonuses:
 
 ---
 
-### 📝 Task 3: [Add 15 Minutes to Time]  
+### 📝 Task 3: Add 15 Minutes to Time 
 **Description:**  
 Write a program that receives the current time in hours and minutes (24-hour format). Calculate and print the time exactly 15 minutes later. Format the output as "hour:minutes", where minutes always have two digits (leading zero if needed). Hours range from 0 to 23, minutes from 0 to 59.
 
 ---
 
-### 📝 Task 4: [Toy Store Profit]  
+### 📝 Task 4: Toy Store Profit  
 **Description:**  
 Petya runs a toy store and has received a bulk order. She plans to use the profits to fund her holiday. Given the quantities of various toys sold and their prices:
 
@@ -63,7 +63,7 @@ The monetary amounts should be displayed with two decimal places.
 
 ---
 
-### 📝 Task 5: [Budget Check for Movie Production]  
+### 📝 Task 5: Budget Check for Movie Production  
 **Description:**  
 A movie "Godzilla vs. Kong" is in production. You need to verify if the allocated budget suffices.
 
@@ -84,7 +84,7 @@ Format the output numbers to two decimal places.
 
 ---
 
-### 📝 Task 6: [Breaking the Swimming Record]  
+### 📝 Task 6: Breaking the Swimming Record  
 **Description:**  
 Ivan is trying to beat the world record in long-distance swimming. You will be given:
 
@@ -105,7 +105,7 @@ Round all times to two decimal places.
 
 ---
 
-### 📝 Task 7: [Buying Computer Parts]  
+### 📝 Task 7: Buying Computer Parts  
 **Description:**  
 Peter wants to buy a certain number of video cards, processors, and RAM sticks. The prices are as follows:
 
@@ -133,7 +133,7 @@ Results should be formatted to two decimal places.
 
 ---
 
-### 📝 Task 8: [Series Watching Time]  
+### 📝 Task 8: Series Watching Time  
 **Description:**  
 During your lunch break, you want to watch an episode of your favorite series. You spend 1/8 of your break eating and 1/4 resting.
 
