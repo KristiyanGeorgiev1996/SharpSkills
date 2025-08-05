@@ -4,13 +4,13 @@ This folder contains tasks from the **Exercise - Data Types, Variables and Key C
 
 ## 🔧 Tasks Overview
 
-### Task 1: Reverse Order of Numbers
+### 📝 Task 1: Reverse Order of Numbers
 
 Create a program that reads three floating-point numbers from the input and then prints them in reverse order, each on a separate line.
 
 ---
 
-### Task 2: Convert Centuries to Minutes
+### 📝 Task 2: Convert Centuries to Minutes
 
 Write a program that:
 
@@ -24,7 +24,7 @@ Write a program that:
 
 ---
 
-### Task 3: Repainting Cost Calculator
+### 📝 Task 3: Repainting Cost Calculator
 
 Rumen plans to repaint his living room and wants to calculate the total expense. The costs per material are:
 
@@ -49,7 +49,7 @@ Print the total cost.
 
 ---
 
-### Task 4: Food Delivery Cost Calculator
+### 📝 Task 4: Food Delivery Cost Calculator
 
 Calculate the total price for a food delivery order with the following menu prices:
 
@@ -71,7 +71,7 @@ Print the total order cost.
 
 ---
 
-### Task 5: Basketball Equipment Expense
+### 📝 Task 5: Basketball Equipment Expense
 
 Jesse is buying equipment for basketball training. Given the annual training fee, calculate total expenses:  
 
@@ -88,7 +88,7 @@ Print the total amount Jesse will spend.
 
 ---
 
-### Task 6: Aquarium Water Volume Calculator
+### 📝 Task 6: Aquarium Water Volume Calculator
 
 Calculate the volume of water required to fill a rectangular aquarium.
 
