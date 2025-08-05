@@ -60,4 +60,6 @@ Write a program that:
 - The type can be "int", "char", or "string".  
 - Implements methods to compare two values of the given type and returns the greater one.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
