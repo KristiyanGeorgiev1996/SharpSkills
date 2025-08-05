@@ -6,9 +6,7 @@ This folder contains tasks from the **Objects and Classes - Exercise** section o
 
 ## 🔧 Tasks Overview:
 
-# Programming Tasks
-
-### Task 1: Student Sorting
+### 📝 Task 1: Student Sorting
 
 **Description:**  
 Write a program that orders students based on their grades from highest to lowest.
@@ -29,7 +27,7 @@ Each student should have these attributes:
 
 ---
 
-### Task 2: Article Management
+### 📝 Task 2: Article Management
 
 **Description:**  
 Implement a class called `Article` with the properties:  
@@ -58,7 +56,7 @@ Include the following methods:
 
 ---
 
-### Task 3: Teamwork Projects Management
+### 📝 Task 3: Teamwork Projects Management
 
 **Description:**  
 Create a system to register teams and assign users to them.
@@ -95,7 +93,7 @@ Create a system to register teams and assign users to them.
 
 ---
 
-### Task 4: Pokémon Trainer Simulation
+### 📝 Task 4: Pokémon Trainer Simulation
 
 **Description:**  
 Model a Pokémon tournament using `Trainer` and `Pokemon` classes.
@@ -126,3 +124,7 @@ Model a Pokémon tournament using `Trainer` and `Pokemon` classes.
 **Output:**  
 - Print all trainers ordered by number of badges (descending), in the format:  
   `{trainerName} {NumberOfBadges} {countOfPokemons}`
+
+---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
