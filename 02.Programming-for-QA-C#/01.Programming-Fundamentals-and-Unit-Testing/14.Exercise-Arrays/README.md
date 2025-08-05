@@ -4,7 +4,7 @@ This folder contains tasks from the **Exercise - Arrays** section of the _Progra
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Equal Arrays  
+### 📝 Task 1: Equal Arrays  
 Write a program that:  
 - Reads two arrays of equal length from the console  
 - Checks if the arrays are identical (element by element)  
@@ -14,14 +14,14 @@ Write a program that:
 
 ---
 
-### Task 2: Common Elements  
+### 📝 Task 2: Common Elements  
 Write a program that:  
 - Reads two integer arrays of equal length from the console  
 - Prints the common elements between the two arrays, separated by spaces
 
 ---
 
-### Task 3: Condense Array to Number  
+### 📝 Task 3: Condense Array to Number  
 Write a program that:  
 - Reads a sequence of integer numbers from the console  
 - Condenses the array by repeatedly summing adjacent pairs until only one number remains  
@@ -34,7 +34,7 @@ Condense step 2: `{12+13}` → `{25}`
 
 ---
 
-### Task 4: Magic Sum  
+### 📝 Task 4: Magic Sum  
 Write a program that:  
 - Reads a sequence of integers from the first input line  
 - Reads an integer control number from the second input line  
@@ -42,7 +42,7 @@ Write a program that:
 
 ---
 
-### Task 5: Zig-Zag Arrays  
+### 📝 Task 5: Zig-Zag Arrays  
 Write a program that:  
 - Creates two empty integer arrays  
 - Reads an integer N  
@@ -51,7 +51,7 @@ Write a program that:
 
 ---
 
-### Task 6: Array Rotation  
+### 📝 Task 6: Array Rotation  
 Write a program that:  
 - Reads a sequence of integers from the first line  
 - Reads an integer number indicating how many rotations to perform  
@@ -60,7 +60,7 @@ Write a program that:
 
 ---
 
-### Task 7: Top Integers  
+### 📝 Task 7: Top Integers  
 Write a program that:  
 - Reads a sequence of integers from the first line  
 - Finds and prints all "top integers" — elements that are greater than all elements to their right in the sequence
