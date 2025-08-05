@@ -8,52 +8,58 @@ This folder contains tasks from the **Dictionaries, Lambda and LINQ** section of
 
 ### 📝 Task 1: Count Real Numbers
 
-**Problem Statement:**  
-Write a program that:
-- Reads a list of integers.
-- Prints them in **ascending order**, along with their **number of occurrences**.
+**Description:**  
+Develop a program that reads a list of real numbers and counts how many times each number appears.
 
-**Output format:**
+**Requirements:**
+- Sort the numbers in **ascending order**.
+- Display the total number of occurrences for each unique value.
+
+**Output Format:**  
 {number} -> {occurrences}
 
 ---
 
 ### 📝 Task 2: Odd Occurrences
 
-**Problem Statement:**  
-Write a program that:
-- Reads a sequence of words from a single input line (space-separated).
-- Extracts and prints all elements that appear an **odd number of times** (case-insensitive).
+**Description:**  
+Create a program that processes a sequence of space-separated words and identifies the ones that occur an **odd number of times**.
 
-**Output Requirements:**
-- All words should be printed in **lowercase**.
-- Maintain their **original order of appearance**.
+**Requirements:**
+- Matching should be **case-insensitive**.
+- Output each word in **lowercase**, preserving the **original order** of their first appearance.
+
+**Output:**  
+Display all words that occur an odd number of times, separated by a space.
 
 ---
 
 ### 📝 Task 3: Word Synonyms
 
-**Problem Statement:**  
-Create a program that:
-- Builds a **dictionary of synonyms**.
-- Reads an integer `n` – the number of word-synonym pairs.
-- Then reads `2 * n` lines: each pair consisting of a word followed by a synonym (on separate lines).
+**Description:**  
+Build a program that constructs a collection of synonyms for given words.
 
-**If the same word appears multiple times,** append each new synonym to its list.
+**Input:**
+- An integer `n` indicating how many word-synonym pairs will follow.
+- Then `2 * n` lines: each pair consists of a word followed by one of its synonyms.
 
-**Output format:**
+**Requirements:**
+- If a word appears more than once, store **all its synonyms**.
+- Organize them in a dictionary-like structure.
+
+**Output Format:**  
 {word} - {synonym1, synonym2, ..., synonymN}
 
 ---
 
 ### 📝 Task 4: Word Filter
 
-**Problem Statement:**  
-Write a program that:
-- Reads an array of strings from the console.
-- Filters and prints only the words whose **length is an even number**.
+**Description:**  
+Write a program that reads a list of strings and filters out only those whose length is an even number.
 
 **Output:**  
-Print each matching word on a **new line**.
+Print each valid word on a **new line**.
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
