@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **For Loop** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-# 🔧 Summary of Programming Tasks
+# 🔧 Tasks Overview
 
 ### 📝 Task 1: [Print Numbers 1 through 100]  
 **Description:**  
@@ -67,5 +67,7 @@ Write a program that accepts `2 * n` integers. Sum the first `n` numbers (left s
 ### 📝 Task 10: [Sum by Even and Odd Positions]  
 **Description:**  
 Implement a program that reads `n` integers and calculates two sums: one of the numbers at even positions and another of those at odd positions (considering the first number as position 1). If the sums are equal, print "Yes" followed by the sum value. If not, print "No" and the absolute difference between the sums.
+
+---
 
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
