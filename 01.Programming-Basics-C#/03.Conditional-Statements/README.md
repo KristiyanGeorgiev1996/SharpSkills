@@ -4,19 +4,19 @@ This folder contains tasks from the **Conditional Statements** section of the _P
 
 ## 🔧 Overview of Tasks:
 
-### 📝 Task 1: [Outstanding Grade Check]  
+### 📝 Task 1: Outstanding Grade Check  
 **Task Description:**  
 Create a console application that accepts a grade (a floating-point value) from the user. If the grade is 5.50 or higher, print the message: "Excellent!".
 
 ---
 
-### 📝 Task 2: [Find the Larger Number]  
+### 📝 Task 2: Find the Larger Number  
 **Task Description:**  
 Write a program that reads two integers from the user and outputs the larger of the two values.
 
 ---
 
-### 📝 Task 3: [Determine Even or Odd]  
+### 📝 Task 3: Determine Even or Odd  
 **Task Description:**  
 Write a program which takes an integer input and displays whether the number is even or odd.
 
@@ -25,7 +25,7 @@ Write a program which takes an integer input and displays whether the number is 
 
 ---
 
-### 📝 Task 4: [Password Verification]  
+### 📝 Task 4: Password Verification  
 **Task Description:**  
 Develop a program that reads a password string from the user and compares it against the exact phrase "s3cr3t!P@ssw0rd".
 
@@ -34,7 +34,7 @@ Develop a program that reads a password string from the user and compares it aga
 
 ---
 
-### 📝 Task 5: [Number Range Check]  
+### 📝 Task 5: Number Range Check  
 **Task Description:**  
 Create a program that reads an integer and checks which interval it falls into:
 
@@ -44,7 +44,7 @@ Create a program that reads an integer and checks which interval it falls into:
 
 ---
 
-### 📝 Task 6: [Speed Classification]  
+### 📝 Task 6: Speed Classification  
 **Task Description:**  
 Write a program that takes a real number representing speed and classifies it according to the following categories:
 
@@ -56,7 +56,7 @@ Write a program that takes a real number representing speed and classifies it ac
 
 ---
 
-### 📝 Task 7: [Calculate Area of a Shape]  
+### 📝 Task 7: Calculate Area of a Shape  
 **Task Description:**  
 Write a program that reads the type of a geometric shape and its dimensions, then calculates its area. The supported shapes are: square, rectangle, circle, and triangle.
 
