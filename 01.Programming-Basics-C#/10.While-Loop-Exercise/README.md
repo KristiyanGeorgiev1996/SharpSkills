@@ -4,7 +4,7 @@ This folder contains tasks from the **While Loop - Exercise** section of the _Pr
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: [The Old Library]  
+### 📝 Task 1: The Old Library  
 **Problem Statement:**  
 Ani returns home and looks for her favorite book in her grandmother’s old library. The program reads the name of the book Ani is searching for (string). Then it reads the names of books one by one until Ani finds her book or all books are checked. The process stops when the command "No More Books" is received.
 
@@ -16,7 +16,7 @@ Ani returns home and looks for her favorite book in her grandmother’s old libr
 
 ---
 
-### 📝 Task 2: [Exam Preparation]  
+### 📝 Task 2: Exam Preparation  
 **Problem Statement:**  
 Marin solves exam tasks and receives grades until he gets the "Enough" command or reaches a limit of failing grades (grades ≤ 4). The first input is the allowed number of failing grades (1 to 5), followed by task names and their grades.
 
@@ -32,7 +32,7 @@ The average is formatted to two decimal places.
 
 ---
 
-### 📝 Task 3: [Holiday Savings]  
+### 📝 Task 3: Holiday Savings  
 **Problem Statement:**  
 Jesse tries to save money for a holiday by saving or spending daily. If Jesse spends more than available, her money drops to zero.
 
@@ -50,7 +50,7 @@ Jesse tries to save money for a holiday by saving or spending daily. If Jesse sp
 
 ---
 
-### 📝 Task 4: [Steps Goal]  
+### 📝 Task 4: Steps Goal  
 **Problem Statement:**  
 Gabi wants to walk 10,000 steps per day. She inputs steps taken multiple times per day. If she wants to go home early, she enters "Going home" and inputs the steps walked back home.
 
@@ -63,13 +63,13 @@ Gabi wants to walk 10,000 steps per day. She inputs steps taken multiple times p
 
 ---
 
-### 📝 Task 5: [Coins]  
+### 📝 Task 5: Coins  
 **Problem Statement:**  
 Given an amount of change, calculate the minimum number of coins needed to return it.
 
 ---
 
-### 📝 Task 6: [Cake]  
+### 📝 Task 6: Cake  
 **Problem Statement:**  
 At a birthday party, guests take pieces of a cake with given width and length. Read the number of pieces taken until the command "STOP" or the cake runs out.
 
@@ -81,7 +81,7 @@ At a birthday party, guests take pieces of a cake with given width and length. R
 
 ---
 
-### 📝 Task 7: [Moving]  
+### 📝 Task 7: Moving  
 **Problem Statement:**  
 Jose moves into a new apartment. The apartment’s free space dimensions (width, length, height) are given. Boxes are moved in one by one until the command "Done" or until space runs out.
 
@@ -90,5 +90,7 @@ Jose moves into a new apartment. The apartment’s free space dimensions (width,
   "{free space} Cubic meters left."
 - If space runs out before "Done", print:  
   "No more free space! You need {missing space} Cubic meters more."
+
+---
 
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
