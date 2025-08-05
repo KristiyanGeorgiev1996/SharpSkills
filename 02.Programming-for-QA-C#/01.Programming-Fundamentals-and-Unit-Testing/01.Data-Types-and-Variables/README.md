@@ -4,8 +4,6 @@ This folder contains tasks from the **Data Types and Variables** section of the 
 
 # 🔧 Tasks Overview
 
-This repository contains beginner-friendly C# programming exercises. Each task includes a short description and a specific goal to practice basic syntax, operations, and input/output in C#.
-
 ---
 
 ### 📝 Task 1: Hello C#
@@ -111,3 +109,5 @@ Develop a program that:
 - Prints the result formatted to **2 decimal places**
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
