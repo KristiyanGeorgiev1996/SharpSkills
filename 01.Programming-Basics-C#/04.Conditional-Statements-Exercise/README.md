@@ -2,7 +2,7 @@
 
 This folder contains tasks from the **Conditional Statements - Exercise** section of the _Programming Basics with C#_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Overview of Tasks:
+## 🔧 Tasks Overview:
 
 ### 📝 Task 1: [Total Race Time]  
 **Description:**  
@@ -153,5 +153,7 @@ Given the series name, episode duration, and break length, determine if you have
   `You don't have enough time to watch {series name}, you need {time needed} more minutes.`
 
 Round all time values **up** to the nearest whole number.
+
+---
 
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
