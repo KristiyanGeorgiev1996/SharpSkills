@@ -4,7 +4,7 @@ This folder contains tasks from the **More Complex Statements - Exercise** secti
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Cinema]  
+### 📝 Task 1: Cinema  
 **Description:**  
 A cinema hall has a rectangular seating arrangement defined by r rows and c columns. There are three ticket types, each with a different price:
 
@@ -16,7 +16,7 @@ Write a program that takes as input the screening type (string), the number of r
 
 ---
 
-### 📝 Task 2: [Summer Clothing]  
+### 📝 Task 2: Summer Clothing  
 **Description:**  
 Viktor needs your help deciding what to wear on a summer day with unpredictable weather. Based on the temperature and time of day, your program should recommend an outfit and shoes according to the table below.
 
@@ -36,7 +36,7 @@ Print the sentence:
 
 ---
 
-### 📝 Task 3: [New House]  
+### 📝 Task 3: New House  
 **Description:**  
 Marin and Neli plan to buy a house near Sofia and want to plant flowers. Neli is very fond of flowers and asks for a program that calculates the total cost based on flower type and quantity, and checks if the budget is sufficient.
 
@@ -67,7 +67,7 @@ Output:
 
 ---
 
-### 📝 Task 4: [Fishing Boat]  
+### 📝 Task 4: Fishing Boat  
 **Description:**  
 Toni and friends want to rent a fishing boat. The rental cost depends on the season and the number of fishermen.
 
@@ -96,7 +96,7 @@ Output:
 
 ---
 
-### 📝 Task 5: [Trip]  
+### 📝 Task 5: Trip 
 **Description:**  
 A young programmer plans a vacation with a fixed budget during a given season. The destination and accommodation depend on the budget and season.
 
@@ -127,7 +127,7 @@ Output:
 
 ---
 
-### 📝 Task 6: [Operations between Numbers]  
+### 📝 Task 6: Operations between Numbers  
 **Description:**  
 Create a program that reads two integers and an operator symbol (+, -, *, /, %). Perform the operation accordingly:
 
@@ -143,7 +143,7 @@ Format output as follows:
 
 ---
 
-### 📝 Task 7: [Hotel Room]  
+### 📝 Task 7: Hotel Room  
 **Description:**  
 Calculate the total price for a hotel stay in a studio or apartment depending on the month and number of nights.
 
@@ -171,7 +171,7 @@ Print:
 
 ---
 
-### 📝 Task 8: [On Time for the Exam]  
+### 📝 Task 8: On Time for the Exam  
 **Description:**  
 A student arrives at an exam hall. Determine if they are late, on time, or early compared to the exam start time.
 
@@ -196,7 +196,7 @@ If late or early, also print time difference:
 
 ---
 
-### 📝 Task 9: [Ski Vacation]  
+### 📝 Task 9: Ski Vacation  
 **Description:**  
 Atanas plans a ski vacation in Bansko. Depending on the room type and length of stay, discounts apply.
 
