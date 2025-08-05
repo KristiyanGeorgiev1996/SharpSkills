@@ -4,7 +4,7 @@ This folder contains tasks from the **Exercise - Conditional Statements** sectio
 
 ## 🔧 Tasks Overview
 
-### Task 1: Number Type Classification
+### 📝 Task 1: Number Type Classification
 
 Create a program that reads an integer from the console and determines its type by value:
 
@@ -14,7 +14,7 @@ Create a program that reads an integer from the console and determines its type 
 
 ---
 
-### Task 2: ATM Withdrawal Simulation
+### 📝 Task 2: ATM Withdrawal Simulation
 
 Develop a program that simulates an ATM withdrawal process by reading three integers: current balance, withdrawal amount, and withdrawal limit. Based on these values:
 
@@ -24,13 +24,13 @@ Develop a program that simulates an ATM withdrawal process by reading three inte
 
 ---
 
-### Task 3: Find the Largest Number Among Five
+### 📝 Task 3: Find the Largest Number Among Five
 
 Write a program to read five distinct integers from the user and output the largest of them. Assume no duplicates in input.
 
 ---
 
-### Task 4: Basic Arithmetic Operations
+### 📝 Task 4: Basic Arithmetic Operations
 
 Implement a program that:
 
@@ -42,7 +42,7 @@ Implement a program that:
 
 ---
 
-### Task 5: Vacation Cost Calculator
+### 📝 Task 5: Vacation Cost Calculator
 
 Create a program that calculates the total cost of a vacation based on:
 
@@ -54,7 +54,7 @@ Create a program that calculates the total cost of a vacation based on:
 
 ---
 
-### Task 6: Sign of Product of Three Numbers
+### 📝 Task 6: Sign of Product of Three Numbers
 
 Design a program that:
 
@@ -67,7 +67,7 @@ Design a program that:
 
 ---
 
-### Task 7: Office Working Hours Checker
+### 📝 Task 7: Office Working Hours Checker
 
 Write a program to verify if a company office is open based on the input hour and day of the week.
 
@@ -77,7 +77,7 @@ Write a program to verify if a company office is open based on the input hour an
 
 ---
 
-### Task 8: Identify Fruit or Vegetable
+### 📝 Task 8: Identify Fruit or Vegetable
 
 Create a program that:
 
@@ -88,7 +88,7 @@ Create a program that:
 
 ---
 
-### Task 9: Total Time in Minutes and Seconds
+### 📝 Task 9: Total Time in Minutes and Seconds
 
 Write a program that:
 
@@ -98,7 +98,7 @@ Write a program that:
 
 ---
 
-### Task 10: Clothing Recommendation Based on Temperature and Time
+### 📝 Task 10: Clothing Recommendation Based on Temperature and Time
 
 Develop a program that:
 
