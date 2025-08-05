@@ -4,7 +4,7 @@ This folder contains tasks from the **For Loop** section of the _Programming Fun
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Print Numbers in a Range
+### 📝 Task 1: Print Numbers in a Range
 
 Write a program that:
 
@@ -15,7 +15,7 @@ Write a program that:
 
 ---
 
-### Task 2: Sum of First N Numbers
+### 📝 Task 2: Sum of First N Numbers
 
 Write a program that:
 
@@ -25,7 +25,7 @@ Write a program that:
 
 ---
 
-### Task 3: Sum of N Numbers
+### 📝 Task 3: Sum of N Numbers
 
 Write a program that:
 
@@ -35,7 +35,7 @@ Write a program that:
 
 ---
 
-### Task 4: Numbers Ending with 7 in a Range
+### 📝 Task 4: Numbers Ending with 7 in a Range
 
 Write a program that:
 
@@ -44,7 +44,7 @@ Write a program that:
 
 ---
 
-### Task 5: Numbers from 1 to N Greater Than or Equal to 3
+### 📝 Task 5: Numbers from 1 to N Greater Than or Equal to 3
 
 Write a program that:
 
@@ -53,7 +53,7 @@ Write a program that:
 
 ---
 
-### Task 6: Exam Countdown
+### 📝 Task 6: Exam Countdown
 
 Write a program that:
 
@@ -64,7 +64,7 @@ Write a program that:
 
 ---
 
-### Task 7: Print Latin Letters in a Range
+### 📝 Task 7: Print Latin Letters in a Range
 
 Write a program that:
 
