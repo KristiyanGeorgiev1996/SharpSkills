@@ -57,4 +57,6 @@ Write a program that:
   - `"Dec"`: decrement the number by 1.
 - After `"End"` command, prints the final number.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
