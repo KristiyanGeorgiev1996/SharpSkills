@@ -4,7 +4,7 @@ This folder contains tasks from the **Arrays** section of the _Programming Funda
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Day of Week  
+### 📝 Task 1: Day of Week  
 Write a program that:  
 - Reads an integer from the console  
 - Prints the corresponding day of the week if the number is in [1…7]:  
@@ -19,14 +19,14 @@ Write a program that:
 
 ---
 
-### Task 2: Sum an Array  
+### 📝 Task 2: Sum an Array  
 Write a program that:  
 - Reads an array of integers from a single line, separated by space  
 - Prints the sum of all elements in the array
 
 ---
 
-### Task 3: Reverse an Array  
+### 📝 Task 3: Reverse an Array  
 Write a program that:  
 - Reads an integer N from the console  
 - Reads N integers, each on a separate line  
@@ -36,7 +36,7 @@ Write a program that:
 
 ---
 
-### Task 4: Even and Odd Subtraction  
+### 📝 Task 4: Even and Odd Subtraction  
 Write a program that:  
 - Reads an array of integers from a single line, separated by space  
 - Calculates the difference between the sum of even numbers and the sum of odd numbers in the array  
