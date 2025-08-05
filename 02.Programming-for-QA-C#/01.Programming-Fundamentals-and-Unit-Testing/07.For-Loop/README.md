@@ -4,69 +4,71 @@ This folder contains tasks from the **For Loop** section of the _Programming Fun
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: [Numbers in Range]  
-**Problem Statement:**  
-Write a program that prints numbers in a given range:
+### Task 1: Print Numbers in a Range
 
-- Reads two integer numbers from the console
-- First integer number represents the start of the range
-- Second integer number represents the end of the range
-- Print the numbers in the given range (include start and end number), each on the new line
+Write a program that:
 
-Note: The first given integer will always be smaller than the second given integer.
+- Reads two integers from the console: the start and end of a range  
+- Prints all numbers from the start to the end (inclusive), each on a new line
+
+**Note:** The first number will always be smaller than the second.
 
 ---
 
-### 📝 Task 2: [First N Numbers Sum]  
-**Problem Statement:**  
-Write a program, which sums the numbers 1…n:
+### Task 2: Sum of First N Numbers
 
-- Reads an integer number n from the console
-- Sums all numbers from 1 to n
-- Prints the numbers and the sum on the console as shown below
+Write a program that:
 
----
-
-### 📝 Task 3: [Sum Numbers]  
-**Problem Statement:**  
-Write a program to sum given N numbers:
-
-- Read integer number n – the count of numbers to sum
-- Read n floating-point numbers and print their sum
+- Reads an integer `n`  
+- Calculates the sum of all numbers from 1 to `n`  
+- Prints all the numbers from 1 to `n` and their total sum
 
 ---
 
-### 📝 Task 4: [Numbers Ending in 7]  
-**Problem Statement:**  
-Write a program that prints numbers ending in 7 in given range:
+### Task 3: Sum of N Numbers
 
-- Reads an integer number n – end of the range
-- Prints all numbers from 7 to n, ending in 7
+Write a program that:
 
----
-
-### 📝 Task 5: [Numbers From 1 to N over 3]  
-**Problem Statement:**  
-Write a program that prints numbers in given range over 3:
-
-- Reads an integer number n – end of the range
-- Prints all numbers from 1 to n, over 3 (inclusively)
+- Reads an integer `n` representing how many numbers to read  
+- Reads `n` floating-point numbers  
+- Calculates and prints their sum
 
 ---
 
-### 📝 Task 6: [Exam Countdown]  
-**Problem Statement:**  
-Write a program to print a countdown to an exam:
+### Task 4: Numbers Ending with 7 in a Range
 
-- Read an integer number d: the count of days before an exam
-- For each day d…1 print: "{currentDay} days before the exam"
-- At the end print: "The exam has come"
+Write a program that:
+
+- Reads an integer `n` as the end of the range  
+- Prints all numbers from 7 up to `n` that end with the digit 7
 
 ---
 
-### 📝 Task 7: [Latin Letters]  
-**Problem Statement:**  
-Write a program to print the Latin letters in certain range:
+### Task 5: Numbers from 1 to N Greater Than or Equal to 3
 
-- Read two letters (chars), each on separate line
-- Print all letters in the specified range inclusively
+Write a program that:
+
+- Reads an integer `n` as the end of the range  
+- Prints all numbers from 1 to `n` that are greater than or equal to 3
+
+---
+
+### Task 6: Exam Countdown
+
+Write a program that:
+
+- Reads an integer `d` representing the number of days until an exam  
+- For each day from `d` down to 1, prints:  
+  `"{currentDay} days before the exam"`  
+- After the countdown, prints: `"The exam has come"`
+
+---
+
+### Task 7: Print Latin Letters in a Range
+
+Write a program that:
+
+- Reads two characters (letters) from the console  
+- Prints all letters from the first letter to the second letter inclusive  
+- Assumes the first letter comes before the second in the Latin alphabet
+
