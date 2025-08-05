@@ -4,8 +4,6 @@ This folder contains tasks from the **Exercise - Arrays** section of the _Progra
 
 ## 🔧 Tasks Overview:
 
----
-
 ### Task 1: Equal Arrays  
 Write a program that:  
 - Reads two arrays of equal length from the console  
