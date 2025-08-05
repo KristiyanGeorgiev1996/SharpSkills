@@ -4,8 +4,6 @@ This folder contains tasks from the **Arrays** section of the _Programming Funda
 
 ## 🔧 Tasks Overview:
 
----
-
 ### Task 1: Day of Week  
 Write a program that:  
 - Reads an integer from the console  
@@ -38,7 +36,6 @@ Write a program that:
 
 ---
 
-**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
 ### Task 4: Even and Odd Subtraction  
 Write a program that:  
 - Reads an array of integers from a single line, separated by space  
@@ -46,3 +43,5 @@ Write a program that:
 - Prints the difference
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
