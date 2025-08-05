@@ -127,4 +127,6 @@ Given the initial ranking points and tournament results, calculate:
 
 Print the results accordingly.
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
