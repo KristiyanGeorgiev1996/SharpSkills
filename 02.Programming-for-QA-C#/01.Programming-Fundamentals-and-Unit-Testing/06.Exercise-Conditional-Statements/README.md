@@ -114,4 +114,6 @@ Develop a program that:
 - Output format:  
   `"It's {temperature} degrees, get your {clothing} and {shoes}."`
 
+---
+
 **Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
