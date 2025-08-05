@@ -2,99 +2,112 @@
 
 This folder contains tasks from the **Data Types and Variables** section of the _Programming Fundamentals and Unit Testing_ course at SoftUni. Below are the tasks with brief descriptions.
 
-## 🔧 Tasks Overview
+# 🔧 C# Tasks Overview
+
+This repository contains beginner-friendly C# programming exercises. Each task includes a short description and a specific goal to practice basic syntax, operations, and input/output in C#.
+
+---
 
 ### 📝 Task 1: Hello C#
-**Problem Statement:**  
-Write a program that prints **"Hello C#"** on the console.
+
+**Description:**  
+Create a program that displays the message **"Hello C#"** on the screen.
 
 ---
 
 ### 📝 Task 2: Print 5 * 5
-**Problem Statement:**  
-Write a program that:
 
-- Calculates **the value of 5 * 5**  
-- Prints the **result to the console**
+**Description:**  
+Develop a program that:
+
+- Computes the result of **5 multiplied by 5**  
+- Shows the output in the console
 
 ---
 
 ### 📝 Task 3: Name and Expression
-**Problem Statement:**  
+
+**Description:**  
 Write a program that:
 
 - Prints your **name on the first line**  
-- Calculates and prints the **expression 5 + 3 on the second line**
+- Displays the result of the **5 + 3** expression on the second line
 
 ---
 
 ### 📝 Task 4: Calculations
-**Problem Statement:**  
-Write a program which **calculates** and **prints** the value of the following expressions:
 
-- **5 + 3 * 2**  
-- **4 * (2 + 3)**  
-- **(2 + 5) * (8 - 2) / 7**
+**Description:**  
+Create a program that evaluates and prints the results of the following expressions:
+
+- `5 + 3 * 2`  
+- `4 * (2 + 3)`  
+- `(2 + 5) * (8 - 2) / 7`
 
 ---
 
 ### 📝 Task 5: Greeting
-**Problem Statement:**  
-Write a program that:
 
-- **Reads your name from the console**  
-- **Prints "Hello {name}"**
+**Description:**  
+Build a program that:
+
+- Accepts your **name as input**  
+- Greets you with the message **"Hello {name}"**
 
 ---
 
 ### 📝 Task 6: Customer Info
-**Problem Statement:**  
+
+**Description:**  
 Write a program that:
 
-- Reads the customer's **first name**, **last name**, and **email**  
-- Prints the data in the following format:  
+- Reads a **first name**, **last name**, and **email address**  
+- Displays the message:  
   `"Customer: {first name} {last name} ({email})"`
 
 ---
 
 ### 📝 Task 7: Person Info
-**Problem Statement:**  
-Write a program to read and print info about a person:
 
-- Reads 4 lines of input: **first name, last name, country, and town**  
-- Prints the information in the format:  
+**Description:**  
+Create a program that:
+
+- Takes four pieces of input: **first name**, **last name**, **country**, and **town**  
+- Outputs a sentence in the following format:  
   `"{first name} {last name} from {country} – {town}!"`
 
 ---
 
 ### 📝 Task 8: Town Info
-**Problem Statement:**  
-Write a program to read and print info about a town:
 
-- Reads 2 lines of input: **town name** and **country**  
-- Prints the information in the format:  
+**Description:**  
+Build a program that:
+
+- Receives two inputs: **town name** and **country**  
+- Prints a sentence stating:  
   `"{town name} is in {country}"`
 
 ---
 
 ### 📝 Task 9: Days to Minutes
-**Problem Statement:**  
-Write a program to convert days to minutes:
 
-- Reads a single **integer** (the **days** to convert)  
-- Converts the days to minutes (1 day = 24 hours * 60 minutes)  
-- Prints the result in the format:  
+**Description:**  
+Create a program that:
+
+- Accepts a number representing **days**  
+- Converts the days to **minutes** (1 day = 24 × 60)  
+- Displays the result in the format:  
   `"Minutes = {calculated minutes}"`
 
 ---
 
 ### 📝 Task 10: Calculate Speed
-**Problem Statement:**  
-Write a program that:
 
-- Reads **two floating-point numbers**: distance and time  
-- Calculates the speed using the formula:  
-  `speed = distance / time`  
-- Prints the calculated speed **formatted to the 2nd decimal place**
+**Description:**  
+Develop a program that:
+
+- Reads two floating-point numbers: **distance** and **time**  
+- Calculates speed using the formula `speed = distance / time`  
+- Prints the result formatted to **2 decimal places**
 
 ---
