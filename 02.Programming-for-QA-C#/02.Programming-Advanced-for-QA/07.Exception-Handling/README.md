@@ -6,7 +6,7 @@ This folder contains tasks from the **Exception Handling** section of the _Progr
 
 ## 🔧 Tasks Overview:
 
-### Task 1: Square Root Calculation
+### 📝 Task 1: Square Root Calculation
 
 **Description:**  
 Create a program that reads an integer from input and attempts to compute its square root.
@@ -22,7 +22,7 @@ Use a `try-catch-finally` block to handle exceptions and ensure `Goodbye.` is pr
 
 ---
 
-### Task 2: Number Input with Range Validation
+### 📝 Task 2: Number Input with Range Validation
 
 **Description:**  
 Implement a method named `ReadNumber(int start, int end)` that reads an integer within the exclusive range `(start, end)`.
@@ -45,7 +45,7 @@ After successfully reading all numbers, print them separated by commas and space
 
 ---
 
-### Task 3: Summation of Integers from Mixed Input
+### 📝 Task 3: Summation of Integers from Mixed Input
 
 **Description:**  
 You will be given a sequence of elements separated by spaces, which can be of different data types. Your goal is to calculate the sum of all valid integers among these elements.
@@ -62,3 +62,7 @@ You will be given a sequence of elements separated by spaces, which can be of di
 **Final Output:**  
 After all elements have been processed, print:  
 `The total sum of all integers is: {sum}`
+
+---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
