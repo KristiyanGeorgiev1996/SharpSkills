@@ -6,182 +6,157 @@ This folder contains tasks from the **Basic Syntax, Conditional Statements and L
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Student Information  
-**Problem Statement:**  
-Create a program that receives 3 lines of input:
-- student name  
-- age  
-- average grade  
+### 📝 Task 1: Student Info Summary
 
-Your task is to print all of the info about the student in the following format:  
+**Description:**  
+Write a program that takes three lines of input: a student’s name, their age, and their average grade.  
+Display the data using the following format:  
 `Name: {student name}, Age: {student age}, Grade: {student grade}`
 
 ---
 
-### 📝 Task 2: Passed  
-**Problem Statement:**  
-Create a program that receives a single number as input representing a grade.
+### 📝 Task 2: Grade Check
 
-**Print in the console:**
-- `"Passed!"` if the grade is equal or more than 3.00.
+**Description:**  
+Create a program that reads a single floating-point number and checks if it is greater than or equal to 3.00.  
+If it is, print `"Passed!"`.
 
-**Input:**  
-A single floating-point number.  
-
-**Output:**  
-The output is either `"Passed!"` or nothing (if the grade is lower than 3.00).
+**Note:**  
+If the value is less than 3.00, the program should not print anything.
 
 ---
 
-### 📝 Task 3: Passed or Failed  
-**Problem Statement:**  
-Modify the program from the previous problem, so it will print `"Failed!"` if the grade is lower than 3.00.
+### 📝 Task 3: Pass or Fail
 
-**Input:**  
-A single double number.
+**Description:**  
+Modify the previous task to also handle the failing case.
 
-**Output:**  
-- `"Passed!"` if the grade is more than 2.99  
-- `"Failed!"` otherwise
+**Output Rules:**  
+- If the grade is 3.00 or higher → print `"Passed!"`  
+- If it's lower than 3.00 → print `"Failed!"`
 
 ---
 
-### 📝 Task 4: Back in 30 Minutes  
-**Problem Statement:**  
-Create a program that prints the time after 30 minutes.
+### 📝 Task 4: Time After 30 Minutes
 
-**Input:**  
-Two numbers are read from the console:  
-- The first number is hours (0–23)  
-- The second number is minutes (0–59)
+**Description:**  
+Read the current time as two integers: hour and minutes.  
+Add 30 minutes to the given time and print the result in format `hh:mm`.
 
-**Output:**  
-Print the time after 30 minutes in format `hh:mm`.  
-Hours may have 1 or 2 digits, minutes always have 2 digits (with leading zero).
+**Formatting Notes:**  
+- Hours may be one or two digits.  
+- Minutes should always have two digits (e.g., `04`, `09`).
 
 ---
 
-### 📝 Task 5: Month Printer  
-**Problem Statement:**  
-Create a program that receives an integer and prints the matching month.  
-If the number is more than 12 or less than 1, print `"Error!"`.
+### 📝 Task 5: Month Name Printer
 
-**Input:**  
-A single integer on a single line.
-
-**Output:**  
-If the number is valid, print the corresponding month; otherwise print `"Error!"`.
+**Description:**  
+Build a program that reads an integer from 1 to 12 and prints the corresponding month name.  
+If the number is outside this range, print `"Error!"`.
 
 ---
 
-### 📝 Task 6: Foreign Languages  
-**Problem Statement:**  
-Create a program that prints the spoken language in a country.
+### 📝 Task 6: Spoken Language by Country
 
-**Rules:**
-- English → England, USA  
-- Spanish → Spain, Argentina, Mexico  
-- All others → `"unknown"`
+**Description:**  
+Write a program that receives a country name and prints the main spoken language based on predefined rules.
 
-**Input:**  
-A single line representing the country name.
-
-**Output:**  
-Print the spoken language or `"unknown"`.
+**Rules:**  
+- For "England" or "USA" → output `"English"`  
+- For "Spain", "Argentina", or "Mexico" → output `"Spanish"`  
+- For any other country → output `"unknown"`
 
 ---
 
-### 📝 Task 7: Theatre Promotions  
-**Problem Statement:**  
-A theatre sells tickets at discount. Create a program that calculates the ticket price.
+### 📝 Task 7: Theatre Ticket Price Calculator
 
-| Day      | 0 ≤ age ≤ 18 | 18 < age ≤ 64 | 64 < age ≤ 122 |
-|----------|--------------|---------------|----------------|
-| Weekday  | 12$          | 18$           | 12$            |
-| Weekend  | 15$          | 20$           | 15$            |
-| Holiday  | 5$           | 12$           | 10$            |
+**Description:**  
+Create a program that determines the price of a theatre ticket based on the day and the customer's age.
+
+**Pricing Table:**
+
+| Day      | 0–18 yrs | 19–64 yrs | 65–122 yrs |
+|----------|----------|-----------|------------|
+| Weekday  | $12      | $18       | $12        |
+| Weekend  | $15      | $20       | $15        |
+| Holiday  | $5       | $12       | $10        |
 
 **Input:**  
-- First line: type of day  
-- Second line: person's age
+- First line: day type (`Weekday`, `Weekend`, `Holiday`)  
+- Second line: age of the customer
 
 **Output:**  
-Print the ticket price according to the table, or `"Error!"` if the age is invalid.
-
-**Constraints:**  
-- Age will be in the interval [-1000…1000]  
-- Day type will always be valid
+Print the ticket price or `"Error!"` if the age is outside the valid range (0–122).
 
 ---
 
-### 📝 Task 8: Divisible by 3  
-**Problem Statement:**  
-Create a program that prints all numbers from 1 to 100 divisible by 3.  
+### 📝 Task 8: Numbers Divisible by 3
+
+**Description:**  
+Write a program that prints all numbers between 1 and 100 that are divisible by 3.  
 Use a single `for` loop.  
-The program should **not** receive any input.
+No input is required.
 
 ---
 
-### 📝 Task 9: Sum of Odd Numbers  
-**Problem Statement:**  
-Create a program that prints the next _n_ odd numbers (starting from 1).  
-On the last row, print the sum of all _n_ odd numbers.
+### 📝 Task 9: Sum of Odd Numbers
 
-**Input:**  
-A single number _n_ (how many odd numbers to print)
+**Description:**  
+Read a number `n` and print the first `n` odd numbers starting from 1.  
+At the end, print the sum of those numbers.
 
-**Output:**  
-Each odd number on a new line, then the total sum on the last line.
-
-**Constraints:**  
-- _n_ will be in the interval [1…100]
+**Example Output:**  
+`1`
+`3`
+`5`
+`Sum: 9`
 
 ---
 
-### 📝 Task 10: Multiplication Table  
-**Problem Statement:**  
-Create a program that receives an integer as input.  
-Print its multiplication table (1 to 10).
+### 📝 Task 10: Basic Multiplication Table
 
-**Output Format:**  
-`{theInteger} X {times} = {product}`
+**Description:**  
+Receive an integer input and display its multiplication table from 1 to 10.
 
-**Constraints:**  
-- The integer will be in the interval [1…100]
+**Format for each line:**  
+`{number} X {multiplier} = {product}`
 
 ---
 
-### 📝 Task 11: Multiplication Table 2.0  
-**Problem Statement:**  
-Extend the previous task.  
-Now also receive the multiplier as input.
+### 📝 Task 11: Extended Multiplication Table
 
-- If the multiplier ≤ 10 → print the table from it up to 10  
-- If the multiplier > 10 → print only one row
+**Description:**  
+Modify the previous task to receive both the number and the starting multiplier.
 
-**Output Format:**  
-`{theInteger} X {times} = {product}`
-
-**Constraints:**  
-- The integer will be in the interval [1…100]
+**Rules:**  
+- If multiplier ≤ 10 → print the table from that multiplier to 10  
+- If multiplier > 10 → print just one multiplication line
 
 ---
 
-### 📝 Task 12: Even Number  
-**Problem Statement:**  
-Create a program that reads a sequence of numbers.
+### 📝 Task 12: Even Number Reader
 
-- If the number is even → print: `"The number is: {number}"` and stop  
-- If the number is odd → print: `"Please write an even number."` and continue
+**Description:**  
+Keep reading numbers from the user until an **even number** is entered.
+
+**Rules:**  
+- If the number is odd → print: `"Please write an even number."` and repeat  
+- If the number is even → print: `"The number is: {number}"` and stop
+
+---
+
+### 📝 Task 13: Debugging – Count Holidays Between Two Dates
+
+**Description:**  
+You are provided with a faulty program that calculates how many non-working days (Saturdays and Sundays) fall between two given dates.
+
+**What to do:**  
+Use a debugger to identify and fix logical errors in the code.
+
+**Input Format:**  
+Start and end dates in format: `day.month.year` (e.g. `01.05.2015` to `15.05.2015`)
 
 ---
 
-### 📝 Task 13: Debug the Code: Holidays Between Two Dates  
-**Problem Statement:**  
-You are given a buggy program.  
-Use the Visual Studio debugger to identify and fix incorrect logic.
-
-- The program counts non-working days (Saturdays and Sundays) between two dates  
-- Dates are in the format `day.month.year` (e.g., 1.05.2015 to 15.05.2015)
-
----
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
