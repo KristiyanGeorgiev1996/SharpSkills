@@ -4,129 +4,134 @@ This repository contains tasks from the **Data Types and Variables** section of 
 
 ## 🔧 Tasks Overview
 
-### 📝 Task 1: Convert Meters to Kilometers  
+### 📝 Task 1: Convert Meters to Kilometers
+
 **Description:**  
-Given an integer representing a distance in meters, create a program that converts meters to kilometers, formatted to the second decimal point.
+Write a program that reads a distance in meters and converts it to kilometers.  
+The result should be formatted to **two decimal places**.
 
 ---
 
-### 📝 Task 2: Pounds to Dollars  
+### 📝 Task 2: Pounds to Dollars
+
 **Description:**  
-Create a program that converts British Pounds to US Dollars, formatted to the third decimal point.  
-> 💱 1 British Pound = 1.31 US Dollars
+Create a program that converts British Pounds to US Dollars.  
+Use the conversion rate:  
+> 1 British Pound = 1.31 US Dollars  
+Format the result to **three decimal places**.
 
 ---
 
-### 📝 Task 3: Exact Sum of Real Numbers  
+### 📝 Task 3: Exact Sum of Real Numbers
+
 **Description:**  
-Create a program to enter `n` numbers and calculate their exact sum (without rounding).
+Write a program that reads `n` real numbers and calculates their **exact total sum** without rounding errors.
 
 ---
 
-### 📝 Task 4: Centuries to Minutes  
+### 📝 Task 4: Centuries to Minutes
+
 **Description:**  
-Create a program that converts an integer number of centuries into years, days, hours, and minutes.  
-> 🔍 Use appropriate data types and assume a year has 365.2422 days on average (Tropical year).
+Create a program that reads an integer representing centuries and converts them into:
+- years  
+- days (use average year: 365.2422 days)  
+- hours  
+- minutes
+
+Use appropriate data types to handle large values.
 
 ---
 
-### 📝 Task 5: Special Numbers  
+### 📝 Task 5: Special Numbers
+
 **Description:**  
-A number is special if the sum of its digits is 5, 7, or 11.  
-Write a program to read an integer `n` and print whether each number in the range 1…n is special (`True/False`).  
-> 💡 Hint: Use modulus and division to sum digits.
+A number is considered *special* if the sum of its digits is **5, 7, or 11**.  
+Write a program that reads an integer `n` and prints for every number from 1 to `n` whether it is special.
+
+**Output Format Example:**  
+`2 -> False`
+`5 -> True`
+
+> 💡 Tip: Use loops and digit extraction techniques to sum digits.
 
 ---
 
-### 📝 Task 6: Reversed Chars  
+### 📝 Task 6: Reversed Characters
+
 **Description:**  
-Read three characters from input and print them in reversed order, separated by spaces.
+Read **three characters**, one by one, from the input.  
+Then print them in **reversed order**, separated by spaces.
 
 ---
 
-### 📝 Task 7: Concat Names  
+### 📝 Task 7: Concatenate Names
+
 **Description:**  
-Read two names and a delimiter, then print the names joined by the delimiter.
+Create a program that reads two names and a delimiter, then prints the result of joining the names with the delimiter between them.
+
+**Example:**  
+`Input: John, Smith, ->`
+`Output: John->Smith`
 
 ---
 
-### 📝 Task 8: Town Info  
+### 📝 Task 8: Town Information
+
 **Description:**  
-Given three lines of input — town name, population, and area — output the information in the format:  
-Town {town name} has population of {population} and area {area} square km.
+Read input for:  
+- Town name (string)  
+- Population (integer)  
+- Area in square kilometers (integer)
+
+Print the following formatted message:  
+`Town {town name} has population of {population} and area {area} square km.`
 
 ---
 
-### 📝 Task 9: Chars to String  
+### 📝 Task 9: Characters to String
+
 **Description:**  
-Read three characters (one per line), combine them into a single string, and print it.
+Read **three characters**, one per line, combine them into a single string, and print the result.
 
 ---
 
-### 📝 Task 10: Lower or Upper  
+### 📝 Task 10: Lowercase or Uppercase
+
 **Description:**  
-Create a program that determines if a given character is upper-case or lower-case.
+Write a program that reads a **single character** and determines whether it is **uppercase** or **lowercase**.
+
+**Example:**  
+`Input: a → Output: lowercase`
+`Input: Z → Output: uppercase`
 
 ---
 
-### 📝 Task 11: Refactor Volume of Pyramid  
+### 📝 Task 11: Refactor Pyramid Volume Calculation
+
 **Description:**  
-Refactor the given code to improve variable names and reduce variable lifespan. Avoid using the same variable for multiple purposes.
+Improve the readability and maintainability of the given code by:
 
-**Sample Code (Before Refactor):**
-```csharp
-double dul, sh, V = 0;
+- Replacing vague variable names (e.g., `dul`, `sh`, `V`)
+- Declaring variables only when needed
+- Avoiding reuse of the same variable for multiple purposes
 
-Console.WriteLine("Length: ");
-dul = double.Parse(Console.ReadLine());
-
-Console.WriteLine("Width: ");
-sh = double.Parse(Console.ReadLine());
-
-Console.WriteLine("Heigth: ");
-V = double.Parse(Console.ReadLine());
-
-V = (dul + sh + V) / 3;
-
-Console.WriteLine($"Pyramid Volume: {V:f2}");
-💡 Suggestions:
-
-Use meaningful variable names (e.g., length, width, height)
-
-Declare variables at the point of initialization
-
-Avoid multipurpose variables
+**Goal:**  
+Refactor the logic that reads dimensions and calculates the volume of a pyramid using:  
+`volume = (length × width × height) / 3`
 
 ---
 
-### 📝 Task 12: Refactor Special Numbers  
+### 📝 Task 12: Refactor Special Numbers
+
 **Description:**  
-Refactor the code solving Task 5 to improve readability, naming, and logic structure.
+Refactor the solution from *Task 5* with focus on:
 
-**Sample Code (Before Refactor):**
-```csharp
-int kolkko = int.Parse(Console.ReadLine());
-int obshto = 0;
-int takova = 0;
-bool toe = false;
+- Clear and meaningful variable names  
+- Avoiding reassigning loop variables  
+- Improving logic readability  
 
-for (int ch = 1; ch <= kolkko; ch++)
-{
-    takova = ch;
-    while (ch > 0)
-    {
-        obshto += ch % 10;
-        ch = ch / 10;
-    }
-    toe = (obshto == 5) || (obshto == 7) || (obshto == 11);
-    Console.WriteLine("{0} -> {1}", takova, toe);
-    obshto = 0;
-    ch = takova;
-}
+Make the code easier to read and maintain, while keeping the same functionality.
 
-Rename variables (e.g., toe → isSpecialNum)
+---
 
-Avoid reusing variables for different purposes
-
-Improve code clarity and maintainability
-
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
