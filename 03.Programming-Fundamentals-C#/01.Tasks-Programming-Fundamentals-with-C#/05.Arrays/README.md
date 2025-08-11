@@ -4,72 +4,68 @@ This folder contains tasks from the **Arrays** section of the _Programming Funda
 
 ## 🔧 Tasks Overview:
 
-### 📝 Task 1: Day of Week
-**Problem Statement:**  
-Enter a number in range 1-7 and print out the word representing it or "Invalid day!". Use an array of strings.
+### 📝 Task 1: Day of the Week  
+**Description:**  
+Input a number between 1 and 7 and display the corresponding day of the week. If the number is outside this range, print "Invalid day!". Use a string array to store the days.
 
 ---
 
-### 📝 Task 2: Print Numbers in Reverse Order  
-**Problem Statement:**  
-Read n numbers and print them in reverse order, separated by a single space.
+### 📝 Task 2: Print Numbers in Reverse  
+**Description:**  
+Read an integer n and then read n numbers from the console. Print these numbers in reverse order, separated by spaces.
 
-Hints:
-
-First, we need to read n from the console.
+Hint: Start by reading the count n.
 
 ---
 
-### 📝 Task 3: Rounding Numbers 
-**Problem Statement:**  
-Read an array of real numbers (space separated), round them in "away from 0" style and print the output.
+### 📝 Task 3: Rounding Numbers  
+**Description:**  
+Read a sequence of real numbers separated by spaces, round each number away from zero, and output the rounded results.
 
 ---
 
-### 📝 Task 4: Reverse Array of Strings 
-**Problem Statement:**  
-Create a program that reads an array of strings, reverses it, and prints its elements. The input consists of a sequence of space-separated strings. Print the output on a single line (space separated).
+### 📝 Task 4: Reverse Array of Strings  
+**Description:**  
+Create a program that reads a series of strings separated by spaces, reverses their order, and prints them on a single line separated by spaces.
 
 ---
 
-### 📝 Task 5: Sum Even Numbers 
-**Problem Statement:**  
-Read an array from the console and sum only its even values.
+### 📝 Task 5: Sum of Even Numbers  
+**Description:**  
+Read an array of integers from the console and calculate the sum of all even numbers in it.
 
 ---
 
-### 📝 Task 6: Even and Odd Subtraction  
-**Problem Statement:**  
-Create a program that calculates the difference between the sum of the even and the sum of the odd numbers in an array.
+### 📝 Task 6: Difference Between Even and Odd Sums  
+**Description:**  
+Write a program that computes the difference between the sum of even numbers and the sum of odd numbers in an array.
 
 ---
 
-### 📝 Task 7: Equal Arrays  
-**Problem Statement:**  
-Read two arrays and determine whether they are identical or not. The arrays are identical if all their elements are equal.  
-If the arrays are identical, find the sum of the elements of one of them and print the following message to the console:  
+### 📝 Task 7: Compare Arrays for Equality  
+**Description:**  
+Read two arrays and check if they are identical. Two arrays are identical if all their corresponding elements match.  
+If they are identical, print:  
 `"Arrays are identical. Sum: {sum}"`  
-Otherwise, find the first index where the arrays differ and print:  
+where `{sum}` is the total sum of elements from one of the arrays.  
+If not, find and print the first index where they differ:  
 `"Arrays are not identical. Found difference at {index} index"`
 
 ---
 
-### 📝 Task 8: Condense Array to Number  
-**Problem Statement:**  
-Create a program to read an array of integers and condense them by summing all adjacent couples of elements until a single integer remains.
+### 📝 Task 8: Condense Array to a Single Number  
+**Description:**  
+Read an array of integers and repeatedly condense it by summing each pair of adjacent elements until only one number remains.  
 
-For example:  
-Given the array `{2, 10, 3}`, sum the first two and the second two elements to get `{12, 13}`, then sum adjacent elements again to get `{25}`.
+Example:  
+Given `{2, 10, 3}`, first sum pairs to get `{12, 13}`, then sum those to get `{25}`.
 
-Hints:
-
-While we have more than one element in the array `nums[]`, repeat the following:
-
-- Allocate a new array `condensed[]` of size `nums.length - 1`.
-
-- Sum the numbers from `nums[]` to `condensed[]`:  
-  `condensed[i] = nums[i] + nums[i + 1]`
-
-- Assign `nums = condensed`
+Hint:  
+While the array has more than one element:  
+- Create a new array one element shorter.  
+- Fill it with sums of adjacent pairs from the current array.  
+- Replace the current array with the new one.
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
