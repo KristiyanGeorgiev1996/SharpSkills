@@ -7,117 +7,117 @@ This folder contains tasks from the **Objects and Classes** section of the _Prog
 ---
 
 ### 📝 Task 1: Randomize Words  
-**Problem Statement:**  
-You will be given a string that will contain words separated by a single space. Randomize their order and print each word on a new line.  
+**Problem:**  
+You will receive a string of words separated by spaces. Randomize their order and print each word on a new line.
 
 **Hints:**  
-- Split the input string by space and create an array of words.  
-- Create a random number generator – an object `rnd` of type `Random`.  
-- In a `for` loop exchange each word at positions `0, 1, ..., words.Length - 1` with a word at a random position.  
-- To generate a random number in range use `rnd.Next(minValue, maxValue)`.  
-  > Note: `minValue` is inclusive, `maxValue` is exclusive.  
-- Print each word in the array on a new line.
+- Split the input string into an array of words by spaces.  
+- Create a `Random` object named `rnd`.  
+- Use a loop to swap each word at positions `0` to `words.Length - 1` with a word at a random position.  
+- Use `rnd.Next(minValue, maxValue)` to generate random indices (`minValue` inclusive, `maxValue` exclusive).  
+- Print each word on a new line.
 
 ---
 
 ### 📝 Task 2: Big Factorial  
-**Problem Statement:**  
-You will receive a number `N` in the range `[0…1000]`. Calculate the factorial of `N` and print out the result.
+**Problem:**  
+Given an integer `N` in the range `[0…1000]`, calculate and print the factorial of `N`.
 
 ---
 
 ### 📝 Task 3: Songs  
-**Problem Statement:**  
-Define a class called `Song` that will hold the following information about some songs:  
-- Type List  
-- Name  
-- Time  
+**Problem:**  
+Define a class `Song` with properties:  
+- `Type List`  
+- `Name`  
+- `Time`
 
-**Input / Constraints:**  
-- On the first line, you will receive the number of songs - `N`.  
-- On the next `N` lines, you will be receiving data in the following format:  
-{typeList}{name}{time}
-- On the last line, you will receive either a specific `Type List` or the keyword `"all"`.  
+**Input:**  
+- First, receive the number of songs `N`.  
+- Then, read `N` lines in the format:  
+  `{typeList}{name}{time}`  
+- Finally, read a line containing either a specific `Type List` or the keyword `"all"`.
 
 **Output:**  
-- If a `Type List` is given, print only the names of the songs from that list.  
-- If the `"all"` command is received, print out the names of all the songs.
+- If a `Type List` is provided, print only the names of songs from that list.  
+- If `"all"` is provided, print the names of all songs.
 
 ---
 
 ### 📝 Task 4: Students  
-**Problem Statement:**  
-Define a class called `Student`, which will hold the following information about some students:  
+**Problem:**  
+Define a class `Student` with these properties:  
 - First Name  
 - Last Name  
 - Age  
-- Home Town  
+- Home Town
 
-**Input / Constraints:**  
-- Read information about some students until you receive the `"end"` command.  
-- After that, you will receive a city name.  
+**Input:**  
+- Read student data until `"end"` is received.  
+- Then read a city name.
 
 **Output:**  
-- Print the students who are from the given city in the following format:  
-{firstName} {lastName} is {age} years old.
+- Print all students from the given city in the format:  
+  `{firstName} {lastName} is {age} years old.`
 
 ---
 
 ### 📝 Task 5: Students 2.0  
-**Problem Statement:**  
-Use the class from the previous problem.  
-If you receive a student who already exists (first name and last name are unique), overwrite their information.
+**Problem:**  
+Using the `Student` class from the previous task, if a student with the same first and last name appears again, update their information instead of adding a duplicate.
 
 ---
 
 ### 📝 Task 6: Store Boxes  
-**Problem Statement:**  
-Define a class `Item` with the following properties:  
-- Name  
-- Price  
+**Problem:**  
+Define two classes:  
 
-Define a class `Box` with the following properties:  
-- Serial Number  
-- Item  
-- Item Quantity  
-- Price for a Box  
+- `Item` with properties:  
+  - Name  
+  - Price  
+
+- `Box` with properties:  
+  - Serial Number  
+  - Item (an `Item` object)  
+  - Item Quantity  
+  - Price for the Box (calculated as `itemQuantity * itemPrice`)
 
 **Input:**  
-- Until you receive `"end"`, you will be receiving data in the following format:  
-{Serial Number} {Item Name} {Item Quantity} {itemPrice}
-
-**Calculation:**  
-- Price of a box = `itemQuantity * itemPrice`
+- Receive input lines until `"end"` is entered, in the format:  
+  `{Serial Number} {Item Name} {Item Quantity} {Item Price}`
 
 **Output:**  
-- Print all boxes ordered descending by price for a box in the following format:  
-{boxSerialNumber}
--- {boxItemName} – ${boxItemPrice}: {boxItemQuantity}
--- ${boxPrice}
-  - The price should be formatted to 2 digits after the decimal separator.
+- Print all boxes ordered descending by their price, using the format:
+`{Serial Number}`
+-- `{Item Name} – ${Item Price}: {Item Quantity}`
+-- `${Box Price}`
+
+- Format prices to two decimal places.
 
 ---
 
 ### 📝 Task 7: Vehicle Catalogue  
-**Problem Statement:**  
-Your task is to create a Vehicle catalog that contains only Trucks and Cars.
+**Problem:**  
+Create a vehicle catalog containing only Trucks and Cars.
 
 **Classes:**  
 - `Truck` with properties: Brand, Model, Weight  
-- `Car` with properties: Brand, Model, Horse Power  
-- `Catalog` with properties: Collections of Trucks and Cars  
+- `Car` with properties: Brand, Model, HorsePower  
+- `Catalog` holding collections of trucks and cars.
 
 **Input:**  
-- Read input until you receive the `"end"` command.  
-- Input format:  
-{type}/{brand}/{model}/{horse power / weight}
+- Read lines until `"end"` is received, format:  
+  `{type}/{brand}/{model}/{horse power or weight}`
 
 **Output:**  
-- Print all vehicles ordered alphabetically by brand in the following format:  
+- Print all vehicles sorted alphabetically by brand in the format:
+ 
 Cars:
-{Brand}: {Model} - {Horse Power}hp
+`{Brand}: {Model} - {HorsePower}hp`
 
 Trucks:
-{Brand}: {Model} - {Weight}kg
+`{Brand}: {Model} - {Weight}kg`
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
