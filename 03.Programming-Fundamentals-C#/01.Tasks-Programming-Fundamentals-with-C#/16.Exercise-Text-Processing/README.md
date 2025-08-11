@@ -7,88 +7,90 @@ This folder contains tasks from the **Text Processing - Exercise** section of th
 ---
 
 ### 📝 Task 1: Valid Usernames  
-**Problem Statement:**  
-Read a single line with usernames (separated by `", "`) and print all valid ones.
+**Description:**  
+You will receive a single line containing usernames separated by `", "`. Print only the valid usernames.
 
-**A valid username:**  
-- Has length between **3 and 16 characters**  
-- Contains only **letters**, **numbers**, **hyphens** (`-`) and **underscores** (`_`)
+**A username is valid if:**  
+- Its length is between **3 and 16 characters**  
+- It contains only **letters**, **digits**, **hyphens** (`-`), and **underscores** (`_`)
 
 ---
 
 ### 📝 Task 2: Character Multiplier  
-**Problem Statement:**  
-Create a method that takes **two strings** and multiplies their character codes.
+**Description:**  
+Create a function that takes two strings and calculates the sum of the products of their characters’ ASCII codes.
 
-- Multiply `str1[i] * str2[i]`
-- If one string is longer, add the remaining char codes directly to the result.
+- For each index `i`, multiply the ASCII codes of `str1[i]` and `str2[i]` and add to the total sum.  
+- If one string is longer, add the ASCII codes of the remaining characters directly to the sum.
 
 ---
 
 ### 📝 Task 3: Extract File  
-**Problem Statement:**  
-Read a file path and extract the **file name** and **file extension**.
+**Description:**  
+Given a file path, extract and print the file name and its extension.
 
 **Example:**  
-Input: `C:\Internal\training-internal\Template.pptx`  
+Input:  
+`C:\Internal\training-internal\Template.pptx`  
+
 Output:  
-File name: Template
-File extension: pptx
+`File name: Template`
+`File extension: pptx`
 
 ---
 
 ### 📝 Task 4: Caesar Cipher  
-**Problem Statement:**  
-Encrypt a text by shifting each character **3 positions forward** in the ASCII table.
+**Description:**  
+Encrypt a given text by shifting each character **3 positions forward** in the ASCII table.
 
-**Example:**  
-`A` → `D`, `B` → `E`, etc.
+Example:  
+`A` becomes `D`, `B` becomes `E`, and so on.
 
 ---
 
 ### 📝 Task 5: Multiply Big Number  
-**Problem Statement:**  
-You are given:
-- A **very big number** (up to 1050 digits)
-- A **single-digit number** (0–9)
+**Description:**  
+You are given:  
+- A very large number (up to 1050 digits)  
+- A single-digit number (0–9)  
 
-**Note:** Do **not** use `BigInteger`. Multiply them manually and print the result.
+Write a program to multiply them manually (without using built-in big integer types) and print the result.
 
 ---
 
 ### 📝 Task 6: Replace Repeating Chars  
-**Problem Statement:**  
-Read a string and replace **any sequence of repeating characters** with a **single instance** of that character.
+**Description:**  
+Read a string and replace every sequence of repeating characters with a single instance of that character.
 
-**Example:**  
+Example:  
 Input: `aaaaabbbbbcdddeeeedssaa`  
 Output: `abcdedsa`
 
 ---
 
 ### 📝 Task 7: String Explosion  
-**Problem Statement:**  
-In a string, explosions are triggered by `'>'` followed by a digit indicating the explosion strength.  
-Remove characters accordingly. If another `'>'` appears during the explosion, increase the strength.
+**Description:**  
+In a string, the character `'>'` triggers an explosion with strength indicated by the following digit. Remove characters accordingly.
 
-**Note:** The `'>'` remains, but digits used for strength should be removed.
+- The `'>'` character stays.  
+- Explosion strength digits are removed.  
+- If another `'>'` is found during an explosion, increase the explosion strength.
 
 ---
 
 ### 📝 Task 8: Letters Change Numbers  
-**Problem Statement:**  
-You will be given strings like `"A12b"` or `"s17G"`. You must:
+**Description:**  
+You will receive strings like `"A12b"` or `"s17G"`. For each string:
 
-- Modify the number based on the surrounding letters.
-- Sum all results.
+- Modify the number based on the surrounding letters.  
+- Sum all the results and print the total rounded to two decimal places.
 
 **Rules:**  
-- If the **first letter** is uppercase → divide by its alphabetical index.  
-- If lowercase → multiply.  
-- If the **last letter** is uppercase → subtract index.  
-- If lowercase → add index.  
-
-**Output:**  
-Print total sum rounded to **2 decimal places**.
+- If the **first letter** is uppercase, divide the number by its position in the alphabet.  
+- If lowercase, multiply the number by its position.  
+- If the **last letter** is uppercase, subtract its position from the number.  
+- If lowercase, add its position to the number.
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
