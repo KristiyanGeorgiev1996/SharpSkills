@@ -6,127 +6,123 @@ This folder contains tasks from the **Regular Expressions - Exercise** section o
 
 ---
 
-### 📝 Task 1: Furniture
+### 📝 Task 1: Furniture  
 **Problem Statement:**  
-Create a program to calculate the total cost of different types of furniture.  
-You will be given some lines of input, until you receive the line `"Purchase"`.
+Create a program to calculate the total cost of various furniture items.  
+You will receive input lines until you get the command `"Purchase"`.
 
-For the line to be valid it should be in the following format:  
-`">>{furniture name}<<{price}!{quantity}"`
+A valid line has the format:  
+`>>{furniture name}<<{price}!{quantity}`
 
-- The price can be a floating-point number or a whole number.
-- Store the names of the furniture and the total price.
+- The price can be an integer or a floating-point number.
+- Store the furniture names and keep track of the total spent.
 
-At the end, print each bought furniture on a separate line in the format:
+At the end, print:  
+`Bought furniture:`
+`{furniture name 1}`
+`{furniture name 2}`
+`...`
+`Total money spend: {total amount}`
 
-Bought furniture:
-{1st name}
-{2nd name}
-...
-Total money spend: {spend money}
-
-*(formatted to the second decimal point)*
+*(The total amount should be formatted to two decimal places)*
 
 ---
 
-### 📝 Task 2: Race
+### 📝 Task 2: Race  
 **Problem Statement:**  
-Write a program that processes information about a race.
+Write a program to track a race.
 
-- First line: list of participants separated by `", "`.
-- Next lines: alphanumeric info (e.g., `"G!32e%o7r#32g$235@!2e"`).
-- Extract letters as name and sum digits as distance.
-- Add distance only if name is in the participant list.
+- First line: participants’ names separated by `", "`.
+- Next lines: strings containing mixed characters (e.g. `"G!32e%o7r#32g$235@!2e"`).
+- Extract letters to form the racer’s name and sum all digits to get distance.
+- Add the distance only if the racer is in the participants list.
 
-At the end, print:
+At the end, print the top three racers:  
+`1st place: {name}`
+`2nd place: {name}`
+`3rd place: {name}`
 
-1st place: {first racer}
-2nd place: {second racer}
-3rd place: {third racer}
 
 ---
 
-### 📝 Task 3: SoftUni Bar Income
+### 📝 Task 3: SoftUni Bar Income  
 **Problem Statement:**  
-You receive input lines representing orders until `"end of shift"`.
+Process input lines representing customer orders until `"end of shift"`.
 
-A valid order contains:
+Valid orders have the format:  
+`%CustomerName%<Product>|Quantity|Price$`
 
-- Customer: `%Name%` (capital letter followed by lowercase)
-- Product: `<product>`
-- Quantity: `|count|`
-- Price: `price$` (real number)
+- Customer name starts with a capital letter followed by lowercase letters.
+- Product is enclosed in `< >`.
+- Quantity is an integer enclosed in `| |`.
+- Price is a number ending with `$`.
 
 Only process valid orders.
 
-**Print:**
-- `{customerName}: {product} - {totalPrice}`
+Print each order:  
+`{customerName}: {product} - {totalPrice}`
 
-**At end:**
-- `Total income: {income}` (rounded to 2 decimals)
+At the end, print total income:  
+`Total income: {income}`  
+*(rounded to 2 decimal places)*
 
 ---
 
-### 📝 Task 4: Star Enigma
+### 📝 Task 4: Star Enigma  
 **Problem Statement:**  
-Decrypt messages encrypted with a STAR count shift:
+Decrypt messages using a STAR letter count shift.
 
-- Count all letters: `s, t, a, r` (case-insensitive)
-- Subtract that count from each character in the message
+- Count all letters `s, t, a, r` (case-insensitive) in the message.
+- Subtract this count from the ASCII value of each character to get decrypted message.
 
-Valid decrypted message contains:
-
-- `@planet`
-- `:population`
-- `!attackType!` → `"A"` or `"D"`
+Valid decrypted messages contain:  
+- `@planet`  
+- `:population`  
+- `!attackType!` (either `"A"` for attacked or `"D"` for destroyed)  
 - `->soldierCount`
 
-**Input:**
-- First line: number of messages
-- Next `n` lines: encrypted messages
+Input:  
+- First line: number of messages  
+- Next n lines: encrypted messages
 
-**Output:**
+Output:  
+`Attacked planets: {count}`
+`-> {planetName}`
+`Destroyed planets: {count}`
+`-> {planetName}`
 
-Attacked planets: {count}
--> {planetName}
-Destroyed planets: {count}
--> {planetName}
-
-(Alphabetical order)
-
----
-
-### 📝 Task 5: Nether Realms
-**Problem Statement:**  
-Extract health and damage for each demon from a comma-separated list.
-
-- **Health**: sum of all characters' ASCII values (excluding digits, '+', '-', '*', '/', '.')
-- **Damage**:
-  - Sum all numbers (support + and -)
-  - Apply `*` and `/` in order as they appear
-
-**Output:**
-
-{demon name} - {health} health, {damage} damage
-
-(sorted alphabetically)
+Planets should be printed in alphabetical order.
 
 ---
 
-### 📝 Task 6: Extract Emails
+### 📝 Task 5: Nether Realms  
 **Problem Statement:**  
-Extract valid email addresses from a given line of text.
+For each demon name (from a comma-separated list):
 
-Valid format: `<user>@<host>`
+- Calculate health by summing the ASCII values of all characters except digits, `+`, `-`, `*`, `/`, `.`  
+- Calculate damage by summing all numbers (including signed), then apply multiplication and division operators in order.
 
-- **User**: letters/digits with optional `.`, `-`, `_` between
-- **Host**: two or more words with letters and optional `-`, separated by dots
+Print each demon with:  
+`{demon name} - {health} health, {damage} damage`
 
-**Examples of valid emails:**
+Sort demons alphabetically.
 
-- info@softuni-bulgaria.org
-- kiki@hotmail.co.uk
+---
+
+### 📝 Task 6: Extract Emails  
+**Problem Statement:**  
+Extract valid emails from a text line.
+
+Valid emails format: `<user>@<host>`
+
+- User: letters and digits, may contain `.`, `-`, `_` in between.
+- Host: two or more words made of letters (and optional `-`), separated by dots.
+
+Examples of valid emails:  
+- info@softuni-bulgaria.org  
+- kiki@hotmail.co.uk  
 - no-reply@github.com
 
 ---
 
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
