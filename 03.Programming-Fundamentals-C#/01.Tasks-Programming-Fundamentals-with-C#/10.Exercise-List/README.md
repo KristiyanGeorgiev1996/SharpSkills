@@ -7,104 +7,124 @@ This folder contains tasks from the **List - Exercise** section of the _Programm
 ## 🔧 Tasks Overview
 
 ### 📝 Task 1: Train  
-Simulate a passenger train. Each wagon has a capacity. Process commands to add wagons or fit passengers into the existing ones.  
+Simulate a passenger train where each wagon has a limited capacity. Process commands to either add new wagons or fit passengers into existing ones, starting from the first wagon with available space.
+
 **Commands:**  
-- `Add {passengers}` – add a new wagon  
-- `{passengers}` – fit into existing wagons (from the beginning)  
+- `Add {passengers}` – add a new wagon with the specified passengers  
+- `{passengers}` – fit the passengers into the first wagon that can accommodate them  
 
 ---
 
 ### 📝 Task 2: Change List  
-Manipulate a list of integers with the following commands:  
-- `Delete {element}` – remove all occurrences of the element  
-- `Insert {element} {position}` – insert element at given position  
-End the program with `"end"`.
+You have a list of integers. Modify it with these commands:  
+- `Delete {element}` – remove all occurrences of the given element  
+- `Insert {element} {position}` – insert the element at the specified index  
+The program ends when the command `"end"` is received.
 
 ---
 
 ### 📝 Task 3: House Party  
-Track guests going to a party. Print errors if guests try to join or leave when not allowed.  
-**Examples:**  
+Track guests attending a party. Print error messages if a guest tries to come twice or leave without being on the list.
+
+Output examples:  
 - `{name} is going!`  
 - `{name} is not going!`
 
 ---
 
 ### 📝 Task 4: List Operations  
-Modify a list with commands such as:  
-- `Add`, `Insert`, `Remove`, `Shift left`, `Shift right`  
-Invalid indexes should be handled with `"Invalid index"`.
+Perform operations on a list with commands like:  
+- `Add {number}`, `Insert {number} {index}`, `Remove {number}`, `Shift left {count}`, `Shift right {count}`  
+If an index is invalid, print `"Invalid index"`.
 
 ---
 
 ### 📝 Task 5: Bomb Numbers  
-Given a list of numbers and a special "bomb" number with a "power", remove all affected elements (left and right, based on power) for each occurrence of the bomb. Print the sum of remaining elements.
+Given a list of numbers, a special "bomb" number, and its "power":  
+For each occurrence of the bomb number, remove it along with `power` numbers to its left and right. Print the sum of the remaining numbers.
 
 ---
 
 ### 📝 Task 6: Cards Game  
-Simulate a 2-player card game with rules for comparing cards, removing or reordering cards. The game ends when one player runs out of cards.
+Simulate a two-player card game where each player has a deck.  
+Compare the top cards from each deck:  
+- The player with the higher card takes both cards and puts them at the bottom of their deck.  
+- If cards are equal, both are discarded.  
+The game ends when one player runs out of cards.
 
 ---
 
 ### 📝 Task 7: Append Arrays  
-You will receive input like:  
+You will receive input strings like:  
 `1 2 3 |4 5 6 | 7 8`  
-You should append arrays from **right to left** and flatten them into a single list.
+Append arrays from **right to left** and flatten them into a single list.
 
 ---
 
 ### 📝 Task 8: Anonymous Threat  
-Simulate a virus that can:  
-- `merge {startIndex} {endIndex}` – concatenate strings  
-- `divide {index} {partitions}` – split string into equal parts  
+Simulate a virus that manipulates a list of strings with commands:  
+- `merge {startIndex} {endIndex}` – concatenate all strings in the given range  
+- `divide {index} {partitions}` – split the string at the given index into equal parts  
 Input ends with `"3:1"`.
 
 ---
 
-### 📝 Task 9: Pokemon Don't Go  
-Simulate catching pokemons by index. Change the rest of the numbers in the list depending on the removed value. Handle out-of-range indexes as described.
+### 📝 Task 9: Pokemon Don’t Go  
+Simulate catching pokemons by removing elements from a list by index.  
+Adjust remaining elements:  
+- If removed value is greater or equal, subtract it from each remaining element.  
+- Otherwise, add it to each remaining element.  
+Handle out-of-range indexes as described.
 
 ---
 
 ### 📝 Task 10: SoftUni Course Planning  
-Maintain a course schedule. Support adding, inserting, swapping, and removing lessons with optional exercises. Commands include:  
-- `Add`, `Insert`, `Remove`, `Swap`, `Exercise`  
-End input with `"course start"` and print the final numbered schedule.
+Manage a course schedule with commands:  
+- `Add {lessonTitle}`  
+- `Insert {lessonTitle} {index}`  
+- `Remove {lessonTitle}`  
+- `Swap {lessonTitle1} {lessonTitle2}`  
+- `Exercise {lessonTitle}` – add an exercise to the lesson  
+End input with `"course start"` and print the final schedule with numbering.
 
 ---
 
 ### 📝 Task 11: Messaging  
-Given a list of numbers and a string, extract hidden messages by calculating digit sums as indices into the text, then removing characters.
+Given a list of numbers and a string, extract a hidden message by:  
+- Summing the digits of each number to get an index  
+- Using the index to pick characters from the string  
+- Removing used characters from the string after each pick
 
 ---
 
 ### 📝 Task 12: Car Race  
-Two racers start from each end of a list of track segments.  
-If a segment has value `0`, reduce time by 20%.  
-Print the winner and their total time.
+Two racers start from opposite ends of a list of track segments.  
+- If a segment is `0`, the racer’s time for that segment is reduced by 20%.  
+Print the winner and their total time formatted to two decimal places.
 
 ---
 
 ### 📝 Task 13: Take/Skip Rope  
-Decrypt a message.  
-- Extract digits and letters  
-- Split digits into `take` and `skip`  
-- Build message by taking/skipping letters accordingly
+Decrypt a message by:  
+- Extracting all digits and letters separately from the input  
+- Using digits to create `take` and `skip` lists  
+- Taking and skipping letters accordingly to build the decrypted message
 
 ---
 
 ### 📝 Task 14: Mixed Up Lists  
-Mix two lists: take one element from the start of the first and one from the end of the second.  
-Use remaining two elements (range) to filter the mixed list.  
-Print the result sorted.
+Given two lists, mix them by taking one element from the start of the first list and one from the end of the second list alternately.  
+Use the remaining two elements to define a range and filter the mixed list within this range.  
+Print the filtered list sorted.
 
 ---
 
 ### 📝 Task 15: Drum Set  
-Simulate a drummer (Gabsy) practicing daily. Drums wear out with each hit.  
-When a drum breaks, she buys a replacement if she can afford it.  
-Print the final state of the drum set and remaining money.
+Simulate a drummer's practice with a drum set.  
+- Drums wear out by the power of hits.  
+- When a drum breaks, it is replaced if the drummer has enough money.  
+Print the final state of the drum set and the money left.
 
 ---
 
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
