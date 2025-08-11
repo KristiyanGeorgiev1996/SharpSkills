@@ -7,9 +7,9 @@ This folder contains tasks from the **Text Processing** section of the _Programm
 ---
 
 ### 📝 Task 1: Reverse Strings  
-**Problem Statement:**  
-You will be given a series of strings until you receive an `"end"` command.  
-Write a program that reverses each string and prints the result.
+**Problem Description:**  
+You will receive multiple strings until the command `"end"` is entered.  
+Write a program that reverses each string and prints it.
 
 **Output Format:**  
 `"{word} = {reversedWord}"`
@@ -17,9 +17,9 @@ Write a program that reverses each string and prints the result.
 ---
 
 ### 📝 Task 2: Repeat Strings  
-**Problem Statement:**  
-Read an array of strings. Each string is repeated **N** times, where **N** is the length of that string.  
-Print the concatenated result.
+**Problem Description:**  
+Read a list of strings. For each string, repeat it **N** times, where **N** is the length of the string.  
+Print all repeated strings concatenated together.
 
 **Example:**  
 Input: `hi abc add`  
@@ -28,16 +28,17 @@ Output: `hihiaaaabbbccccaddaddadd`
 ---
 
 ### 📝 Task 3: Substring  
-**Problem Statement:**  
-You will receive two strings:
-- The **first** is the string to remove.
-- The **second** is the base text.
+**Problem Description:**  
+Receive two strings:  
+- The first string is the substring to remove.  
+- The second string is the base text.
 
-Remove all **occurrences** of the first string from the second. Repeat this until none remain, and then print the result.
+Remove **all occurrences** of the first string from the second string repeatedly until none remain. Then print the resulting text.
 
-**Input Format:**  
-ice
-kicegiciceeb
+**Input Example:**  
+`ice`
+`kicegiciceeb`
+
 
 **Output:**  
 `kgb`
@@ -45,13 +46,14 @@ kicegiciceeb
 ---
 
 ### 📝 Task 4: Text Filter  
-**Problem Statement:**  
-Read a list of banned words (comma and space separated) and a block of text.  
-Replace each banned word in the text with asterisks `*` equal to the word’s length.
+**Problem Description:**  
+Read a list of banned words (comma and space separated) and a text block.  
+Replace every banned word in the text with asterisks (`*`) matching the banned word’s length.
 
-**Input Format:**
-Linux, Windows
-It is not recommended to use Linux or Windows.
+**Input Example:**  
+`Linux, Windows`
+`It is not recommended to use Linux or Windows.`
+
 
 **Output:**  
 `It is not recommended to use ***** or *******.`
@@ -59,20 +61,22 @@ It is not recommended to use Linux or Windows.
 ---
 
 ### 📝 Task 5: Digits, Letters and Others  
-**Problem Statement:**  
-Receive a single string and separate its characters into:
-- **Digits**
-- **Letters**
-- **Other characters**
+**Problem Description:**  
+Given a single string, separate its characters into three groups:  
+- Digits  
+- Letters  
+- Other characters
 
-Each category should be printed on a **separate line**.
+Print each group on a separate line.
 
 **Example Input:**  
 `C@t1sC00l!`
 
-**Example Output:**
-100
-CtsC
-@!l
+**Example Output:**  
+`100`
+`CtsC`
+`@!l`
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
