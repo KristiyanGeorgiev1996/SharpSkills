@@ -8,86 +8,82 @@ This folder contains tasks from the **Regular Expressions** section of the _Prog
 
 ### 📝 Task 1: Match Full Name  
 **Problem Statement:**  
-Write a C# Program to match full names from a list of names and print them on the console.
+Write a C# program that extracts full names from a list and prints them to the console.
 
-**Writing the Regular Expression**  
-Create a regex to match a valid full name, according to these conditions:
+**Requirements for the Regular Expression:**  
+Create a regex pattern to match valid full names based on the following rules:
 
-- A valid full name consists of **two words**.
-- Each word starts with a **capital letter**.
-- After the first letter, it only contains **lowercase letters**.
-- Each word should be at least **two letters long**.
+- The full name consists of **exactly two words**.  
+- Each word starts with a **capital letter**.  
+- After the first letter, the word contains only **lowercase letters**.  
+- Each word must be at least **two letters long**.  
 - The two words are separated by a **single space**.
 
-**Steps to create the RegEx:**
+**How to build the regex:**  
+1. Use a regex tester like [regex101.com](https://regex101.com/).  
+2. Use character classes with square brackets `[]`.  
+3. Specify two words separated by a space (`' '`).  
+4. Each word starts with an uppercase letter `[A-Z]`.  
+5. Followed by one or more lowercase letters `[a-z]+`.  
+6. Use `\b` at the start and end to denote word boundaries.
 
-1. Use an online regex tester like [regex101.com](https://regex101.com/).
-2. Use character sets denoted with square brackets `[]`.
-3. Specify that you want **two words with a space between them** (the space character `' '` only).
-4. Each word begins with an uppercase letter `[A-Z]`.
-5. Followed by one or more lowercase letters `[a-z]+`.
-6. Use `\b` at the start and end to mark word boundaries.
+**Test your regex with these samples:**
 
-**Test the RegEx** with the following values:
-
-| Match ALL of these          | Match NONE of these                                  |
-|----------------------------|-----------------------------------------------------|
-| Bethany Taylor             | John Smith Bethany Taylor, Oliver miller,           |
-| John Smith                 | sophia Johnson, SARah Wilson, John Smith, Sam Smith|
+| Should Match                 | Should NOT Match                                  |
+|-----------------------------|--------------------------------------------------|
+| Bethany Taylor              | John Smith Bethany Taylor, Oliver miller         |
+| John Smith                  | sophia Johnson, SARah Wilson, John Smith, Sam Smith |
 
 ---
 
 ### 📝 Task 2: Match Phone Number  
 **Problem Statement:**  
-Create a regular expression to match valid phone numbers from Sofia. After finding all valid phones, print them separated by `", "`.
+Create a regex pattern that matches valid Sofia phone numbers. After extracting all valid numbers, print them separated by `", "`.
 
-**Valid number characteristics:**
+**Phone number requirements:**  
+- Starts with `+359`.  
+- Followed by the area code `2`.  
+- Then the local number split into two groups: 3 digits and 4 digits.  
+- Parts are separated either by spaces or hyphens (`-`).  
+- Use a **capturing group** for the delimiter to ensure consistency (only spaces or only hyphens).  
+- Add a **word boundary** at the end.  
+- Before the plus sign (`+`), there must be either a space or the start of the string.
 
-- Starts with `"+359"`.
-- Followed by the area code, which is always `2`.
-- Followed by the number itself: 7 digits divided into two groups: 3 and 4 digits.
-- Parts separated by either a space or a hyphen (`-`).
-- Use a **capturing group** to ensure the delimiter is consistent (space or hyphen).
-- Add a **word boundary** at the end.
-- Ensure before the '+' there is either a space or the beginning of the string.
+**Test your regex with:**
 
-**Test the RegEx** with:
-
-| Match ALL of these       | Match NONE of these                                       |
-|-------------------------|----------------------------------------------------------|
-| +359 2 222 2222         | 359-2-222-2222, +359/2/222/2222, +359-2 222 2222         |
-| +359-2-222-2222         | +359 2-222-2222, +359-2-222-222, +359-2-222-22222         |
+| Should Match               | Should NOT Match                                  |
+|---------------------------|-------------------------------------------------|
+| +359 2 222 2222           | 359-2-222-2222, +359/2/222/2222, +359-2 222 2222|
+| +359-2-222-2222           | +359 2-222-2222, +359-2-222-222, +359-2-222-22222 |
 
 ---
 
 ### 📝 Task 3: Match Dates  
 **Problem Statement:**  
-Write a program to match dates in the format `dd{separator}MMM{separator}yyyy` using **named capturing groups**.
+Write a program to find dates in the format `dd{separator}MMM{separator}yyyy` using **named capturing groups**.
 
-**Date characteristics:**
+**Date format rules:**  
+- `dd`: exactly two digits for the day.  
+- `MMM`: a three-letter month abbreviation, with the first letter uppercase and the next two lowercase (e.g., Jan, Mar).  
+- `yyyy`: exactly four digits for the year.  
+- The day, month, and year are separated by the **same** separator symbol (`.`, `-`, or `/`).  
+- Use a **backreference** to ensure the separator is consistent throughout the date.
 
-- Starts with **two digits** (`dd`), followed by a separator.
-- Then one uppercase and two lowercase letters (`MMM`), e.g. `Jan`, `Mar`.
-- Then the **same separator**.
-- Followed by exactly **4 digits** (`yyyy`).
-- Separator can be `.`, `-`, or `/`.
-- The separator must be consistent across the date (use **group backreference**).
+**Test your regex with:**
 
-**Test the RegEx** with:
-
-| Match ALL of these             | Match NONE of these                |
-|-------------------------------|----------------------------------|
-| 13/Jul/1928                   | 01/Jan-1951                     |
-| 10-Nov-1934                   | 23/sept/1973                    |
-| 25.Dec.1937                  | 1/Feb/2016                     |
+| Should Match               | Should NOT Match                             |
+|---------------------------|---------------------------------------------|
+| 13/Jul/1928               | 01/Jan-1951                                |
+| 10-Nov-1934               | 23/sept/1973                               |
+| 25.Dec.1937               | 1/Feb/2016                                 |
 
 ---
 
-**Use named capturing groups for:**
-
-- `day`
-- `month`
+**Use named groups to capture:**  
+- `day`  
+- `month`  
 - `year`
 
 ---
 
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
