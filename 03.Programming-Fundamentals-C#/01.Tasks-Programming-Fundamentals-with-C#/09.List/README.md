@@ -7,78 +7,77 @@ This folder contains tasks from the **List** section of the _Programming Fundame
 ## 🔧 Tasks Overview
 
 ### 📝 Task 1: Sum Adjacent Equal Numbers  
-**Problem Statement:**  
-Create a program to sum all of the adjacent equal numbers in a list of decimal numbers, from left to right.
+**Description:**  
+Write a program that sums all adjacent equal numbers in a list of decimal numbers, moving from left to right.
 
-- After two numbers are summed, the result might be equal to some of its neighbors and should be summed as well.
-- Always sum the **leftmost** two equal neighbors (if several exist).
+- When two adjacent numbers are summed, the result might be equal to one of its neighbors, so keep summing them as well.  
+- Always sum the **leftmost** pair of equal neighbors first if there are multiple.
 
 ---
 
 ### 📝 Task 2: Gauss' Trick  
-**Problem Statement:**  
-Create a program that sums all numbers in a list using Gauss' pairing method:
+**Description:**  
+Create a program that sums numbers in a list by pairing the first with the last, the second with the second-last, and so on.
 
-- Sum the first and last, the second and second-last, and so on.
-- Continue this until all numbers are summed.
+- Continue this process until all numbers are summed.
 
 ---
 
 ### 📝 Task 3: Merging Lists  
-**Problem Statement:**  
-You will receive two lists of numbers. Create a new list by alternating elements from each list:
+**Description:**  
+You will get two lists of numbers. Create a new list by alternating elements from each list:
 
-- First element from the first list  
-- Second element from the second list  
-- And so on...  
+- Take the first element from the first list,  
+- Then the first element from the second list,  
+- Then the second element from the first list, and so on.
 
-If the lists are of different lengths, append the remaining elements at the end.
+If one list is longer, append its remaining elements to the end.
 
 ---
 
 ### 📝 Task 4: List of Products  
-**Problem Statement:**  
-Read a number `n` and then `n` product names (strings).  
-Print a numbered list of all products **sorted alphabetically**.
+**Description:**  
+Read a number `n`, then read `n` product names (strings).  
+Print a numbered list of all products sorted in alphabetical order.
 
 ---
 
 ### 📝 Task 5: Remove Negatives and Reverse  
-**Problem Statement:**  
-Read a list of integers.  
-Remove all negative numbers and print the remaining elements **in reversed order**.
+**Description:**  
+Read a list of integers, remove all negative numbers, then print the remaining numbers in reversed order.
 
-- If no elements are left → print `"empty"`.
+- If the resulting list is empty, print `"empty"`.
 
 ---
 
 ### 📝 Task 6: List Manipulation Basics  
-**Problem Statement:**  
-Create a program that reads a list of integers. Then, until `"end"` is received, execute one of the following commands:
+**Description:**  
+Start by reading a list of integers. Then, until the command `"end"` is received, execute commands to modify the list:
 
-- `Add {number}` – Add number to the end of the list.  
-- `Remove {number}` – Remove the number (first occurrence).  
-- `RemoveAt {index}` – Remove the number at the given index.  
-- `Insert {number} {index}` – Insert the number at the given index.  
+- `Add {number}` – add the number to the end of the list  
+- `Remove {number}` – remove the first occurrence of the number  
+- `RemoveAt {index}` – remove the number at the given index  
+- `Insert {number} {index}` – insert the number at the given index  
 
-> All indices are guaranteed to be valid.
-
-At the end, print the final state of the list (space-separated).
+All indices will be valid.  
+At the end, print the final list elements separated by spaces.
 
 ---
 
 ### 📝 Task 7: List Manipulation Advanced  
-**Problem Statement:**  
-Extend the previous task with more complex list operations. Read the initial list and continue reading commands until `"end"` is received.
+**Description:**  
+Build on the previous task by adding more commands. Keep reading commands until `"end"`.
 
-#### Available commands:
+Available commands:
 
-- `Contains {number}` – Print `"Yes"` if present, otherwise `"No such number"`.  
-- `PrintEven` – Print all even numbers.  
-- `PrintOdd` – Print all odd numbers.  
-- `GetSum` – Print the sum of all elements.  
-- `Filter {condition} {number}` – Print elements matching the condition: `<`, `>`, `>=`, `<=`.
+- `Contains {number}` – print `"Yes"` if the number is in the list, otherwise print `"No such number"`  
+- `PrintEven` – print all even numbers in the list  
+- `PrintOdd` – print all odd numbers in the list  
+- `GetSum` – print the sum of all elements  
+- `Filter {condition} {number}` – print all elements that satisfy the condition (`<`, `>`, `>=`, `<=`)  
 
-> After the `"end"` command, print the final list **only if it has been modified** (via the commands from Task 6).
+After `"end"`, print the final list **only if it was changed** by commands from Task 6.
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
