@@ -7,8 +7,8 @@ This folder contains tasks from the **Associative Arrays - Exercise** section of
 ---
 
 ### 📝 Task 1: Count Chars in a String  
-**Problem Statement:**  
-Create a program that counts all characters in a string, except for space (' ').
+**Problem Description:**  
+Write a program that counts the occurrences of each character in a string, ignoring spaces.
 
 **Output Format:**  
 `"{char} -> {occurrences}"`
@@ -16,8 +16,8 @@ Create a program that counts all characters in a string, except for space (' ').
 ---
 
 ### 📝 Task 2: A Miner Task  
-**Problem Statement:**  
-Collect resources from input where every odd line is a resource and every even line is a quantity.
+**Problem Description:**  
+Read input lines where odd lines are resource names and even lines are their quantities. Aggregate total quantities per resource.
 
 **Output Format:**  
 `"{resource} -> {quantity}"`
@@ -25,118 +25,119 @@ Collect resources from input where every odd line is a resource and every even l
 ---
 
 ### 📝 Task 3: Orders  
-**Problem Statement:**  
-Track products with prices and quantities. If a product already exists, update its quantity and price.
+**Problem Description:**  
+Track product orders by name, price, and quantity. Update the product’s price and accumulate quantity if it appears again.
 
 **Input Format:**  
-`"{productName} {price} {quantity}"` until `"buy"`
+Lines of `"{productName} {price} {quantity}"` until `"buy"` is received.
 
 **Output Format:**  
 `"{productName} -> {totalPrice}"`  
-*Price should be formatted to the 2nd decimal place.*
+*Total price formatted to two decimals.*
 
 ---
 
 ### 📝 Task 4: SoftUni Parking  
-**Problem Statement:**  
-Manage parking registration through register/unregister commands.
+**Problem Description:**  
+Implement a parking registration system with commands to register and unregister users with license plates.
 
 **Commands:**
 - `"register {username} {licensePlateNumber}"`
 - `"unregister {username}"`
 
 **Final Output:**  
+Print all registered users as:  
 `"{username} => {licensePlateNumber}"`
 
 ---
 
 ### 📝 Task 5: Courses  
-**Problem Statement:**  
-Store course names and their students until `"end"`.
+**Problem Description:**  
+Collect students for different courses until `"end"` command is given.
 
 **Input Format:**  
 `"{courseName} : {studentName}"`
 
 **Output Format:**
 - `"{courseName}: {registeredStudents}"`
-- `"-- {studentName}"`
+- `"-- {studentName}"` for each student
 
 ---
 
 ### 📝 Task 6: Student Academy  
-**Problem Statement:**  
-Track students and their grades. Show those with average grade ≥ 4.50.
+**Problem Description:**  
+Read students’ names and grades, calculate their average grades, and print those with average ≥ 4.50.
 
 **Output Format:**  
 `"{name} -> {averageGrade}"`  
-*Grade formatted to 2 decimal places.*
+*Average grade formatted to two decimals.*
 
 ---
 
 ### 📝 Task 7: Company Users  
-**Problem Statement:**  
-Store company names and employee IDs (no duplicates).
+**Problem Description:**  
+Store company names and their employee IDs, ensuring no duplicates.
 
 **Input Format:**  
 `"{companyName} -> {employeeId}"` until `"End"`
 
 **Output Format:**
 - `"{companyName}"`
-- `"-- {employeeId}"`
+- `"-- {employeeId}"` for each employee
 
 ---
 
 ### 📝 Task 8: Ranking  
-**Problem Statement:**  
-Manage contests, passwords, and participant scores. Print best candidate and all rankings.
+**Problem Description:**  
+Manage contests with passwords and user submissions. Track points and identify the best candidate.
 
 **Input:**
-- `"{contest}:{password}"` until `"end of contests"`
-- `"{contest}=>{password}=>{username}=>{points}"` until `"end of submissions"`
+- Contests and passwords in format `"{contest}:{password}"` until `"end of contests"`
+- Submissions in format `"{contest}=>{password}=>{username}=>{points}"` until `"end of submissions"`
 
 **Output Format:**
 - `"Best candidate is {username} with total {totalPoints} points."`
-- User stats:
-{username}
-
-{contest1} -> {points}
-{contest2} -> {points}
+- Then print all participants and their points per contest.
 
 ---
 
 ### 📝 Task 9: Judge  
-**Problem Statement:**  
-Track contest standings and user points. Summarize per contest and individual standings.
+**Problem Description:**  
+Keep contest rankings by participants and points, and also print individual total standings.
 
 **Input Format:**  
 `"{username} -> {contest} -> {points}"` until `"no more time"`
 
 **Output Format:**
 - `"{contest}: {participantCount} participants"`
-- `"{position}. {username} <::> {points}"`
-- `Individual standings:`
-- `"{position}. {username} -> {totalPoints}"`
+- Listing participants in order with points:  
+`"{position}. {username} <::> {points}"`
+- Then individual standings:  
+`"Individual standings:"`  
+`"{position}. {username} -> {totalPoints}"`
 
 ---
 
 ### 📝 Task 10: MOBA Challenger  
-**Problem Statement:**  
-Track MOBA player positions and skills. Simulate duels and update rankings.
+**Problem Description:**  
+Track players, their positions, and skills. Simulate battles, update skills, and remove players if needed.
 
 **Input Format:**
 - `"{player} -> {position} -> {skill}"`
 - `"{player} vs {player}"`
-- End with `"Season end"`
+- End input with `"Season end"`
 
 **Output Format:**
-- `"{player}: {totalSkill} skill"`
-- `"- {position} <::> {skill}"`
+- For each player:  
+`"{player}: {totalSkill} skill"`
+- For each position:  
+`"- {position} <::> {skill}"`
 
 ---
 
 ### 📝 Task 11: Snowwhite  
-**Problem Statement:**  
-Store dwarfs by name and hat color. If duplicate, keep highest physics.
+**Problem Description:**  
+Store dwarfs identified by name and hat color, keeping only the highest physics value per unique dwarf.
 
 **Input Format:**  
 `"{dwarfName} <:> {hatColor} <:> {dwarfPhysics}"` until `"Once upon a time"`
@@ -147,15 +148,22 @@ Store dwarfs by name and hat color. If duplicate, keep highest physics.
 ---
 
 ### 📝 Task 12: Dragon Army  
-**Problem Statement:**  
-Track dragons by type, name, and stats. Replace stats if duplicate.
+**Problem Description:**  
+Manage dragons by type, name, and stats. Replace stats if a dragon with the same name and type appears.
 
 **Input Format:**  
-`"{type} {name} {damage} {health} {armor}"` – use defaults if "null"  
-*Defaults: damage = 45, health = 250, armor = 10*
+`"{type} {name} {damage} {health} {armor}"`  
+*If any stat is `"null"`, replace it with default values:*  
+- damage = 45  
+- health = 250  
+- armor = 10
 
 **Output Format:**
-- `"{Type}::({avgDamage}/{avgHealth}/{avgArmor})"`
-- `"-{Name} -> damage: {damage}, health: {health}, armor: {armor}"`
+- For each dragon type:  
+`"{Type}::({avgDamage}/{avgHealth}/{avgArmor})"`
+- For each dragon:  
+`"-{Name} -> damage: {damage}, health: {health}, armor: {armor}"`
 
 ---
+
+**Note:** The tasks are adapted from the SoftUni course and have been reformulated to present clearer and more illustrative descriptions of each exercise.
