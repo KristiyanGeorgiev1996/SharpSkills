@@ -71,11 +71,16 @@ If both participants pick the same symbol, the round ends in a draw.
 
 `Draws: 1`
 
+
 `Enter your move [r]ock / [p]aper / [s]cissors: r`
+
 `Computer chose: paper`
+
 `You lose! 🔴`
 
+
 `Play another round? (y/n): n`
+
 `Thanks for playing!`
 
 ---
