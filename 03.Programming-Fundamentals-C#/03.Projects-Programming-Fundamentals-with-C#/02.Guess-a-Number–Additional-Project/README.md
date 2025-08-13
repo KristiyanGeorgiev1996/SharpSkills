@@ -4,80 +4,78 @@
 
 ## 📝 Description
 
-"Guess the Number" is a console-based game where the computer selects a random number within a defined range (e.g. 1 to 100), and the player's goal is to guess that number. After each guess, the computer provides a hint whether the number is higher or lower than the entered value. The game continues until the player correctly guesses the number.
+A simple C# console application where the computer secretly picks a number within a certain range, and the player’s objective is to find it by guessing.  
+After each attempt, the program gives feedback whether the target number is greater or smaller than the guess.  
+The game continues until the correct number is found.
 
 ---
 
-## ✅ Requirements
+## 📖 Game Concept
 
-The game must meet the following criteria:
-
-- The computer selects a random number between 1 and 100 (or other, based on level).
-- The player enters a number and receives hints to guess higher or lower.
-- Input validation is implemented – invalid inputs display a proper message.
-- The game continues until the number is guessed.
-- After guessing correctly, the player can choose to play again.
-- With each new level, the guessing range can increase.
-- The number of attempts per round is tracked.
-- Code is clean, structured, and separated into methods.
+1. The computer generates a hidden number within a given range (e.g., 1–100).
+2. The player enters guesses and receives hints:
+   - If the guess is too low → the program indicates “higher”.
+   - If the guess is too high → the program indicates “lower”.
+3. The game ends when the number is guessed correctly.
+4. Players can choose to start a new round after winning.
 
 ---
 
-## ⚙️ Technologies
+## 🎯 Core Requirements
 
-- Language: C#
-- Development Environment: Visual Studio / Visual Studio Code
-- .NET Framework / .NET Core
-- Console Application
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository or download the source code.
-2. Open the project in Visual Studio or Visual Studio Code.
-3. Build and run the project.
-4. Follow the instructions in the console to play.
+- **Random Number Generation:** Pick a number between 1 and 100 (or different range for other levels).  
+- **Player Input:** Read and validate the guessed number.  
+- **Hints:** Indicate whether the secret number is higher or lower than the guess.  
+- **Input Validation:** Handle invalid entries with an error message.  
+- **Replay Option:** After a correct guess, ask if the player wants to play again.  
+- **Level Progression:** Higher levels can increase the range.  
+- **Attempt Tracking:** Count how many guesses are made per round.  
+- **Code Structure:** Keep logic organized and separated into methods.
 
 ---
 
-## 📂 Code Overview
+## 🛠 Technologies Used
 
-The main game logic is cleanly structured and organized:
-
-- `GenerateRandomNumber(int min, int max)`  
-  → Generates a random number between given bounds.
-
-- `ReadUserGuess()`  
-  → Reads and validates user input as an integer.
-
-- `PrintHint(int guess, int secretNumber)`  
-  → Gives a hint whether the secret number is higher or lower.
-
-- `PlayGame(int level, int min, int max)`  
-  → Main game loop. Handles input, logic checks, and attempt counting.
-
-- `AskToPlayAgain()`  
-  → Asks the player if they want to continue. If yes, proceeds to next level.
-
-- `Main()`  
-  → Entry point of the program. Initializes and launches the game.
+- **Language:** C#  
+- **Environment:** Visual Studio / Visual Studio Code  
+- **Framework:** .NET Framework / .NET Core  
+- **Type:** Console Application
 
 ---
 
-## 💡 Extension Ideas
+## ▶️ Running the Game
 
-- ⏱️ Add a timer and time limit per round.  
-- 📊 Show visual progress indicators.  
-- 💾 Save best scores to a text file.  
-- 🎮 Add multiple difficulty modes.  
-- 🔧 Allow the user to choose their own custom range.
+1. Clone or download this repository.  
+2. Open the project in Visual Studio or Visual Studio Code.  
+3. Build and run the application.  
+4. Follow the console instructions to play.
 
 ---
 
-  ## 📄 License
+## 📂 Main Methods
 
-This project is open-source and licensed under the **MIT License**.
+- `GenerateRandomNumber(int min, int max)` → Creates a random number within the given bounds.  
+- `ReadUserGuess()` → Reads and validates player input.  
+- `PrintHint(int guess, int secretNumber)` → Shows if the target number is higher or lower.  
+- `PlayGame(int level, int min, int max)` → Main game loop with input handling and attempt counting.  
+- `AskToPlayAgain()` → Checks if the player wants another round and moves to the next level.  
+- `Main()` → Program entry point.
+
+---
+
+## 💡 Possible Improvements
+
+- ⏱ Add a timer or time limit for each round.  
+- 📊 Display progress statistics.  
+- 💾 Save high scores to a file.  
+- 🎮 Include multiple difficulty settings.  
+- 🔧 Let the player define a custom range.
+
+---
+
+## 📜 License
+
+This project is distributed under the **MIT License**.
 
 ---
 
