@@ -64,8 +64,11 @@ If both participants pick the same symbol, the round ends in a draw.
 
 ## 🖥 Example Session
 `==== Current Score ====`
+
 `Player: 3`
+
 `Computer: 2`
+
 `Draws: 1`
 
 `Enter your move [r]ock / [p]aper / [s]cissors: r`
