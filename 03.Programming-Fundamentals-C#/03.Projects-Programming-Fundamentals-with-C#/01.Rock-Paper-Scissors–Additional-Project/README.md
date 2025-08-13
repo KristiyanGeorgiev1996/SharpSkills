@@ -4,84 +4,80 @@
 
 ## 📋 Description
 
-This is a console implementation of the classic **Rock - Paper - Scissors** game, written in C#. The game allows the user to play against the computer by choosing one of three options: rock 🪨, paper 📄, or scissors ✂️.
-
-The rules are simple:
-
-- 🪨 Rock beats scissors (rock breaks scissors)
-- ✂️ Scissors beats paper (scissors cut paper)
-- 📄 Paper beats rock (paper covers rock)
-
-If both players choose the same option, the result is a draw.
+A C# console application that recreates the classic **Rock–Paper–Scissors** game.  
+The player faces off against the computer by choosing between rock 🪨, paper 📄, or scissors ✂️.
 
 ---
 
-## ✅ Requirements
+## 📖 Game Rules
 
-The game should meet the following criteria:
+- 🪨 **Rock** crushes ✂️ **Scissors**
+- ✂️ **Scissors** cut 📄 **Paper**
+- 📄 **Paper** wraps 🪨 **Rock**
 
-- The player can enter their choice by typing a single letter (`r`, `p`, or `s`) or the full word (`rock`, `paper`, `scissors`).
-- The computer randomly selects its move.
-- The program compares the player's and computer's moves and determines the winner.
-- The program keeps track of the score: wins, losses, and draws.
-- The game loops, allowing the player to play multiple rounds.
-- After each round, the player can choose to play again or exit.
-- Input validation – if the input is invalid, the player is prompted to try again.
-- Console output uses clear color indicators for win (🟢 green), loss (🔴 red), and draw (🟡 yellow).
+If both participants pick the same symbol, the round ends in a draw.
 
 ---
 
-## ⚙️ Implementation Details
+## 🎯 Features & Requirements
 
-The solution includes the following main components:
-
-- **Input Handling:** Reading and validating the player’s choice.
-- **Random Move Generation:** Computer selects a random move.
-- **Game Logic:** Determining the winner based on the rules.
-- **Score Tracking:** Keeping a tally of wins, losses, and draws.
-- **User Interface:** Console messages with colors and clear instructions.
-- **Looping:** Main loop continues until the player chooses to stop.
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository or download the source code.
-2. Open the project in Visual Studio or another compatible C# environment.
-3. Build and run the project.
-4. Follow the on-screen instructions to play.
+- **Flexible Input:** Player can type either a single character (`r`, `p`, `s`) or the full move name (`rock`, `paper`, `scissors`).
+- **Random Opponent:** The computer’s choice is generated randomly each round.
+- **Result Calculation:** The program determines the winner by comparing moves according to the rules.
+- **Scoreboard:** Keeps track of total wins, losses, and draws throughout the session.
+- **Replay Option:** After each round, the player can choose to continue or quit.
+- **Input Validation:** If an invalid entry is made, the player is prompted again.
+- **Visual Feedback:** Console colors indicate result — 🟢 win, 🔴 loss, 🟡 draw.
+- **Continuous Play:** The game runs in a loop until the player opts to stop.
 
 ---
 
-## 📚 Code Overview
+## 🛠 Core Components
 
-Briefly about the main methods:
-
-- `GetPlayerMove()` — Prompts the user for a choice and validates it.
-- `GetComputerMove()` — Generates the computer’s random move.
-- `DetermineWinner(player, computer)` — Returns the outcome (`win`, `lose`, or `draw`).
-- `DisplayResult(result)` — Prints the result message with appropriate color.
-- `PrintScore()` — Displays the current score.
-
----
-
-## 🖥 Sample Output
-==== Score ====
- - Player: 3  
- - Computer: 2  
- - Draws: 1  
-
-Choose [r]ock, [p]aper or [s]cissors: r  
-Computer chose: paper  
-**You lose!**
-
-Do you want to play again? (y/n): n  
-Thanks for playing!
-
-
+- **Player Input Handler** – Reads and validates the player’s move.
+- **Computer Move Generator** – Produces a random choice for the computer.
+- **Winner Evaluator** – Compares both moves and decides the outcome.
+- **Score Tracker** – Stores and updates game statistics.
+- **User Interface** – Displays clear instructions and colored results.
+- **Main Loop** – Keeps the game active until the user ends it.
 
 ---
 
-## 📄 License
+## ▶️ How to Start
 
-This project is open source and licensed under the **MIT License**.
+1. Download or clone the repository.  
+2. Open the solution in Visual Studio or another C# IDE.  
+3. Build and run the program.  
+4. Follow the console prompts to play.
+
+---
+
+## 📂 Method Overview
+
+- `GetPlayerMove()` → Reads and validates the player’s choice.  
+- `GetComputerMove()` → Returns a random move for the computer.  
+- `DetermineWinner(player, computer)` → Determines if it’s a win, loss, or draw.  
+- `DisplayResult(result)` → Shows the outcome with corresponding color.  
+- `PrintScore()` → Outputs the current score table.
+
+---
+
+## 🖥 Example Session
+`==== Current Score ====`
+`Player: 3`
+`Computer: 2`
+`Draws: 1`
+
+`Enter your move [r]ock / [p]aper / [s]cissors: r`
+`Computer chose: paper`
+`You lose! 🔴`
+
+`Play another round? (y/n): n`
+`Thanks for playing!`
+
+---
+
+## 📜 License
+
+This project is released under the **MIT License**.
+
