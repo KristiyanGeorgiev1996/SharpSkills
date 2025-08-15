@@ -54,9 +54,9 @@ Here’s a friendly guide to the second part of **Software Development Concepts*
 ### 🐳 Containers
 - Package apps and dependencies for easy deployment  
 - Example:
-  ```bash
-docker run -d -p 8080:80 dockersamples/static-site
-docker ps`
+  `bash`
+  `docker run -d -p 8080:80 dockersamples/static-site`
+  `docker ps`
 
 ---
 
