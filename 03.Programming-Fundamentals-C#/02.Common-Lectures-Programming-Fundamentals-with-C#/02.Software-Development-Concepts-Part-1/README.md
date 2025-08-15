@@ -46,3 +46,6 @@ This lecture covers the basics of software engineering and the essential skills 
 - Integrating all application layers
 
 ---
+
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
