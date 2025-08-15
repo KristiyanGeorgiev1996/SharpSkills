@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "ee82dc7d-5474-4fbc-a918-1204183efc4f",
+		"name": "Workshop HTTP Basics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38748183"
+	},
+	"item": [
+		{
+			"name": "https://trips-48955.firebaseio.com/trips.json",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips.json",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"October-November and February-March are the best times to see the northern lights. Dark skies yield better displays – avoid full moon.\",\r\n  \"imagePath\": \"https://www.aurora-nights.co.uk/wp-content/uploads/2019/07/norway-northern-lights-1500x587_c.jpg\",\r\n  \"name\": \"Capture the Northern Lights on camera\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/{-OXgX2SGHCl7fntGE_1D}.json",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips/{-OXgX2SGHCl7fntGE_1D}.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips",
+						"{-OXgX2SGHCl7fntGE_1D}.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Egypt welcomes you!\",\r\n  \"imagePath\": \"https://www.karacitours.bg/public/thumbs/767x341/egipet/egipet-4_767x341_crop_542eb8694d.jpg\",\r\n  \"name\": \"Pyramids of Giza, Egypt\",\r\n  \"edit\": \"true\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json",
+					"protocol": "https",
+					"host": [
+						"trips-48955",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"trips",
+						"-MIJ0HydEYF0x6fljO55.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
