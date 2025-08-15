@@ -33,3 +33,6 @@ This lecture covers the basics of how computers represent and manipulate data at
 - Computers store data in **bits**  
 - Bitwise operations allow **low-level control**  
 - Essential for networking, storage, and performance optimization
+
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
