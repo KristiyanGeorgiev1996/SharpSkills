@@ -43,3 +43,6 @@ Test automation enables early bug detection and **fast, reliable releases** thro
 - Plans and executes tests  
 - Monitors CI/CD processes  
 - Collaborates with developers  
+
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
