@@ -31,3 +31,6 @@ This lecture explains how software engineers approach problems and develop algor
 - Test edge cases like single letters, repeated letters, and even/odd-length palindromes
 
 **Summary:** Structured problem-solving and algorithmic thinking are essential for software development and success in programming exams.
+
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
