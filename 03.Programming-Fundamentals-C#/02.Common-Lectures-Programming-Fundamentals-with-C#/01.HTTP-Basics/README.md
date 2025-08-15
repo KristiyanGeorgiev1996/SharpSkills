@@ -66,6 +66,9 @@ HTTP responses include:
 
 ---
 
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
+
 ## 📌 Conclusion
 
 Understanding **HTTP** is essential for any web development because all web applications rely on exchanging requests and responses between the client and server.
