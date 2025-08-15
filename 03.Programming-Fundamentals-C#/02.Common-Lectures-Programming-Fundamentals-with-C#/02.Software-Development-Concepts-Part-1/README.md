@@ -11,33 +11,33 @@ This overview is suitable for:
 
 ---
 
-## 🔑 1. The 4 Core Skills of a Software Engineer
+## 🔑 1. Four Essential Skill Areas for a Developer
 
-| Skill                   | Description                                                                                     | Weight |
-|------------------------|-------------------------------------------------------------------------------------------------|--------|
-| **Coding**             | Writing code, working with IDEs, variables, loops, functions, and data structures.              | 20%    |
-| **Algorithmic Thinking**| Solving problems, breaking them into steps, improving through solving 1000+ tasks.              | 30%    |
-| **Development Fundamentals** | OOP, FP, async, DBs, web tech (HTTP, JS, AJAX), source control, Agile.                   | 25%    |
-| **Languages & Technologies**| Programming languages and tools (e.g., C#, .NET, SQL, Git, HTML/CSS/JS).                 | 25%    |
+| Skill Area               | Description                                                                                              | Weight |
+|--------------------------|----------------------------------------------------------------------------------------------------------|--------|
+| **Programming Skills**   | Writing code, working with IDEs, using variables, loops, functions, and data structures effectively.     | 20%    |
+| **Problem-Solving**      | Applying algorithmic thinking, breaking complex problems into smaller tasks, and practicing extensively. | 30%    |
+| **Development Basics**   | Core concepts such as OOP, functional programming, async processing, databases, HTTP/web basics, version control, Agile. | 25% |
+| **Tech Stack Knowledge** | Understanding programming languages, frameworks, and tools (C#, .NET, SQL, Git, HTML/CSS/JavaScript).    | 25%    |
 
 ---
 
-## 🧱 2. Fundamental Software Engineering Concepts
+## 🧱 2. Key Concepts in Software Engineering
 
-### 📐 Mathematical Foundations
-- Coordinate systems (SVG, graphics)
-- Vectors & matrices (games, machine learning)
-- Finite State Machines (FSM)
-- Statistics (used in ML)
-- Algorithm complexity (Big O notation)
+### 📐 Math & Logical Foundations
+- Coordinate systems (used in graphics, SVG)
+- Vectors and matrices (important for games, simulations, ML)
+- Finite State Machines (FSM) for process modeling
+- Basic statistics for analysis and machine learning
+- Algorithm complexity and Big O notation for performance assessment
 
 ### 🧊 Object-Oriented Programming (OOP)
-- Real-world modeling with classes and objects  
-- **Key Principles**:  
-  - Encapsulation  
-  - Inheritance  
-  - Abstraction  
-  - Polymorphism  
+- Models software using **classes** and **objects** to represent real-world concepts
+- **Core principles**:
+  - Encapsulation
+  - Inheritance
+  - Abstraction
+  - Polymorphism
 - **Example:**
 ```csharp
 class Rectangle {
@@ -46,8 +46,8 @@ class Rectangle {
 }
 ```
 ### ⚙️ Functional Programming (FP)
- - Pure functions with no side effects
- - Stateless, declarative approach
+ - Focuses on pure, stateless functions without side effects
+ - Often uses a declarative coding style
 Console.WriteLine(Console.ReadLine().Split(" ").Select(int.Parse).Max());
 Lambda & Higher-Order Functions:
 Func<int, int> twice = x => 2 * x;
@@ -71,81 +71,63 @@ C:\
 
 ---
 
-## 🧩 4. Component-Based & Event-Driven Programming
+## 🧩 4. Modular & Event-Driven Development
 
 ### 🧱 Component-Based Development
-- Applications are built from reusable, modular components  
+- Applications built from independent, reusable modules
 - **Examples**:  
-  - UI elements (Date Picker)  
-  - Email Sender  
-  - PDF Generator
+  - Date picker control
+  - Email sender component
+  - PDF generator service
 
 ### ⚡ Event-Driven Programming
-- Program flow is determined by user or system events  
-- Common in UI development and games  
-- **Uses**:  
-  - Event emitters  
+- The application reacts to events such as user input or system signals 
+- Widely used in GUIs, games, and interactive systems
+- **Key parts**:  
+  - Event emitters
   - Event handlers
 
 ---
 
-## 🏗️ 5. Software Architecture Concepts
+## 🏗️ 5. Software Architecture Patterns
 
 ### 🧱 Monolithic Applications
-- All-in-one app containing UI, logic, and storage  
-- **Example**: Simple mobile games, Notepad
+- A single unit containing UI, logic, and data storage 
+- **Example**: simple desktop applications or small games
 
 ### 🌐 Client-Server Model
-- **Server**: Business logic, databases, APIs  
-- **Client**: UI and interaction layer (e.g., web browser)
+- **Server**: Processes data, contains business logic, serves APIs
+- **Client**: User interface (e.g., browser, mobile app) that sends requests to the server
 
 ### 🔄 Front-End vs. Back-End
-- **Front-End**: HTML, CSS, JavaScript, React, Vue  
-- **Back-End**: C# (.NET), Node.js, Flask, Spring, etc.  
-- Connected via HTTP APIs (REST, JSON)
+- **Front-End**: Technologies like HTML, CSS, JavaScript, React, Vue
+- **Back-End**: Platforms such as C#/.NET, Node.js, Flask, Spring
+- Communicate via HTTP APIs (often REST with JSON)
 
 ### 🧭 Architectural Patterns
-- **3-Tier / Multi-Tier**: UI → Business Logic → Storage  
-- **Microservices / SOA**: Decoupled, independent services communicating over APIs
+- **3-Tier / Multi-Tier**: UI → Logic Layer → Data Layer  
+- **Microservices / SOA**: Independent services connected through APIs
 
 ---
 
 ## 🌐 6. Full-Stack Development
 
-Full-stack developers are responsible for both front-end and back-end development.
+Full-stack developers work on both the front-end and back-end of applications.
 
 ### ✅ Skills Required:
-- Building UIs (Web/Mobile)
-- Writing APIs and implementing business logic
-- Working with databases (SQL/NoSQL)
-- Integrating front-end with back-end systems
+- Building user interfaces for web or mobile
+- Implementing business logic and APIs
+- Managing SQL/NoSQL databases
+- Connecting and integrating all application layers
 
 ---
 
 ## ✅ Summary
 
-✔️ **4 Key Skills**:
-- Coding  
-- Problem Solving  
-- Development Fundamentals  
-- Technology Stack  
-
-✔️ **Core Concepts**:
-- OOP  
-- Functional Programming (FP)  
-- Event Handling  
-- Software Architectures  
-
-✔️ **Practical Examples**:
-- Tree Traversal Algorithms (DFS/BFS)  
-- Functional Code Patterns  
-- Event-Driven UI Interactions  
-
-✔️ **Technologies Mentioned**:
-- HTML, CSS, JS, React  
-- C#, .NET, SQL, Git  
-
-👨‍💻 **Ideal For**:  
-Junior Developers preparing for full-stack or backend roles
+- A well-rounded developer needs skills in coding, problem-solving, foundational concepts, and tech stack proficiency
+- OOP and FP are essential programming paradigms
+- Understanding core data structures and algorithms (DFS/BFS) is fundamental
+- Component-based and event-driven approaches enable scalable, interactive systems
+- Knowing different architecture patterns helps design better applications
 
 🎓 _Part of the Programming with C# Track at SoftUni_
