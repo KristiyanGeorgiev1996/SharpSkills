@@ -1,5 +1,7 @@
 🧩 Software Development Concepts – Part 1 Exercise
+
 🎓 Part of the Programming with C# Track at SoftUni
+
 Practical exercise demonstrating basic OOP concepts in C# for personal use and showcasing on GitHub.
 
 ## Overview
