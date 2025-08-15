@@ -26,3 +26,6 @@ This lecture covers the essentials of databases and how developers use SQL and N
 
 ## ✅ Summary
 Understanding databases and how to interact with them using SQL or NoSQL is key for efficient software development and handling structured or unstructured data.
+
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
