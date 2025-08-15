@@ -1,99 +1,42 @@
-# 🧪 HTTP Practice Exercise – Basic Requests with Postman
+# 📝 Postman – Basic HTTP Requests Exercise
 
-This exercise guides you through making basic HTTP requests using [Postman](https://www.postman.com/). You'll learn how to work with GET, POST, DELETE, and PATCH methods by interacting with a Firebase-based API.
-
----
-
-## 🔧 Prerequisites
-
-- Install Postman: [Download here](https://www.postman.com/downloads/)
-- Basic knowledge of HTTP (GET, POST, PATCH, DELETE)
+🎓 **Part of the Programming with C# Track at SoftUni**  
+_Practical exercise summarized for personal use and showcasing on GitHub._
 
 ---
 
-## 📌 API Base URL
+## Overview
 
-All requests go to the Firebase endpoint:
-
-https://trips-48955.firebaseio.com/trips.json
-
+This exercise demonstrates basic **HTTP operations** using Postman to interact with a Firebase backend.  
+The goal is to practice **GET, POST, DELETE, and PATCH** requests in a safe, structured way.
 
 ---
 
-## 1️⃣ Get All Trips
+## Tasks
 
-Make a **GET** request to list all available trips:
+### 1️⃣ Get All Trips
+- Retrieve the list of all trips from the database.
+- Practice sending a **GET** request and reading JSON responses.
 
-GET https://trips-48955.firebaseio.com/trips.json
+### 2️⃣ Create a New Trip
+- Add a new trip using a **POST** request.
+- Send a JSON body with details such as `name`, `description`, and `imagePath`.
+- Learn how new entries are stored in a remote database.
 
+### 3️⃣ Delete a Trip
+- Remove a previously created trip using a **DELETE** request.
+- Confirm removal by sending another **GET** request.
 
-🟢 **Expected Result**: A JSON list of all trips currently stored in the Firebase database.
-
-![HTTP Practice](Images/Screenshot-1-GET-All-Trips.png)
-
----
-
-## 2️⃣ Create a New Trip
-
-Make a **POST** request to add a new trip.
-
-**Request URL**:
-POST https://trips-48955.firebaseio.com/trips.json
-
-
-**Request Body (JSON):**
-```json
-{
-  "description": "October-November and February-March are the best times to see the northern lights. Dark skies yield better displays – avoid full moon.",
-  "imagePath": "https://www.aurora-nights.co.uk/wp-content/uploads/2019/07/norway-northern-lights-1500x587_c.jpg",
-  "name": "Capture the Northern Lights on camera"
-}
-```
-🟢 **Expected Result**: A unique postId is returned by Firebase in the response body.
-
-![HTTP Practice](Images/Screenshot-2-POST-New-Trip.png)
+### 4️⃣ Edit a Trip
+- Update an existing trip with a **PATCH** request.
+- Modify fields like `description` or add new ones (e.g., `"edit": "true"`).
+- Observe changes reflected in the database response.
 
 ---
 
-Use the postId returned from the previous step to delete the newly created trip.
+## ⚙️ Skills Practiced
 
-Request URL  (replace {postId}):
-DELETE https://trips-48955.firebaseio.com/trips/{postId}.json
-
-## 3️⃣ Delete the Trip
-🟢 **Expected Result**: Status code 200 OK, and response body null.
-
-![HTTP Practice](Images/Screenshot-3-DELETE-Last-Trip.png)
-
----
-
-## 4️⃣ Edit an Existing Trip
-Now perform a **PATCH** request to update an existing trip.
-
-Request URL:
-PATCH https://trips-48955.firebaseio.com/trips/-MIJ0HydEYF0x6fljO55.json
-
-Request Body (JSON):
-```
-{
-  "description": "Egypt welcomes you!",
-  "imagePath": "https://www.karacitours.bg/public/thumbs/767x341/egipet/egipet-4_767x341_crop_542eb8694d.jpg",
-  "name": "Pyramids of Giza, Egypt",
-  "edit": "true"
-}
-```
-
-🟢 **Expected Result**: The JSON object is updated with the new values.
-
-![HTTP Practice](Images/Screenshot-4-PATCH-Edit-Trip.png)
-
----
-
-| Method | Action               | URL Format                                      |
-|--------|----------------------|--------------------------------------------------|
-| GET    | Get all trips        | `https://.../trips.json`                         |
-| POST   | Create new trip      | `https://.../trips.json` + JSON body             |
-| DELETE | Remove trip          | `https://.../trips/{postId}.json`                |
-| PATCH  | Update trip partially| `https://.../trips/{postId}.json` + partial body |
-
-
+- Working with **RESTful APIs**  
+- Sending and handling different **HTTP methods**  
+- Structuring **JSON request bodies**  
+- Reading and interpreting **JSON responses**
