@@ -14,8 +14,8 @@ USE softuni;
 
 ## 02.Create Table
 Creates a table students with columns for id, first name, last name, age, and grade.
-
-```CREATE TABLE students (
+```
+CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NULL,
     last_name VARCHAR(50) NULL,
