@@ -1,4 +1,4 @@
-# Software Development Concepts – Part 1 
+# 🧩 Software Development Concepts – Part 1 
 
 This lecture covers the basics of software engineering and the essential skills every developer should have. Four main areas are highlighted: programming, problem-solving, development fundamentals, and tech stack knowledge.
 
