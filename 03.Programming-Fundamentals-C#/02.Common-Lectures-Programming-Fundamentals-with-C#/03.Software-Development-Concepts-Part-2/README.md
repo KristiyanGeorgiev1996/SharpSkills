@@ -34,3 +34,5 @@ This lecture covers the basics of **Front-End & Back-End development**, **Embedd
 - **Unit Testing & Test Frameworks** (e.g., Mocha for JS)  
 - **Version Control & Task Management**: Git, Trello, GitHub Projects
 
+🎓 _Part of the Programming with C# Track at SoftUni_  
+📝 _These lecture notes have been summarized and adapted for use in portfolios, personal projects, and to showcase skills to potential employers._
