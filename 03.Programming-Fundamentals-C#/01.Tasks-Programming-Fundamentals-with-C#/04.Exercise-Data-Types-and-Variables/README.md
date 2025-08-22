@@ -1,4 +1,4 @@
-# Data Types and Variables - Exercise – Programming Fundamentals with C# 🧑💻
+# Data Types and Variables - Exercise – Programming Fundamentals with JavaScript 🧑💻
 
 This folder contains tasks from the **Data Types and Variables - Exercise** section of the _Programming Fundamentals with C#_ course at SoftUni. The original tasks were part of the C# curriculum, but here they are reimplemented in JavaScript as a way to practice and master the language. Below are the tasks with brief descriptions.
 
